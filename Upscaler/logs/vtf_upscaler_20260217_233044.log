@@ -1,0 +1,227 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 23:30:44 ===
+
+[23:30:44] ⚡ Using cached scan for 736 files (instant)...
+[23:30:44] ⊖ Skipped 408 files: 145x already 4096x4096, 34x 4096x2048, 9x mask texture, 3x 2048x4096, 2x 1024x4096
+[23:30:44] 🔍 Scan done: 328 to upscale (119.7 MB), 408 skipped | batch size: 200
+[23:30:44] 📦 Batch 1/2 (200 files)...
+[23:30:45] [GPU] [Split] Pass 1: 194 normal images (tile=1024)
+[23:30:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:30:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:30:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:30:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:30:45] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:30:45] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:30:45] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:30:45] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:30:46] [GPU] R:\_batch_NORMAL/0000.bmp -> R:\vtf_batch_1_1771371044\output/0000.png done
+[23:30:46] [GPU] R:\_batch_NORMAL/0001.bmp -> R:\vtf_batch_1_1771371044\output/0001.png done
+[23:30:46] [GPU] encode image R:\vtf_batch_1_1771371044\output/0002.png failed
+[23:30:46] [GPU] encode image R:\vtf_batch_1_1771371044\output/0003.png failed
+[23:30:46] [GPU] encode image R:\vtf_batch_1_1771371044\output/0004.png failed
+[23:30:46] [GPU] encode image R:\vtf_batch_1_1771371044\output/0005.png failed
+[23:30:46] [GPU] encode image R:\vtf_batch_1_1771371044\output/0006.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0007.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0008.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0009.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0010.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0011.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0012.png failed
+[23:30:47] [GPU] encode image R:\vtf_batch_1_1771371044\output/0013.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0014.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0015.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0016.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0017.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0019.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0018.png failed
+[23:30:48] [GPU] encode image R:\vtf_batch_1_1771371044\output/0021.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0020.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0023.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0022.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0025.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0024.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0027.png failed
+[23:30:49] [GPU] encode image R:\vtf_batch_1_1771371044\output/0026.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0029.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0028.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0031.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0030.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0033.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0032.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0035.png failed
+[23:30:50] [GPU] encode image R:\vtf_batch_1_1771371044\output/0034.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0037.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0036.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0039.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0038.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0041.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0040.png failed
+[23:30:51] [GPU] encode image R:\vtf_batch_1_1771371044\output/0043.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0042.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0045.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0044.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0047.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0046.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0049.png failed
+[23:30:52] [GPU] encode image R:\vtf_batch_1_1771371044\output/0048.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0051.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0050.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0053.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0052.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0055.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0054.png failed
+[23:30:53] [GPU] encode image R:\vtf_batch_1_1771371044\output/0057.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0056.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0059.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0058.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0061.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0060.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0063.png failed
+[23:30:54] [GPU] encode image R:\vtf_batch_1_1771371044\output/0062.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0065.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0064.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0067.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0066.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0069.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0068.png failed
+[23:30:55] [GPU] encode image R:\vtf_batch_1_1771371044\output/0071.png failed
+[23:30:56] [GPU] encode image R:\vtf_batch_1_1771371044\output/0070.png failed
+[23:30:56] [GPU] encode image R:\vtf_batch_1_1771371044\output/0073.png failed
+[23:30:56] [GPU] encode image R:\vtf_batch_1_1771371044\output/0072.png failed
+[23:30:56] [GPU] encode image R:\vtf_batch_1_1771371044\output/0075.png failed
+[23:30:56] [GPU] encode image R:\vtf_batch_1_1771371044\output/0074.png failed
+[23:30:56] [GPU] encode image R:\vtf_batch_1_1771371044\output/0077.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0076.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0079.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0078.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0081.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0080.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0083.png failed
+[23:30:57] [GPU] encode image R:\vtf_batch_1_1771371044\output/0082.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0085.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0084.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0087.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0086.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0089.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0088.png failed
+[23:30:58] [GPU] encode image R:\vtf_batch_1_1771371044\output/0091.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0090.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0093.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0092.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0095.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0094.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0097.png failed
+[23:30:59] [GPU] encode image R:\vtf_batch_1_1771371044\output/0096.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0099.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0098.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0101.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0100.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0103.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0102.png failed
+[23:31:00] [GPU] encode image R:\vtf_batch_1_1771371044\output/0105.png failed
+[23:31:01] [GPU] encode image R:\vtf_batch_1_1771371044\output/0104.png failed
+[23:31:01] [GPU] encode image R:\vtf_batch_1_1771371044\output/0107.png failed
+[23:31:01] [GPU] encode image R:\vtf_batch_1_1771371044\output/0106.png failed
+[23:31:01] [GPU] encode image R:\vtf_batch_1_1771371044\output/0109.png failed
+[23:31:01] [GPU] encode image R:\vtf_batch_1_1771371044\output/0108.png failed
+[23:31:01] [GPU] encode image R:\vtf_batch_1_1771371044\output/0111.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0110.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0113.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0112.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0115.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0114.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0117.png failed
+[23:31:02] [GPU] encode image R:\vtf_batch_1_1771371044\output/0116.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0119.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0118.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0121.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0120.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0123.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0122.png failed
+[23:31:03] [GPU] encode image R:\vtf_batch_1_1771371044\output/0125.png failed
+[23:31:04] [GPU] encode image R:\vtf_batch_1_1771371044\output/0124.png failed
+[23:31:04] [GPU] encode image R:\vtf_batch_1_1771371044\output/0127.png failed
+[23:31:04] [GPU] encode image R:\vtf_batch_1_1771371044\output/0126.png failed
+[23:31:04] [GPU] encode image R:\vtf_batch_1_1771371044\output/0129.png failed
+[23:31:04] [GPU] encode image R:\vtf_batch_1_1771371044\output/0128.png failed
+[23:31:04] [GPU] encode image R:\vtf_batch_1_1771371044\output/0131.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0130.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0133.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0132.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0135.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0134.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0137.png failed
+[23:31:05] [GPU] encode image R:\vtf_batch_1_1771371044\output/0136.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0139.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0138.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0141.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0140.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0143.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0142.png failed
+[23:31:06] [GPU] encode image R:\vtf_batch_1_1771371044\output/0145.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0144.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0147.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0146.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0149.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0148.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0151.png failed
+[23:31:07] [GPU] encode image R:\vtf_batch_1_1771371044\output/0150.png failed
+[23:31:08] [GPU] encode image R:\vtf_batch_1_1771371044\output/0153.png failed
+[23:31:08] ⚠ GPU: vkAllocateMemory failed -2
+[23:31:08] [GPU] encode image R:\vtf_batch_1_1771371044\output/0152.png failed
+[23:31:08] [GPU] encode image R:\vtf_batch_1_1771371044\output/0155.png failed
+[23:31:08] [GPU] encode image R:\vtf_batch_1_1771371044\output/0154.png failed
+[23:31:09] [GPU] encode image R:\vtf_batch_1_1771371044\output/0157.png failed
+[23:31:09] [GPU] encode image R:\vtf_batch_1_1771371044\output/0156.png failed
+[23:31:09] [GPU] encode image R:\vtf_batch_1_1771371044\output/0159.png failed
+[23:31:09] [GPU] encode image R:\vtf_batch_1_1771371044\output/0158.png failed
+[23:31:09] [GPU] encode image R:\vtf_batch_1_1771371044\output/0161.png failed
+[23:31:10] [GPU] encode image R:\vtf_batch_1_1771371044\output/0160.png failed
+[23:31:10] [GPU] encode image R:\vtf_batch_1_1771371044\output/0163.png failed
+[23:31:10] [GPU] encode image R:\vtf_batch_1_1771371044\output/0162.png failed
+[23:31:10] [GPU] encode image R:\vtf_batch_1_1771371044\output/0165.png failed
+[23:31:11] [GPU] encode image R:\vtf_batch_1_1771371044\output/0164.png failed
+[23:31:11] [GPU] encode image R:\vtf_batch_1_1771371044\output/0167.png failed
+[23:31:11] [GPU] encode image R:\vtf_batch_1_1771371044\output/0166.png failed
+[23:31:11] [GPU] encode image R:\vtf_batch_1_1771371044\output/0169.png failed
+[23:31:12] [GPU] encode image R:\vtf_batch_1_1771371044\output/0168.png failed
+[23:31:12] [GPU] encode image R:\vtf_batch_1_1771371044\output/0171.png failed
+[23:31:12] [GPU] encode image R:\vtf_batch_1_1771371044\output/0170.png failed
+[23:31:12] [GPU] encode image R:\vtf_batch_1_1771371044\output/0173.png failed
+[23:31:13] [GPU] encode image R:\vtf_batch_1_1771371044\output/0172.png failed
+[23:31:13] [GPU] encode image R:\vtf_batch_1_1771371044\output/0175.png failed
+[23:31:13] [GPU] encode image R:\vtf_batch_1_1771371044\output/0174.png failed
+[23:31:13] [GPU] encode image R:\vtf_batch_1_1771371044\output/0177.png failed
+[23:31:14] [GPU] encode image R:\vtf_batch_1_1771371044\output/0176.png failed
+[23:31:14] [GPU] encode image R:\vtf_batch_1_1771371044\output/0179.png failed
+[23:31:14] [GPU] encode image R:\vtf_batch_1_1771371044\output/0178.png failed
+[23:31:14] [GPU] encode image R:\vtf_batch_1_1771371044\output/0181.png failed
+[23:31:15] [GPU] encode image R:\vtf_batch_1_1771371044\output/0180.png failed
+[23:31:15] [GPU] encode image R:\vtf_batch_1_1771371044\output/0183.png failed
+[23:31:15] [GPU] encode image R:\vtf_batch_1_1771371044\output/0182.png failed
+[23:31:15] [GPU] encode image R:\vtf_batch_1_1771371044\output/0185.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0184.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0187.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0186.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0189.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0188.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0191.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0190.png failed
+[23:31:16] [GPU] encode image R:\vtf_batch_1_1771371044\output/0199.png failed
+[23:31:17] [GPU] encode image R:\vtf_batch_1_1771371044\output/0193.png failed
+[23:31:22] [GPU] [Split] Pass 2: 6 tall images (tile=512, height>=1024)
+[23:31:22] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:31:22] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:31:22] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:31:22] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:31:22] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:31:22] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:31:22] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:31:22] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:31:23] [GPU] encode image R:\vtf_batch_1_1771371044\output/0194.png failed
+[23:31:24] [GPU] encode image R:\vtf_batch_1_1771371044\output/0192.png failed
+[23:31:24] [GPU] encode image R:\vtf_batch_1_1771371044\output/0195.png failed
+[23:31:24] [GPU] encode image R:\vtf_batch_1_1771371044\output/0196.png failed
+[23:31:25] [GPU] encode image R:\vtf_batch_1_1771371044\output/0197.png failed
+[23:31:25] [GPU] encode image R:\vtf_batch_1_1771371044\output/0198.png failed
+[23:31:25] ⚠ GPU batch 1: 163 corrupted outputs detected — re-processing with safe settings...
+[23:31:28] Cancelling...

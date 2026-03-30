@@ -1,0 +1,76 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-26 17:53:43 ===
+
+[17:53:43] ⚡ Using cached scan for 10 files (instant)...
+[17:53:43] 🔍 Scan done: 10 to upscale (3.5 MB), 0 skipped | batch size: 99
+[17:53:43] 📦 Batch 1/1 (10 files)...
+[17:53:43] [GPU] [Split] Pass 1: 5 normal images (tile=1024)
+[17:53:44] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[17:53:44] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[17:53:44] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[17:53:44] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[17:53:44] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[17:53:44] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[17:53:44] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[17:53:44] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[17:53:44] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0000.png done
+[17:53:44] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0001.png done
+[17:53:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0002.png done
+[17:53:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0003.png done
+[17:53:47] [GPU] G:\_vtf_scratch\_batch_NORMAL/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0004.png done
+[17:53:52] [GPU] [Split] Pass 2: 5 tall images (tile=512, height>=1024)
+[17:53:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[17:53:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[17:53:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[17:53:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[17:53:53] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[17:53:53] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[17:53:53] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[17:53:53] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[17:54:04] [GPU] G:\_vtf_scratch\_batch_TALL/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0006.png done
+[17:54:04] [GPU] G:\_vtf_scratch\_batch_TALL/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0005.png done
+[17:54:14] [GPU] G:\_vtf_scratch\_batch_TALL/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0008.png done
+[17:54:15] [GPU] G:\_vtf_scratch\_batch_TALL/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0007.png done
+[17:54:20] [GPU] G:\_vtf_scratch\_batch_TALL/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1774547623\output/0009.png done
+[17:54:20] ⚡ 8x skip: 5 already at target, 5 need pass 2
+[17:54:20] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[17:54:20] [GPU] [Split] Pass 1: 2 normal images (tile=1024)
+[17:54:20] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[17:54:20] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[17:54:20] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[17:54:20] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[17:54:20] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[17:54:20] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[17:54:20] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[17:54:20] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[17:54:22] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774547623\output_pass2/0000.png done
+[17:54:22] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774547623\output_pass2/0001.png done
+[17:54:27] [GPU] [Split] Pass 2: 3 tall images (tile=512, height>=1024)
+[17:54:27] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[17:54:27] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[17:54:27] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[17:54:27] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[17:54:27] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[17:54:27] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[17:54:27] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[17:54:27] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[17:54:38] [GPU] G:\_vtf_scratch\_batch_TALL/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774547623\output_pass2/0002.png done
+[17:55:06] [GPU] G:\_vtf_scratch\_batch_TALL/0004.png -> G:\_vtf_scratch\vtf_batch_1_1774547623\output_pass2/0004.png done
+[17:55:11] [GPU] G:\_vtf_scratch\_batch_TALL/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774547623\output_pass2/0003.png done
+[17:55:12] ✓ fexp.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[17:55:12] ⚠ darkmask.vtf: 128x128 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[17:55:16] ⚠ mouth_eyes.vtf: 256x256 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[17:55:17] ⚠ senateghelm.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[17:55:17] ⚠ detail_skin.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[17:55:21] ✓ anakinskywalkerbody.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:55:22] ✓ body_d.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:55:25] ✓ head.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:55:25] ✓ head_2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:55:25] ✓ horns.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:55:25] ✅ Done in 1.7min (5.9/min) | ✓10 ⊖0 ✗0
+[17:55:25] ⚠️ CORRUPTION REPORT: 4 file(s) flagged for review:
+[17:55:25]   → darkmask.vtf
+[17:55:25]   → mouth_eyes.vtf
+[17:55:25]   → senateghelm.vtf
+[17:55:25]   → detail_skin.vtf
+
+=== Completed: 10 success, 0 skipped, 0 failed in 1.7min ===

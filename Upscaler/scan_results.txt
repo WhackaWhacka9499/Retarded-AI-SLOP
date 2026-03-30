@@ -1,0 +1,1042 @@
+=== SCAN 1: blendtintbybasealpha alpha issues ===
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\addon1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\rangerbelts01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\rangerriotduster_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\ncrtrooperextras01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\ncrriotgear01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\rangerelite01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\pouchesncr01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\ichigo\rangerglove01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\left4lag\veritas\extraequipment.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\seycara\seycara\blind.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\dannio\pm\seycara\seycara\face.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\jetpack.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\clones\spooky\tex_0010_0.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\galactic\clones\spooky\trooper.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\colordroid\colordroid.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_santahat.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_santahat.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_winter_joy_hat.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_winter_joy_hat.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\cosmetics\dc15s\multicolor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\snco\commanderwolffedc15_d.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\snco\medic shoulder.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\snco\medicc 2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\snco\medicc.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\trooper\41st.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\trooper_lt\212th visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\canada\trooper_lt\212thlt.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper\41st.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper_cc\commanderwolffedc15_d.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper_cc\medic shoulder.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper_cc\medicc 2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper_cc\medicc.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper_lt\212th visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\player\pc_trooper_lt\212thlt.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\galactic\r2d2\r2d2_color.vtf (4096x4096) alpha_mean=20.3
+  [BROKEN] materials\galactic\supclone\loreclone\simarmor.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\supclone\loreclone\simvisor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\suphalloween\supclone\hweentrooper.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\twilek_female\p_missionbb01.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\galactic\twilek_female\p_missionh01.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\jackjack\textures\slave1base.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\jackjack\textures\slave1buttons.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\jackjack\textures\slave1decal.vtf (32x32) alpha_mean=76.0
+  [BROKEN] materials\jackjack\textures\slave1hud.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\artel\kotw\erdim_facemap.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\cockpit_joystick.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_1_blue.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_1_blue_spec.vtf (1024x1024) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_1_green.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_1_green_spec.vtf (1024x1024) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_1_spec.vtf (1024x1024) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_1_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_3_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_2_blue.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\blu\laat\gunship_2_green.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\bluur\beck\bbody1.vtf (1024x1024) alpha_mean=255.0
+  [BROKEN] materials\models\bluur\beck\bbody1.vtf (1024x1024) alpha_mean=255.0
+  [BROKEN] materials\models\cac\arc\nco\arc_enlisted_gear1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\cac\arc\nco\enlisted.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\cac\arc\nco\p15_helm.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\models\cac\arc\nco\pauldron.vtf (4096x4096) alpha_mean=35.6
+  [BROKEN] materials\models\cac\astro\p1_helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\cac\chapman_clone\helmet2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\cac\chapman_clone\pauldron2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\cac\chapman_clone\phase2armorsep2.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\models\cac\chapman_clone\phase2boots2.vtf (4096x4096) alpha_mean=16.0
+  [OK] materials\models\cac\chapman_clone\phase2gloves2.vtf (4096x4096) alpha_mean=36.3
+  [BROKEN] materials\models\cac\chapman_clone\phase2helmet2.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\models\cac\gaz\gaz_mando\repcom_numbers_cs2.vtf (4096x4096) alpha_mean=48.2
+  [BROKEN] materials\models\cac\gm\gm_trooper\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\cac\gm\gm_trooper\phase2armorsep.vtf (2048x4096) alpha_mean=255.0
+  [OK] materials\models\cac\gm\gm_trooper\phase2boots.vtf (4096x4096) alpha_mean=58.6
+  [OK] materials\models\cac\gm\gm_trooper\phase2helmet.vtf (4096x2048) alpha_mean=64.9
+  [BROKEN] materials\models\cac\gm\gm_trooper\st_trooper_head.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hood\trp\body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hood\trp\cgshoulder.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hood\trp\mask.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hood\trp\robe.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hotson\hotson\2048_ph2trooper.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hotson\hotson\helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\hotson\hotson\pauldron1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\konnie\pikejedi\pikejediarmor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\mark2580\gtav\bathroom\gz_v_cs_chrome.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\mark2580\gtav\dcasino\games\prop_casino_track_chair_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\mark2580\gtav\dcasino\games\prop_vw_card_machine_01a_d.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\player\arctic\arctic.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\arctic\arctic.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\deal_glasses.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\hwn_pet_balloon.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\hwn_pet_balloon_s1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\hwn_pet_balloon_s2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\hwn_pet_balloon_s3.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\summer_hat.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\summer_hat_style01.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\player\items\all_class\summer_shades.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\21st_trooper_shoulderant.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\91helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\arcforearm.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\armor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\ph2body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\du_attachments_set3.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\sqozilla\trooper\shade_attachment.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\ven\trooper\2048_ph2trooper.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\ven\trooper\arcchestarmor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\ven\trooper\arcforearm.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\ven\trooper\ph2head.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\player\ven\trooper\prototypehelmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sample\ramsey\ramsey\phase3.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body1camo.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body1nonworn.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body1camo.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body1nonworn.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\alpha\rgb\body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\alpha\rgb\extra_pieces.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\alpha\rgb\gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\alpha\rgb\legs.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\alpha\rgb\p2_helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\ramsey\body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\ramsey\extra_pieces.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\ramsey\extra_pieces_3.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\arc\ramsey\p2_helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\shandy\body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\shandy\extra_pieces.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\shandy\extra_pieces_3.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\storm\shandy\p2_helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\arcchestarmor2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\arcforearm2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\enlisted.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\enlisted.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\ph2head.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\shoulderct2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\shoulderct.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\sunvisor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\187th\arctic\trooper.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\bear\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\bear\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\bear\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\bear\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\clips\helmet_visor.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\clips\visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\debaz\debaz.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\dexter\jedirobes.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\dexter\maleguardian1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_armour_black.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_boots_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_gear_black.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\arc_enlisted_gloves_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\frost\phase2helmet2_black.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\boot_tall_heavy_jk_a09c01_u_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\bracer_short_heavy_jk_a09c01_u_v01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\chest_robe02_heavy_jk_a09c01_u_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\hand_gauntlet_heavy_jk_a09c01_u_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\leg_armor02_heavy_jk_a09c01_u_v01_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\mercyhead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\n_darthrevan01.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\a_cloneset_pilot_extras_c.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\beehead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\commanderwolffedc15_d.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\galak\clone\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\arc_enlisted_armourblue.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\arc_enlisted_bootsblue.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\arc_enlisted_gearblue.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\arc_enlisted_glovesblue.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\arf1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\arf2.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\models\tobester\ghostt\arf_visor_glow.vtf (512x512) alpha_mean=8.6
+  [BROKEN] materials\models\tobester\arcann\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ghostt\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\gohen\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\gohen\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\gohen\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\gohen\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\gohen\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\gohen\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\greyheart\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\greyheart\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\greyheart\chest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\greyheart\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\arc_enlisted_helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\extra_pieces.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\extra_pieces_3.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\harlem\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\heavy\senateshoulder.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\heavy\trooper.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\aethervisor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\aethervisor_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_armour_black.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_boots_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_gear_black.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson\arc\arc_enlisted_gloves_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson1\enlisted.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\hotson1\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jay\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jay\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jay\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jedi\moto\belt_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jedi\moto\chest_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jedi\moto\glove_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\jedi\moto\legs_d.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\krassz\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\krassz\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\krassz\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\krassz\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\krassz\beehead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\barcvisor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\beehead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\wear_human_male_head_cloneseason4codyhelm_cody_c.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\helmetsides.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\p1visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\trooper.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\lotus\wear_human_male_head_cloneseason4codyhelm_cody_c.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\mando\custom_f\body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\mando\custom_f\hands.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\mando\custom_f\helm.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\mando\custom_f\legs.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\mando\custom_m\body.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\mando\custom_m\helm.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\monkey\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\monkey\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\monkey\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\monkey\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\monkey\arf2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\monkey\arf2_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\nexu\belt.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\nexu\chest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\nexu\glove.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\nexu\helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\nexu\legs.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\nexu\chest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\pryn\chest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\pryn\chest1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\pryn\chest2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\pryn\helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\pryn\helmet2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_armour_forest.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_boots_forest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_gloves_forest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_gloves_right.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\arc_enlisted_gloves_right_forest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\helmet_forest.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\phase2helmet2_forest.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\shoulder.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\ramsey\shoulder_forest.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\razer\beehead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\razer\commanderwolffedc15_d.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\razer\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\razer\razer.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\rome\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\arf1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\arf2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\pauldron.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\sean\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\arf1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\arf2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\beehead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shax\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shazzy\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shazzy\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shazzy\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shazzy\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shazzy\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\shazzy\p1helmet.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thighsenpai\main.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thighsenpai\hood.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thighsenpai\hood.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thighsenpai\hood.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thighsenpai\hood.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_armour_black.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_boots_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\arcann\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_gear_black.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\arc_enlisted_gloves_black.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\helmattchments.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\helmet.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\helmet_black.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\phase2helmet2.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thresh\phase2helmet2_black.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\thrifter\thrifter.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\armlights.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\chestlight.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\helmlights.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\leglights.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\nvglights.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\sidehelmlights.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\tobester\tobester_blackops\visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_armour1.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_boots1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_gear.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\arc_enlisted_gloves1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\beehead.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\beehead1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\pauldron.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\vertigo\visor.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\weapons\ichigo\1001.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\weapons\moe\light.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\weapons\nexu\hilt.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\arc_enlisted_armour.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\arc_enlisted_armour_1.vtf (2048x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\arc_enlisted_boots.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\arc_enlisted_gear.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\arc_enlisted_gloves.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\arc_enlisted_gloves_right.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\cgi cody visor.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\shoulder.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\tobester\will\visor.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\models\unconid\xmas\lights_paintable.vtf (256x256) alpha_mean=148.4
+  [OK] materials\models\unconid\xmas\ornament_1.vtf (512x512) alpha_mean=207.3
+  [OK] materials\models\unconid\xmas\ornament_2.vtf (512x512) alpha_mean=207.3
+  [OK] materials\models\unconid\xmas\ornament_3.vtf (512x512) alpha_mean=207.3
+  [OK] materials\models\unconid\xmas\top_star.vtf (512x512) alpha_mean=114.4
+  [BROKEN] materials\models\vcmd\tex_0017_0 (2).vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body1camo.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body1nonworn.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\sgt_body2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\vcmd\501st41st\tex_0017_0 (2).vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body1.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body1camo.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body1nonworn.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\sgt\501st41st\sgt_body2.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec16_stocking\dec16_stocking_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec16_stocking\dec16_stocking_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec18_polar_pal\dec18_polar_pal_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec19_glittering_garland\dec19_glittering_garland_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec19_glittering_garland\dec19_glittering_garland_1_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec20_flip_thwomps\dec20_flip_thwomps_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec20_flip_thwomps\dec20_flip_thwomps_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec22_battle_bear_style1\dec22_battle_bear_style1_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec22_battle_bear_style1\dec22_battle_bear_style1_1_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\dec24_necroprancer_style1\dec24_necroprancer_style1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\fall17_croaking_hazard\fall17_croaking_hazard_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\fall17_croaking_hazard\fall17_croaking_hazard_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\fall17_quizzical_quetzal\fall17_quizzical_quetzal_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\fall2013_hong_kong_cone\fall2013_hong_kong_cone_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\fwk_hotdog\fwk_hotdog_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hw2013_allclass_horseman\hw2013_allclass_horseman_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hw2013_intergalactic_intruder\hw2013_intergalactic_intruder_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hw2013_intergalactic_intruder\hw2013_intergalactic_intruder_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hwn2015_duckyhat\hwn2015_duckyhat_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hwn2015_grim_tweeter\hwn2015_grim_tweeter_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hwn2018_terror_antula\hwn2018_terror_antula_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hwn2018_terror_antula\hwn2018_terror_antula_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\hwn2021_second_headwear\hwn2021_second_headwear_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\pouch_pal\pouch_pal_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\pouch_pal\pouch_pal_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\sf14_hooded_haunter_classes\sf14_hooded_haunter_classes_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\sum22_undercover_brolly\sum22_undercover_brolly_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\sum22_undercover_brolly\sum22_undercover_brolly_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\sum23_full_metal_helmet\sum23_full_metal_helmet_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\all_class\sum24_botler_2000_style1\sum24_botler_2000_style1_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\demo\dec23_nightcap\dec23_nightcap_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\demo\dec23_nightcap\dec23_nightcap_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\demo\sum22_head_banger\sum22_head_banger_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\engineer\dec18_puggyback\dec18_puggyback_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\engineer\dec18_puggyback\dec18_puggyback_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\heavy\hw2013_ivan_the_inedible\hw2013_ivan_the_inedible_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\burny_the_snowman\burny_the_snowman_1_color.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\burny_the_snowman\burny_the_snowman_1_color.vtf (4096x2048) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\dec24_hot_spaniel\dec24_hot_spaniel_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\hw2013_carrion_cohort\hw2013_carrion_cohort_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\hw2013_carrion_cohort\hw2013_carrion_cohort_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\hw2013_gristly_gumbo_pot\hw2013_gristly_gumbo_pot_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\hw2013_handhunter\hw2013_handhunter_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\hw2013_the_creature_from_the_heap\hw2013_the_creature_from_the_heap_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\hw2013_the_creature_from_the_heap\hw2013_the_creature_from_the_heap_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\invasion_space_hamster_hammy\invasion_space_hamster_hammy_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\invasion_space_hamster_hammy\invasion_space_hamster_hammy_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\sum19_melted_mop\sum19_melted_mop_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\sum19_melted_mop\sum19_melted_mop_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\sum19_spawn_camper_backpack\sum19_spawn_camper_backpack_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\sum19_spawn_camper_backpack\sum19_spawn_camper_backpack_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\sum21_reel_fly_hat\sum21_reel_fly_hat_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\pyro\xms2013_pyro_wood\xms2013_pyro_wood_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\dec16_snowwing\dec16_snowwing_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\dec16_snowwing\dec16_snowwing_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\dec23_bonk_beanie\dec23_bonk_beanie_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\dec23_bonk_beanie\dec23_bonk_beanie_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\dec23_bonk_beanie_style2\dec23_bonk_beanie_style2_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\dec23_bonk_beanie_style2\dec23_bonk_beanie_style2_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\hw2013_running_octopus\hw2013_running_octopus_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\hw2013_running_octopus\hw2013_running_octopus_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\sum20_tools_tourist\sum20_tools_tourist_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\sum20_tools_tourist\sum20_tools_tourist_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\scout\sum21_fast_food\sum21_fast_food_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\sniper\jul13_cameleon\jul13_cameleon_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\sniper\sum22_hawaiian_hunter\sum22_hawaiian_hunter_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\sniper\sum22_hawaiian_hunter\sum22_hawaiian_hunter_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hw2013_mr_maggot\hw2013_mr_maggot_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hw2013_mr_maggot\hw2013_mr_maggot_blue_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hw2013_the_crit_wizard\hw2013_the_crit_wizard_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hw2013_the_crit_wizard\hw2013_the_crit_wizard_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hwn2015_hellmet\hwn2015_hellmet_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hwn2020_calamitous_cauldron\hwn2020_calamitous_cauldron_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\hwn2020_trappers_hat\hwn2020_trappers_hat_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\soldier\sum20_breach_and_bomb\sum20_breach_and_bomb_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\spy\dec24_laire_filteure\dec24_laire_filteure_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\spy\dec24_laire_filteure\dec24_laire_filteure_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\spy\hwn2021_gruesome_gourd\hwn2021_gruesome_gourd_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\spy\sum20_birds_eye_viewer_style2\sum20_birds_eye_viewer_style2_1_color.vtf (4096x4096) alpha_mean=255.0
+  [BROKEN] materials\models\workshop\player\items\spy\sum22_night_vision_gawkers\sum22_night_vision_gawkers_color.vtf (4096x4096) alpha_mean=255.0
+  [OK] materials\niksacokica\x-34\cannon.vtf (1024x1024) alpha_mean=129.4
+  [OK] materials\niksacokica\x-34\speeder.vtf (1024x1024) alpha_mean=88.9
+  [BROKEN] materials\turtle\firework\firework_sheet.vtf (4096x4096) alpha_mean=255.0
+
+  Checked 471, broken: 455
+
+=== SCAN 2: Upscaled normal maps (lighting bugs) ===
+  [UPSCALED-NM] materials\galactic\cosmetics\dc15a\sheriff_normal.vtf (2048x2048 DXT5 5.3MB)
+  [UPSCALED-NM] materials\galactic\map\walls\hallway_n.vtf (2048x2048 DXT5 4.0MB)
+  [UPSCALED-NM] materials\galactic\map\walls\revised\floor_normal.vtf (2048x2048 DXT5 4.0MB)
+  [UPSCALED-NM] materials\galactic\map\walls\revised\wall_panels2_normal.vtf (2048x1024 DXT5 2.0MB)
+  [UPSCALED-NM] materials\galactic\map\walls\revised\wall_panels3_normal.vtf (2048x1024 DXT5 2.0MB)
+  [UPSCALED-NM] materials\galactic\map\walls\revised\wall_panels_normal.vtf (2048x1024 DXT5 2.0MB)
+  [UPSCALED-NM] materials\galactic\props\droidpod\droidpod_n.vtf (2048x1024 DXT1 1.0MB)
+  [UPSCALED-NM] materials\lordtrilobite\imp_door03_nrm.vtf (4096x4096 BGRA8888 85.3MB)
+  [UPSCALED-NM] materials\lordtrilobite\isd_exteriorgreebles_nrm.vtf (4096x4096 BGR888 64.0MB)
+  [UPSCALED-NM] materials\models\custom\defib_nm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\diggerthings\v19\glass_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\diggerthings\vwing\glass_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\mark2580\sanctum\sanctum_christmas_tree\tinsel_01_n.vtf (512x2048 DXT5 1.3MB)
+  [UPSCALED-NM] materials\models\roystarwars\eta2\astromech_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\roystarwars\eta2\eta2_nm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\salza\arc170\window_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\salza\arc170\wings_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\salza\droidtrifighter\base_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\salza\droidtrifighter\glass_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\salza\vulture_droid\body_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\starwars\swbf3\vehicles\rep_attack-ship\repatt_b_nrm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\starwars\swbf3\vehicles\rep_attack-ship\repatt_h_nrm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\starwars\sweaw\ships\rep_lightcruiser\mat_nrm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\starwars\sweaw\ships\rep_venator\rep_ven_turrets_nrm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\tobester\weapons\ichigo\1001_nm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\vehicles\sky\turbotank\turbotank_02_nm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\vehicles\sky\turbotank\turbotank_03_nm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\vehicles\sky\turbotank\turbotank_04_nm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\vehicles\sky\turbotank\turbotank_hatch_nm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\weapons\swb3\weapons\cis_shotgun\cis_shotgun_nml.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\weapons\swb3\weapons\cis_sniperrifle\cis_sniper_nml.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\weapons\swb3\weapons\rep_blaster\rep_blaster_nml.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\weapons\swb3\weapons\rep_dc15x\rep_sniperrifle_nml.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\models\weapons\swb3\weapons\rep_shotgun\rep_shotgun_nml.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\models\weapons\swb3\weapons\rep_sniperrifle\rep_sniperrifle_nml.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\realworldtextures\floor\floor_1_06_nrm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\starwars\syphadias\ships\executive_cruiser\executive_cruiser_3_nrm.vtf (4096x4096 DXT1 10.7MB)
+  [UPSCALED-NM] materials\starwars\syphadias\ships\organa_xj2\organa_speeder_cockpit_nrm.vtf (4096x4096 DXT5 21.3MB)
+  [UPSCALED-NM] materials\starwars\syphadias\ships\organa_xj2\organa_speeder_hull_nrm.vtf (4096x4096 DXT5 21.3MB)
+
+  Total upscaled normals: 39
+
+=== SCAN 3: VMT $bumpmap refs to upscaled VTFs ===
+  [UPSCALED-BUMP] materials\galactic\cosmetics\phase1cosmetics\bigchestcombon.vtf (2048x1024 DXT1)
+  [UPSCALED-BUMP] materials\galactic\cosmetics\phase1cosmetics\ctm_idf_upperbodyn.vtf (2048x2048 DXT5)
+  [UPSCALED-BUMP] materials\galactic\cosmetics\phase1cosmetics\items1n.vtf (2048x1024 DXT1)
+  [UPSCALED-BUMP] materials\galactic\cosmetics\phase1cosmetics\redcosmeticsn.vtf (2048x1024 DXT1)
+  [UPSCALED-BUMP] materials\galactic\cosmetics\phase1cosmetics\shoulderbicep1n.vtf (2048x1024 DXT1)
+  [UPSCALED-BUMP] materials\galactic\cosmetics\phase1cosmetics\survivalbagn.vtf (2048x1024 DXT1)
+  [UPSCALED-BUMP] materials\galactic\weapons\clonerocket\clonerocketn.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\galactic\whitedroid\whitedroidn.vtf (2048x2048 DXT5)
+  [UPSCALED-BUMP] materials\jedi2\TEX00000_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00002_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00003_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00004_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00005_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00006_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00007_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00008_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00009_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00010_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00011_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00012_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00013_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00014_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00015_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00017_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00018_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00019_norm.vtf (4096x1024 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00020_norm.vtf (4096x1024 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00021_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00022_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00023_norm.vtf (2048x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00024_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00025_norm.vtf (1024x4096 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00026_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00027_norm.vtf (4096x2048 DXT1)
+  [UPSCALED-BUMP] materials\jedi2\TEX00028_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\lordtrilobite\imp_door03_NRM.vtf (4096x4096 BGRA8888)
+  [UPSCALED-BUMP] materials\lordtrilobite\isd_exteriorgreebles_NRM.vtf (4096x4096 BGR888)
+  [UPSCALED-BUMP] materials\milrp\weapons\antitank\antitankminen.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\milrp\weapons\spade\spaden.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\models\mark2580\sanctum\sanctum_christmas_tree\Tinsel_01_N.vtf (512x2048 DXT5)
+  [UPSCALED-BUMP] materials\models\player\christmas\santa_nor_01.vtf (2048x2048 DXT1)
+  [UPSCALED-BUMP] materials\models\starwars\swEaW\ships\rep_acclamator\ReV_Acclamator1_bc.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\models\starwars\swEaW\ships\rep_lightcruiser\mat_nrm.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\models\starwars\swEaW\ships\rep_venator\rep_ven_turrets_nrm.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\models\starwars\swEaW\ships\rep_venator\ReV_venatorB.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\models\starwars\swEaW\ships\rep_venator\ReV_VenatorTB.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\galactic\weapons\clonerocket\clonerocketn.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\models\tobester\weapons\moe\EBony_bmp.vtf (2048x4096 DXT5)
+  [UPSCALED-BUMP] materials\models\weapons\w_models\DSBP\Leia_Pistol_Norma.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\props\engineerstation\engineerstationn.vtf (2048x2048 DXT1)
+  [UPSCALED-BUMP] materials\RealWorldTextures\Floor\Floor_1_06_nrm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\RealWorldTextures\Floor\MixTile\Bump\512.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\sebracer\chassis_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\sebracer\engine_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\sebracer\thruster_norm.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\sl\sentinellandingcraftnormal01.vtf (4096x4096 DXT1)
+  [UPSCALED-BUMP] materials\starwars\syphadias\ships\organa_xj2\organa_speeder_cockpit_NRM.vtf (4096x4096 DXT5)
+  [UPSCALED-BUMP] materials\starwars\syphadias\ships\organa_xj2\organa_speeder_hull_NRM.vtf (4096x4096 DXT5)
+
+  Additional upscaled bumpmaps: 58
+
+============================================================
+SUMMARY
+============================================================
+Broken alpha (blendtint): 455
+  - materials\dannio\pm\left4lag\ichigo\addon1.vtf
+  - materials\dannio\pm\left4lag\ichigo\rangerbelts01_d.vtf
+  - materials\dannio\pm\left4lag\ichigo\rangerriotduster_d.vtf
+  - materials\dannio\pm\left4lag\ichigo\ncrtrooperextras01_d.vtf
+  - materials\dannio\pm\left4lag\ichigo\ncrriotgear01_d.vtf
+  - materials\dannio\pm\left4lag\ichigo\rangerelite01_d.vtf
+  - materials\dannio\pm\left4lag\ichigo\pouchesncr01_d.vtf
+  - materials\dannio\pm\left4lag\ichigo\rangerglove01_d.vtf
+  - materials\dannio\pm\left4lag\veritas\extraequipment.vtf
+  - materials\dannio\pm\seycara\seycara\blind.vtf
+  - materials\dannio\pm\seycara\seycara\face.vtf
+  - materials\galactic\jetpack.vtf
+  - materials\galactic\clones\spooky\tex_0010_0.vtf
+  - materials\galactic\clones\spooky\trooper.vtf
+  - materials\galactic\colordroid\colordroid.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf
+  - materials\galactic\cosmetics\christmas\xms_santahat.vtf
+  - materials\galactic\cosmetics\christmas\xms_santahat.vtf
+  - materials\galactic\cosmetics\christmas\xms_winter_joy_hat.vtf
+  - materials\galactic\cosmetics\christmas\xms_winter_joy_hat.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf
+  - materials\galactic\cosmetics\christmas\xms_allclass_furcap_hipster.vtf
+  - materials\galactic\cosmetics\dc15s\multicolor.vtf
+  - materials\galactic\player\canada\snco\commanderwolffedc15_d.vtf
+  - materials\galactic\player\canada\snco\medic shoulder.vtf
+  - materials\galactic\player\canada\snco\medicc 2.vtf
+  - materials\galactic\player\canada\snco\medicc.vtf
+  - materials\galactic\player\canada\trooper\41st.vtf
+  - materials\galactic\player\canada\trooper_lt\212th visor.vtf
+  - materials\galactic\player\canada\trooper_lt\212thlt.vtf
+  - materials\galactic\player\pc_trooper\41st.vtf
+  - materials\galactic\player\pc_trooper_cc\commanderwolffedc15_d.vtf
+  - materials\galactic\player\pc_trooper_cc\medic shoulder.vtf
+  - materials\galactic\player\pc_trooper_cc\medicc 2.vtf
+  - materials\galactic\player\pc_trooper_cc\medicc.vtf
+  - materials\galactic\player\pc_trooper_lt\212th visor.vtf
+  - materials\galactic\player\pc_trooper_lt\212thlt.vtf
+  - materials\galactic\supclone\loreclone\simarmor.vtf
+  - materials\galactic\supclone\loreclone\simvisor.vtf
+  - materials\galactic\suphalloween\supclone\hweentrooper.vtf
+  - materials\galactic\twilek_female\p_missionbb01.vtf
+  - materials\galactic\twilek_female\p_missionh01.vtf
+  - materials\jackjack\textures\slave1base.vtf
+  - materials\jackjack\textures\slave1buttons.vtf
+  - materials\jackjack\textures\slave1hud.vtf
+  - materials\models\artel\kotw\erdim_facemap.vtf
+  - materials\models\blu\laat\cockpit_joystick.vtf
+  - materials\models\blu\laat\gunship_1_blue.vtf
+  - materials\models\blu\laat\gunship_1_blue_spec.vtf
+  - materials\models\blu\laat\gunship_1_green.vtf
+  - materials\models\blu\laat\gunship_1_green_spec.vtf
+  - materials\models\blu\laat\gunship_1_spec.vtf
+  - materials\models\blu\laat\gunship_1_d.vtf
+  - materials\models\blu\laat\gunship_3_d.vtf
+  - materials\models\blu\laat\gunship_2_blue.vtf
+  - materials\models\blu\laat\gunship_2_green.vtf
+  - materials\models\bluur\beck\bbody1.vtf
+  - materials\models\bluur\beck\bbody1.vtf
+  - materials\models\cac\arc\nco\arc_enlisted_gear1.vtf
+  - materials\models\cac\arc\nco\enlisted.vtf
+  - materials\models\cac\arc\nco\p15_helm.vtf
+  - materials\models\cac\astro\p1_helmet.vtf
+  - materials\models\cac\chapman_clone\helmet2.vtf
+  - materials\models\cac\chapman_clone\pauldron2.vtf
+  - materials\models\cac\chapman_clone\phase2armorsep2.vtf
+  - materials\models\cac\chapman_clone\phase2helmet2.vtf
+  - materials\models\cac\gm\gm_trooper\pauldron.vtf
+  - materials\models\cac\gm\gm_trooper\phase2armorsep.vtf
+  - materials\models\cac\gm\gm_trooper\st_trooper_head.vtf
+  - materials\models\hood\trp\body.vtf
+  - materials\models\hood\trp\cgshoulder.vtf
+  - materials\models\hood\trp\mask.vtf
+  - materials\models\hood\trp\robe.vtf
+  - materials\models\hotson\hotson\2048_ph2trooper.vtf
+  - materials\models\hotson\hotson\helmet.vtf
+  - materials\models\hotson\hotson\pauldron1.vtf
+  - materials\models\konnie\pikejedi\pikejediarmor.vtf
+  - materials\models\mark2580\gtav\bathroom\gz_v_cs_chrome.vtf
+  - materials\models\mark2580\gtav\dcasino\games\prop_casino_track_chair_d.vtf
+  - materials\models\mark2580\gtav\dcasino\games\prop_vw_card_machine_01a_d.vtf
+  - materials\models\player\arctic\arctic.vtf
+  - materials\models\player\arctic\arctic.vtf
+  - materials\models\player\items\all_class\deal_glasses.vtf
+  - materials\models\player\items\all_class\hwn_pet_balloon.vtf
+  - materials\models\player\items\all_class\hwn_pet_balloon_s1.vtf
+  - materials\models\player\items\all_class\hwn_pet_balloon_s2.vtf
+  - materials\models\player\items\all_class\hwn_pet_balloon_s3.vtf
+  - materials\models\player\items\all_class\summer_hat.vtf
+  - materials\models\player\items\all_class\summer_hat_style01.vtf
+  - materials\models\player\items\all_class\summer_shades.vtf
+  - materials\models\player\sqozilla\trooper\21st_trooper_shoulderant.vtf
+  - materials\models\player\sqozilla\trooper\91helmet.vtf
+  - materials\models\player\sqozilla\trooper\arcforearm.vtf
+  - materials\models\player\sqozilla\trooper\armor.vtf
+  - materials\models\player\sqozilla\trooper\ph2body.vtf
+  - materials\models\player\sqozilla\trooper\du_attachments_set3.vtf
+  - materials\models\player\sqozilla\trooper\shade_attachment.vtf
+  - materials\models\player\ven\trooper\2048_ph2trooper.vtf
+  - materials\models\player\ven\trooper\arcchestarmor.vtf
+  - materials\models\player\ven\trooper\arcforearm.vtf
+  - materials\models\player\ven\trooper\ph2head.vtf
+  - materials\models\player\ven\trooper\prototypehelmet.vtf
+  - materials\models\sample\ramsey\ramsey\phase3.vtf
+  - materials\models\sgt\sgt_body1.vtf
+  - materials\models\sgt\sgt_body1camo.vtf
+  - materials\models\sgt\sgt_body1nonworn.vtf
+  - materials\models\sgt\sgt_body2.vtf
+  - materials\models\sgt\501st41st\sgt_body1.vtf
+  - materials\models\sgt\501st41st\sgt_body1camo.vtf
+  - materials\models\sgt\501st41st\sgt_body1nonworn.vtf
+  - materials\models\sgt\501st41st\sgt_body2.vtf
+  - materials\models\storm\arc\alpha\rgb\body.vtf
+  - materials\models\storm\arc\alpha\rgb\extra_pieces.vtf
+  - materials\models\storm\arc\alpha\rgb\gloves.vtf
+  - materials\models\storm\arc\alpha\rgb\legs.vtf
+  - materials\models\storm\arc\alpha\rgb\p2_helmet.vtf
+  - materials\models\storm\arc\ramsey\body.vtf
+  - materials\models\storm\arc\ramsey\extra_pieces.vtf
+  - materials\models\storm\arc\ramsey\extra_pieces_3.vtf
+  - materials\models\storm\arc\ramsey\p2_helmet.vtf
+  - materials\models\storm\shandy\body.vtf
+  - materials\models\storm\shandy\extra_pieces.vtf
+  - materials\models\storm\shandy\extra_pieces_3.vtf
+  - materials\models\storm\shandy\p2_helmet.vtf
+  - materials\models\tobester\187th\arctic\arcchestarmor2.vtf
+  - materials\models\tobester\187th\arctic\arcforearm2.vtf
+  - materials\models\tobester\187th\arctic\enlisted.vtf
+  - materials\models\tobester\187th\arctic\enlisted.vtf
+  - materials\models\tobester\187th\arctic\ph2head.vtf
+  - materials\models\tobester\187th\arctic\shoulderct2.vtf
+  - materials\models\tobester\187th\arctic\shoulderct.vtf
+  - materials\models\tobester\187th\arctic\sunvisor.vtf
+  - materials\models\tobester\187th\arctic\trooper.vtf
+  - materials\models\tobester\arcann\arc_enlisted_armour.vtf
+  - materials\models\tobester\arcann\arc_enlisted_boots.vtf
+  - materials\models\tobester\arcann\arc_enlisted_gear.vtf
+  - materials\models\tobester\arcann\arc_enlisted_gloves.vtf
+  - materials\models\tobester\arcann\helmet.vtf
+  - materials\models\tobester\arcann\pauldron.vtf
+  - materials\models\tobester\arcann\phase2helmet2.vtf
+  - materials\models\tobester\bear\arc_enlisted_armour.vtf
+  - materials\models\tobester\bear\arc_enlisted_boots.vtf
+  - materials\models\tobester\bear\arc_enlisted_gear.vtf
+  - materials\models\tobester\bear\arc_enlisted_gloves.vtf
+  - materials\models\tobester\clips\helmet_visor.vtf
+  - materials\models\tobester\clips\visor.vtf
+  - materials\models\tobester\debaz\debaz.vtf
+  - materials\models\tobester\dexter\jedirobes.vtf
+  - materials\models\tobester\dexter\maleguardian1.vtf
+  - materials\models\tobester\frost\arc_enlisted_armour.vtf
+  - materials\models\tobester\frost\arc_enlisted_armour_black.vtf
+  - materials\models\tobester\frost\arc_enlisted_boots.vtf
+  - materials\models\tobester\frost\arc_enlisted_boots_black.vtf
+  - materials\models\tobester\frost\arc_enlisted_gear.vtf
+  - materials\models\tobester\frost\arc_enlisted_gear_black.vtf
+  - materials\models\tobester\frost\arc_enlisted_gloves.vtf
+  - materials\models\tobester\frost\arc_enlisted_gloves_black.vtf
+  - materials\models\tobester\frost\phase2helmet2.vtf
+  - materials\models\tobester\frost\phase2helmet2_black.vtf
+  - materials\models\tobester\galak\boot_tall_heavy_jk_a09c01_u_d.vtf
+  - materials\models\tobester\galak\bracer_short_heavy_jk_a09c01_u_v01_d.vtf
+  - materials\models\tobester\galak\chest_robe02_heavy_jk_a09c01_u_d.vtf
+  - materials\models\tobester\galak\hand_gauntlet_heavy_jk_a09c01_u_d.vtf
+  - materials\models\tobester\galak\leg_armor02_heavy_jk_a09c01_u_v01_d.vtf
+  - materials\models\tobester\galak\mercyhead.vtf
+  - materials\models\tobester\galak\n_darthrevan01.vtf
+  - materials\models\tobester\galak\clone\arc_enlisted_armour.vtf
+  - materials\models\tobester\galak\clone\arc_enlisted_boots.vtf
+  - materials\models\tobester\galak\clone\arc_enlisted_gloves.vtf
+  - materials\models\tobester\galak\clone\a_cloneset_pilot_extras_c.vtf
+  - materials\models\tobester\galak\clone\beehead.vtf
+  - materials\models\tobester\galak\clone\commanderwolffedc15_d.vtf
+  - materials\models\tobester\galak\clone\helmet.vtf
+  - materials\models\tobester\galak\clone\pauldron.vtf
+  - materials\models\tobester\ghostt\arc_enlisted_armourblue.vtf
+  - materials\models\tobester\ghostt\arc_enlisted_bootsblue.vtf
+  - materials\models\tobester\ghostt\arc_enlisted_gearblue.vtf
+  - materials\models\tobester\ghostt\arc_enlisted_glovesblue.vtf
+  - materials\models\tobester\ghostt\arf1.vtf
+  - materials\models\tobester\ghostt\arf2.vtf
+  - materials\models\tobester\arcann\pauldron.vtf
+  - materials\models\tobester\ghostt\phase2helmet2.vtf
+  - materials\models\tobester\gohen\arc_enlisted_armour.vtf
+  - materials\models\tobester\gohen\arc_enlisted_boots.vtf
+  - materials\models\tobester\gohen\arc_enlisted_gear.vtf
+  - materials\models\tobester\gohen\arc_enlisted_gloves.vtf
+  - materials\models\tobester\gohen\helmet.vtf
+  - materials\models\tobester\gohen\pauldron.vtf
+  - materials\models\tobester\greyheart\arc_enlisted_armour.vtf
+  - materials\models\tobester\greyheart\arc_enlisted_gear.vtf
+  - materials\models\tobester\greyheart\chest.vtf
+  - materials\models\tobester\greyheart\helmet.vtf
+  - materials\models\tobester\harlem\arc_enlisted_armour.vtf
+  - materials\models\tobester\harlem\arc_enlisted_boots.vtf
+  - materials\models\tobester\harlem\arc_enlisted_gear.vtf
+  - materials\models\tobester\harlem\arc_enlisted_gloves.vtf
+  - materials\models\tobester\harlem\arc_enlisted_helmet.vtf
+  - materials\models\tobester\harlem\extra_pieces.vtf
+  - materials\models\tobester\harlem\extra_pieces_3.vtf
+  - materials\models\tobester\harlem\helmet.vtf
+  - materials\models\tobester\heavy\senateshoulder.vtf
+  - materials\models\tobester\heavy\trooper.vtf
+  - materials\models\tobester\hotson\arc\aethervisor.vtf
+  - materials\models\tobester\hotson\arc\aethervisor_black.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_armour.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_armour_black.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_boots.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_boots_black.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_gear.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_gear_black.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_gloves.vtf
+  - materials\models\tobester\hotson\arc\arc_enlisted_gloves_black.vtf
+  - materials\models\tobester\hotson1\enlisted.vtf
+  - materials\models\tobester\hotson1\helmet.vtf
+  - materials\models\tobester\jay\arc_enlisted_armour.vtf
+  - materials\models\tobester\jay\arc_enlisted_gear.vtf
+  - materials\models\tobester\jay\arc_enlisted_gloves.vtf
+  - materials\models\tobester\jedi\moto\belt_d.vtf
+  - materials\models\tobester\jedi\moto\chest_d.vtf
+  - materials\models\tobester\jedi\moto\glove_d.vtf
+  - materials\models\tobester\jedi\moto\legs_d.vtf
+  - materials\models\tobester\krassz\arc_enlisted_armour.vtf
+  - materials\models\tobester\krassz\arc_enlisted_boots.vtf
+  - materials\models\tobester\krassz\arc_enlisted_gear.vtf
+  - materials\models\tobester\krassz\arc_enlisted_gloves.vtf
+  - materials\models\tobester\krassz\beehead.vtf
+  - materials\models\tobester\lotus\arc_enlisted_armour.vtf
+  - materials\models\tobester\lotus\arc_enlisted_boots.vtf
+  - materials\models\tobester\lotus\arc_enlisted_gloves.vtf
+  - materials\models\tobester\lotus\barcvisor.vtf
+  - materials\models\tobester\lotus\beehead.vtf
+  - materials\models\tobester\lotus\wear_human_male_head_cloneseason4codyhelm_cody_c.vtf
+  - materials\models\tobester\lotus\helmet.vtf
+  - materials\models\tobester\lotus\helmetsides.vtf
+  - materials\models\tobester\lotus\p1visor.vtf
+  - materials\models\tobester\lotus\trooper.vtf
+  - materials\models\tobester\lotus\visor.vtf
+  - materials\models\tobester\lotus\wear_human_male_head_cloneseason4codyhelm_cody_c.vtf
+  - materials\models\tobester\mando\custom_f\body.vtf
+  - materials\models\tobester\mando\custom_f\hands.vtf
+  - materials\models\tobester\mando\custom_f\helm.vtf
+  - materials\models\tobester\mando\custom_f\legs.vtf
+  - materials\models\tobester\mando\custom_m\body.vtf
+  - materials\models\tobester\mando\custom_m\helm.vtf
+  - materials\models\tobester\monkey\arc_enlisted_armour.vtf
+  - materials\models\tobester\monkey\arc_enlisted_boots.vtf
+  - materials\models\tobester\monkey\arc_enlisted_gear.vtf
+  - materials\models\tobester\monkey\arc_enlisted_gloves.vtf
+  - materials\models\tobester\monkey\arf2.vtf
+  - materials\models\tobester\monkey\arf2_black.vtf
+  - materials\models\tobester\arcann\pauldron.vtf
+  - materials\models\tobester\nexu\belt.vtf
+  - materials\models\tobester\nexu\chest.vtf
+  - materials\models\tobester\nexu\glove.vtf
+  - materials\models\tobester\nexu\helmet.vtf
+  - materials\models\tobester\nexu\legs.vtf
+  - materials\models\tobester\nexu\chest.vtf
+  - materials\models\tobester\pryn\chest.vtf
+  - materials\models\tobester\pryn\chest1.vtf
+  - materials\models\tobester\pryn\chest2.vtf
+  - materials\models\tobester\pryn\helmet.vtf
+  - materials\models\tobester\pryn\helmet2.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_armour.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_armour_forest.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_boots.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_boots_forest.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_gloves.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_gloves_forest.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_gloves_right.vtf
+  - materials\models\tobester\ramsey\arc_enlisted_gloves_right_forest.vtf
+  - materials\models\tobester\ramsey\helmet.vtf
+  - materials\models\tobester\ramsey\helmet_forest.vtf
+  - materials\models\tobester\ramsey\phase2helmet2.vtf
+  - materials\models\tobester\ramsey\phase2helmet2_forest.vtf
+  - materials\models\tobester\ramsey\shoulder.vtf
+  - materials\models\tobester\ramsey\shoulder_forest.vtf
+  - materials\models\tobester\razer\beehead.vtf
+  - materials\models\tobester\razer\commanderwolffedc15_d.vtf
+  - materials\models\tobester\razer\helmet.vtf
+  - materials\models\tobester\razer\razer.vtf
+  - materials\models\tobester\rome\pauldron.vtf
+  - materials\models\tobester\sean\arc_enlisted_armour.vtf
+  - materials\models\tobester\sean\arc_enlisted_boots.vtf
+  - materials\models\tobester\sean\arc_enlisted_gloves.vtf
+  - materials\models\tobester\sean\arf1.vtf
+  - materials\models\tobester\sean\arf2.vtf
+  - materials\models\tobester\sean\helmet.vtf
+  - materials\models\tobester\sean\pauldron.vtf
+  - materials\models\tobester\sean\phase2helmet2.vtf
+  - materials\models\tobester\shax\arc_enlisted_armour.vtf
+  - materials\models\tobester\shax\arc_enlisted_boots.vtf
+  - materials\models\tobester\shax\arc_enlisted_gear.vtf
+  - materials\models\tobester\shax\arc_enlisted_gloves.vtf
+  - materials\models\tobester\shax\arf1.vtf
+  - materials\models\tobester\shax\arf2.vtf
+  - materials\models\tobester\shax\beehead.vtf
+  - materials\models\tobester\shax\helmet.vtf
+  - materials\models\tobester\shax\pauldron.vtf
+  - materials\models\tobester\shax\phase2helmet2.vtf
+  - materials\models\tobester\shax\phase2helmet2.vtf
+  - materials\models\tobester\shazzy\arc_enlisted_armour.vtf
+  - materials\models\tobester\shazzy\arc_enlisted_boots.vtf
+  - materials\models\tobester\shazzy\arc_enlisted_gear.vtf
+  - materials\models\tobester\shazzy\arc_enlisted_gloves.vtf
+  - materials\models\tobester\shazzy\helmet.vtf
+  - materials\models\tobester\shazzy\p1helmet.vtf
+  - materials\models\tobester\thighsenpai\main.vtf
+  - materials\models\tobester\thighsenpai\hood.vtf
+  - materials\models\tobester\thighsenpai\hood.vtf
+  - materials\models\tobester\thighsenpai\hood.vtf
+  - materials\models\tobester\thighsenpai\hood.vtf
+  - materials\models\tobester\thresh\arc_enlisted_armour.vtf
+  - materials\models\tobester\thresh\arc_enlisted_armour_black.vtf
+  - materials\models\tobester\thresh\arc_enlisted_boots.vtf
+  - materials\models\tobester\thresh\arc_enlisted_boots_black.vtf
+  - materials\models\tobester\thresh\arc_enlisted_gear.vtf
+  - materials\models\tobester\arcann\arc_enlisted_gear.vtf
+  - materials\models\tobester\thresh\arc_enlisted_gear_black.vtf
+  - materials\models\tobester\thresh\arc_enlisted_gloves.vtf
+  - materials\models\tobester\thresh\arc_enlisted_gloves_black.vtf
+  - materials\models\tobester\thresh\helmattchments.vtf
+  - materials\models\tobester\thresh\helmet.vtf
+  - materials\models\tobester\thresh\helmet_black.vtf
+  - materials\models\tobester\thresh\phase2helmet2.vtf
+  - materials\models\tobester\thresh\phase2helmet2_black.vtf
+  - materials\models\tobester\thrifter\thrifter.vtf
+  - materials\models\tobester\tobester\tobester_blackops\armlights.vtf
+  - materials\models\tobester\tobester\tobester_blackops\chestlight.vtf
+  - materials\models\tobester\tobester\tobester_blackops\helmlights.vtf
+  - materials\models\tobester\tobester\tobester_blackops\leglights.vtf
+  - materials\models\tobester\tobester\tobester_blackops\nvglights.vtf
+  - materials\models\tobester\tobester\tobester_blackops\sidehelmlights.vtf
+  - materials\models\tobester\tobester\tobester_blackops\visor.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_armour.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_armour1.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_boots.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_boots1.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_gear.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_gloves.vtf
+  - materials\models\tobester\vertigo\arc_enlisted_gloves1.vtf
+  - materials\models\tobester\vertigo\beehead.vtf
+  - materials\models\tobester\vertigo\beehead1.vtf
+  - materials\models\tobester\vertigo\pauldron.vtf
+  - materials\models\tobester\vertigo\visor.vtf
+  - materials\models\tobester\weapons\ichigo\1001.vtf
+  - materials\models\tobester\weapons\moe\light.vtf
+  - materials\models\tobester\weapons\nexu\hilt.vtf
+  - materials\models\tobester\will\arc_enlisted_armour.vtf
+  - materials\models\tobester\will\arc_enlisted_armour_1.vtf
+  - materials\models\tobester\will\arc_enlisted_boots.vtf
+  - materials\models\tobester\will\arc_enlisted_gear.vtf
+  - materials\models\tobester\will\arc_enlisted_gloves.vtf
+  - materials\models\tobester\will\arc_enlisted_gloves_right.vtf
+  - materials\models\tobester\will\cgi cody visor.vtf
+  - materials\models\tobester\will\shoulder.vtf
+  - materials\models\tobester\will\visor.vtf
+  - materials\models\vcmd\tex_0017_0 (2).vtf
+  - materials\models\sgt\sgt_body1.vtf
+  - materials\models\sgt\sgt_body1camo.vtf
+  - materials\models\sgt\sgt_body1nonworn.vtf
+  - materials\models\sgt\sgt_body2.vtf
+  - materials\models\vcmd\501st41st\tex_0017_0 (2).vtf
+  - materials\models\sgt\501st41st\sgt_body1.vtf
+  - materials\models\sgt\501st41st\sgt_body1camo.vtf
+  - materials\models\sgt\501st41st\sgt_body1nonworn.vtf
+  - materials\models\sgt\501st41st\sgt_body2.vtf
+  - materials\models\workshop\player\items\all_class\dec16_stocking\dec16_stocking_color.vtf
+  - materials\models\workshop\player\items\all_class\dec16_stocking\dec16_stocking_blue_color.vtf
+  - materials\models\workshop\player\items\all_class\dec18_polar_pal\dec18_polar_pal_color.vtf
+  - materials\models\workshop\player\items\all_class\dec19_glittering_garland\dec19_glittering_garland_1_color.vtf
+  - materials\models\workshop\player\items\all_class\dec19_glittering_garland\dec19_glittering_garland_1_blue_color.vtf
+  - materials\models\workshop\player\items\all_class\dec20_flip_thwomps\dec20_flip_thwomps_color.vtf
+  - materials\models\workshop\player\items\all_class\dec20_flip_thwomps\dec20_flip_thwomps_blue_color.vtf
+  - materials\models\workshop\player\items\all_class\dec22_battle_bear_style1\dec22_battle_bear_style1_1_color.vtf
+  - materials\models\workshop\player\items\all_class\dec22_battle_bear_style1\dec22_battle_bear_style1_1_blue_color.vtf
+  - materials\models\workshop\player\items\all_class\dec24_necroprancer_style1\dec24_necroprancer_style1_color.vtf
+  - materials\models\workshop\player\items\all_class\fall17_croaking_hazard\fall17_croaking_hazard_color.vtf
+  - materials\models\workshop\player\items\all_class\fall17_croaking_hazard\fall17_croaking_hazard_color.vtf
+  - materials\models\workshop\player\items\all_class\fall17_quizzical_quetzal\fall17_quizzical_quetzal_color.vtf
+  - materials\models\workshop\player\items\all_class\fall2013_hong_kong_cone\fall2013_hong_kong_cone_color.vtf
+  - materials\models\workshop\player\items\all_class\fwk_hotdog\fwk_hotdog_color.vtf
+  - materials\models\workshop\player\items\all_class\hw2013_allclass_horseman\hw2013_allclass_horseman_color.vtf
+  - materials\models\workshop\player\items\all_class\hw2013_intergalactic_intruder\hw2013_intergalactic_intruder_1_color.vtf
+  - materials\models\workshop\player\items\all_class\hw2013_intergalactic_intruder\hw2013_intergalactic_intruder_1_color.vtf
+  - materials\models\workshop\player\items\all_class\hwn2015_duckyhat\hwn2015_duckyhat_color.vtf
+  - materials\models\workshop\player\items\all_class\hwn2015_grim_tweeter\hwn2015_grim_tweeter_color.vtf
+  - materials\models\workshop\player\items\all_class\hwn2018_terror_antula\hwn2018_terror_antula_color.vtf
+  - materials\models\workshop\player\items\all_class\hwn2018_terror_antula\hwn2018_terror_antula_color.vtf
+  - materials\models\workshop\player\items\all_class\hwn2021_second_headwear\hwn2021_second_headwear_1_color.vtf
+  - materials\models\workshop\player\items\all_class\pouch_pal\pouch_pal_color.vtf
+  - materials\models\workshop\player\items\all_class\pouch_pal\pouch_pal_blue_color.vtf
+  - materials\models\workshop\player\items\all_class\sf14_hooded_haunter_classes\sf14_hooded_haunter_classes_color.vtf
+  - materials\models\workshop\player\items\all_class\sum22_undercover_brolly\sum22_undercover_brolly_color.vtf
+  - materials\models\workshop\player\items\all_class\sum22_undercover_brolly\sum22_undercover_brolly_blue_color.vtf
+  - materials\models\workshop\player\items\all_class\sum23_full_metal_helmet\sum23_full_metal_helmet_color.vtf
+  - materials\models\workshop\player\items\all_class\sum24_botler_2000_style1\sum24_botler_2000_style1_1_color.vtf
+  - materials\models\workshop\player\items\demo\dec23_nightcap\dec23_nightcap_color.vtf
+  - materials\models\workshop\player\items\demo\dec23_nightcap\dec23_nightcap_color.vtf
+  - materials\models\workshop\player\items\demo\sum22_head_banger\sum22_head_banger_color.vtf
+  - materials\models\workshop\player\items\engineer\dec18_puggyback\dec18_puggyback_color.vtf
+  - materials\models\workshop\player\items\engineer\dec18_puggyback\dec18_puggyback_blue_color.vtf
+  - materials\models\workshop\player\items\heavy\hw2013_ivan_the_inedible\hw2013_ivan_the_inedible_color.vtf
+  - materials\models\workshop\player\items\pyro\burny_the_snowman\burny_the_snowman_1_color.vtf
+  - materials\models\workshop\player\items\pyro\burny_the_snowman\burny_the_snowman_1_color.vtf
+  - materials\models\workshop\player\items\pyro\dec24_hot_spaniel\dec24_hot_spaniel_color.vtf
+  - materials\models\workshop\player\items\pyro\hw2013_carrion_cohort\hw2013_carrion_cohort_1_color.vtf
+  - materials\models\workshop\player\items\pyro\hw2013_carrion_cohort\hw2013_carrion_cohort_1_color.vtf
+  - materials\models\workshop\player\items\pyro\hw2013_gristly_gumbo_pot\hw2013_gristly_gumbo_pot_color.vtf
+  - materials\models\workshop\player\items\pyro\hw2013_handhunter\hw2013_handhunter_color.vtf
+  - materials\models\workshop\player\items\pyro\hw2013_the_creature_from_the_heap\hw2013_the_creature_from_the_heap_color.vtf
+  - materials\models\workshop\player\items\pyro\hw2013_the_creature_from_the_heap\hw2013_the_creature_from_the_heap_1_color.vtf
+  - materials\models\workshop\player\items\pyro\invasion_space_hamster_hammy\invasion_space_hamster_hammy_color.vtf
+  - materials\models\workshop\player\items\pyro\invasion_space_hamster_hammy\invasion_space_hamster_hammy_blue_color.vtf
+  - materials\models\workshop\player\items\pyro\sum19_melted_mop\sum19_melted_mop_color.vtf
+  - materials\models\workshop\player\items\pyro\sum19_melted_mop\sum19_melted_mop_color.vtf
+  - materials\models\workshop\player\items\pyro\sum19_spawn_camper_backpack\sum19_spawn_camper_backpack_color.vtf
+  - materials\models\workshop\player\items\pyro\sum19_spawn_camper_backpack\sum19_spawn_camper_backpack_blue_color.vtf
+  - materials\models\workshop\player\items\pyro\sum21_reel_fly_hat\sum21_reel_fly_hat_color.vtf
+  - materials\models\workshop\player\items\pyro\xms2013_pyro_wood\xms2013_pyro_wood_1_color.vtf
+  - materials\models\workshop\player\items\scout\dec16_snowwing\dec16_snowwing_color.vtf
+  - materials\models\workshop\player\items\scout\dec16_snowwing\dec16_snowwing_blue_color.vtf
+  - materials\models\workshop\player\items\scout\dec23_bonk_beanie\dec23_bonk_beanie_color.vtf
+  - materials\models\workshop\player\items\scout\dec23_bonk_beanie\dec23_bonk_beanie_blue_color.vtf
+  - materials\models\workshop\player\items\scout\dec23_bonk_beanie_style2\dec23_bonk_beanie_style2_color.vtf
+  - materials\models\workshop\player\items\scout\dec23_bonk_beanie_style2\dec23_bonk_beanie_style2_blue_color.vtf
+  - materials\models\workshop\player\items\scout\hw2013_running_octopus\hw2013_running_octopus_color.vtf
+  - materials\models\workshop\player\items\scout\hw2013_running_octopus\hw2013_running_octopus_color.vtf
+  - materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_color.vtf
+  - materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_color.vtf
+  - materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_blue_color.vtf
+  - materials\models\workshop\player\items\scout\jul13_koolboy\jul13_koolboy_blue_color.vtf
+  - materials\models\workshop\player\items\scout\sum20_tools_tourist\sum20_tools_tourist_color.vtf
+  - materials\models\workshop\player\items\scout\sum20_tools_tourist\sum20_tools_tourist_blue_color.vtf
+  - materials\models\workshop\player\items\scout\sum21_fast_food\sum21_fast_food_color.vtf
+  - materials\models\workshop\player\items\sniper\jul13_cameleon\jul13_cameleon_color.vtf
+  - materials\models\workshop\player\items\sniper\sum22_hawaiian_hunter\sum22_hawaiian_hunter_color.vtf
+  - materials\models\workshop\player\items\sniper\sum22_hawaiian_hunter\sum22_hawaiian_hunter_blue_color.vtf
+  - materials\models\workshop\player\items\soldier\hw2013_mr_maggot\hw2013_mr_maggot_color.vtf
+  - materials\models\workshop\player\items\soldier\hw2013_mr_maggot\hw2013_mr_maggot_blue_color.vtf
+  - materials\models\workshop\player\items\soldier\hw2013_the_crit_wizard\hw2013_the_crit_wizard_color.vtf
+  - materials\models\workshop\player\items\soldier\hw2013_the_crit_wizard\hw2013_the_crit_wizard_color.vtf
+  - materials\models\workshop\player\items\soldier\hwn2015_hellmet\hwn2015_hellmet_color.vtf
+  - materials\models\workshop\player\items\soldier\hwn2020_calamitous_cauldron\hwn2020_calamitous_cauldron_1_color.vtf
+  - materials\models\workshop\player\items\soldier\hwn2020_trappers_hat\hwn2020_trappers_hat_color.vtf
+  - materials\models\workshop\player\items\soldier\sum20_breach_and_bomb\sum20_breach_and_bomb_color.vtf
+  - materials\models\workshop\player\items\spy\dec24_laire_filteure\dec24_laire_filteure_color.vtf
+  - materials\models\workshop\player\items\spy\dec24_laire_filteure\dec24_laire_filteure_1_color.vtf
+  - materials\models\workshop\player\items\spy\hwn2021_gruesome_gourd\hwn2021_gruesome_gourd_color.vtf
+  - materials\models\workshop\player\items\spy\sum20_birds_eye_viewer_style2\sum20_birds_eye_viewer_style2_1_color.vtf
+  - materials\models\workshop\player\items\spy\sum22_night_vision_gawkers\sum22_night_vision_gawkers_color.vtf
+  - materials\turtle\firework\firework_sheet.vtf
+Upscaled normal maps: 39
+Upscaled bumpmaps (by VMT ref): 58
+Total lighting-affecting issues: 97

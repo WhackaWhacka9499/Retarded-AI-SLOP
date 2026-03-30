@@ -1,0 +1,128 @@
+// VTFUpscaler config for version 2.0.x
+
+// Only edit values in place, don't add any extra spaces or comments.
+// Example correct: scale_factor=4
+// Example incorrect: scale_factor = 4 // My comment.
+
+/////////////////////////////////////////////////////////////////////
+// PRE SCALE DENOIZE
+/////////////////////////////////////////////////////////////////////
+
+// NONE = 0
+// BILATERAL_MEAN = 1
+denoise_filter=1
+
+denoise_radius=2
+denoise_sigma_spatial=1.0
+denoise_sigma_intensity=0.02
+
+/////////////////////////////////////////////////////////////////////
+// SCALE
+/////////////////////////////////////////////////////////////////////
+
+// Resolution will be clamped to 4096 (4k) while keeping the aspect ratio.
+scale_factor=2
+
+// NONE = 0
+// ORTHOGONAL_SINC = 1
+// CYLINDRICAL_JINC = 2
+scale_filter=2
+
+// LANCZOS = 0
+// GINSENG = 1
+// HAMMING = 2
+// POW_COSINE = 3
+// KAISER = 4
+// POW_GARAMOND = 5
+// POW_BLACKMAN = 6
+// GNW = 7
+// SAID = 8
+// NEAREST = 9
+// LINEAR = 10
+// BICUBIC = 11
+// MOD_FSR = 12
+// BCSPLINE = 13
+kernel_function=5
+
+kernel_radius=2.6
+kernel_blur=0.87
+
+// Used by and as:
+// POW_COSINE: n
+// KAISER: beta
+// POW_GARAMOND: n
+// POW_BLACKMAN: a
+// GNW: s
+// SAID: eta
+// BICUBIC: a
+// MOD_FSR: b
+// BCSPLINE: b
+kernel_param1=8.5
+
+// Used by and as:
+// POW_GARAMOND: m
+// POW_BLACKMAN: n
+// GNW: n
+// SAID: chi
+// MOD_FSR: c
+// BCSPLINE: c
+kernel_param2=7.0
+
+// Min 0.0, max 1.0.
+antiringing_amount=1.0
+
+/////////////////////////////////////////////////////////////////////
+// POST SCALE SHARPEN
+/////////////////////////////////////////////////////////////////////
+
+// NONE = 0
+// UNSHARP_MASK = 1
+// RCAS = 2
+sharpen_filter=2
+
+// For RCAS should be in the range (0.0, 1.0].
+sharpen_amount=1.0
+
+// Used by UNSHARP_MASK
+unsharp_radius=2
+unsharp_sigma=1.0
+
+/////////////////////////////////////////////////////////////////////
+// POST SCALE GRAIN
+/////////////////////////////////////////////////////////////////////
+
+// NONE = 0
+// PSEUDORANDOM = 1
+grain_filter=1
+
+grain_amount=0.1
+grain_size=0.1
+
+/////////////////////////////////////////////////////////////////////
+// VTF SPECIFIC
+/////////////////////////////////////////////////////////////////////
+
+// POINT = 0
+// BOX = 1
+// TRIANGLE = 2
+// QUADRATIC = 3
+// CUBIC = 4
+// CATROM = 5
+// MITCHELL = 6
+// GAUSSIAN = 7
+// SINC = 8
+// BESSEL = 9
+// HANNING = 10
+// HAMMING = 11
+// BLACKMAN = 12
+// KAISER = 13
+mipmap_filter=12
+
+save_uncompressed=0
+
+/////////////////////////////////////////////////////////////////////
+// USER SHADERS
+/////////////////////////////////////////////////////////////////////
+
+// Example: user_shaders="path_to_user_shader1.hlsl","user_shader2.hlsl","shader3.hlsl"
+user_shaders=

@@ -1,0 +1,150 @@
+CMD: c:\Users\Alexander Jarvis\Desktop\Upscaler\realesrgan\realesrgan-ncnn-vulkan.exe -i G:\_vtf_scratch\batch_1\pass2_in -o G:\_vtf_scratch\batch_1\output -n realesrgan-x4plus -s 4 -t 256 -j 4:4:4 -g 0 -f webp -m c:\Users\Alexander Jarvis\Desktop\Upscaler\realesrgan\models -v
+
+Done count: 9
+Error count: 0
+
+[0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueG=0[16]  queueT=1[2]
+[0 NVIDIA GeForce RTX 4080 SUPER]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32  basic=1  vote=1  ballot=1  shuffle=1
+[1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueG=0[1]  queueT=2[1]
+[1 AMD Radeon(TM) Graphics]  bugsbn1=0  bugbilz=101  bugcopc=0  bugihfa=0
+[1 AMD Radeon(TM) Graphics]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[1 AMD Radeon(TM) Graphics]  subgroup=64  basic=1  vote=1  ballot=1  shuffle=1
+0.00%
+0.00%
+0.00%
+0.00%
+6.25%
+6.25%
+6.25%
+6.25%
+12.50%
+12.50%
+12.50%
+12.50%
+18.75%
+18.75%
+18.75%
+18.75%
+25.00%
+25.00%
+25.00%
+25.00%
+31.25%
+31.25%
+31.25%
+37.50%
+31.25%
+37.50%
+37.50%
+43.75%
+37.50%
+43.75%
+43.75%
+43.75%
+50.00%
+50.00%
+50.00%
+56.25%
+50.00%
+56.25%
+56.25%
+62.50%
+56.25%
+62.50%
+62.50%
+68.75%
+62.50%
+68.75%
+68.75%
+68.75%
+75.00%
+75.00%
+75.00%
+75.00%
+81.25%
+81.25%
+81.25%
+81.25%
+87.50%
+87.50%
+87.50%
+87.50%
+93.75%
+93.75%
+93.75%
+93.75%
+0.00%
+0.00%
+0.00%
+6.25%
+0.00%
+12.50%
+6.25%
+12.50%
+6.25%
+25.00%
+12.50%
+18.75%
+12.50%
+37.50%
+18.75%
+18.75%
+25.00%
+50.00%
+25.00%
+25.00%
+31.25%
+62.50%
+31.25%
+31.25%
+37.50%
+75.00%
+37.50%
+37.50%
+43.75%
+87.50%
+43.75%
+43.75%
+0.00%
+50.00%
+50.00%
+50.00%
+12.50%
+56.25%
+56.25%
+56.25%
+25.00%
+62.50%
+62.50%
+62.50%
+37.50%
+68.75%
+68.75%
+68.75%
+G:\_vtf_scratch\batch_1\pass2_in/0005.bmp -> G:\_vtf_scratch\batch_1\output/0005.webp done
+75.00%
+75.00%
+75.00%
+50.00%
+81.25%
+81.25%
+81.25%
+62.50%
+87.50%
+87.50%
+87.50%
+75.00%
+93.75%
+93.75%
+93.75%
+87.50%
+G:\_vtf_scratch\batch_1\pass2_in/0002.bmp -> G:\_vtf_scratch\batch_1\output/0002.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0001.bmp -> G:\_vtf_scratch\batch_1\output/0001.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0000.bmp -> G:\_vtf_scratch\batch_1\output/0000.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0008.bmp -> G:\_vtf_scratch\batch_1\output/0008.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0010.bmp -> G:\_vtf_scratch\batch_1\output/0010.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0009.bmp -> G:\_vtf_scratch\batch_1\output/0009.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0007.bmp -> G:\_vtf_scratch\batch_1\output/0007.webp done
+G:\_vtf_scratch\batch_1\pass2_in/0006.bmp -> G:\_vtf_scratch\batch_1\output/0006.webp done

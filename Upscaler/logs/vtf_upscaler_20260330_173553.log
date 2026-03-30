@@ -1,0 +1,23 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 17:35:53 ===
+
+[17:35:53] ⚡ Using cached scan for 2 files (instant)...
+[17:35:53] ⊖ Skipped 1 files: 1x normal map
+[17:35:53] 🔍 Scan done: 1 to upscale (0.2 MB), 1 skipped | batch size: 200
+[17:35:53] 📦 Batch 1/1 (1 files)...
+[17:35:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1774888553\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774888553\output/0000.png done
+[17:35:55] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[17:35:55] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[17:36:07] [GPU] G:\_vtf_scratch\vtf_batch_1_1774888553\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774888553\output_pass2/0000.png done
+[17:36:20] ✓ Roof_Template001a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:36:20] ✅ Done in 0.5min (0.0/sec) | ✓1 ⊖1 ✗0
+[17:36:20] ──────────────────────────────────────────────────
+[17:36:20] 📊 BATCH STATS
+[17:36:20]   ⏱ Total Time:      0.5 min (27s)
+[17:36:20]   📁 Files:           1 upscaled, 1 skipped, 0 failed
+[17:36:20]   📥 Input Size:      0.2 MB
+[17:36:20]   📤 Output Size:     10.7 MB (63.9x)
+[17:36:20]   ⚡ Avg Per File:    27.4s
+[17:36:20]   🚀 Processing Rate: 0.0/sec
+[17:36:20] ──────────────────────────────────────────────────
+
+=== Completed: 1 success, 1 skipped, 0 failed in 0.5min ===

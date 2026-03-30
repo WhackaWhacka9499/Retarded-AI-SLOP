@@ -1,0 +1,115 @@
+{
+  "scan_time": "2026-02-11 19:07:03",
+  "folder": "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic",
+  "target_resolution": 4096,
+  "files": {
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\cap.vtf": {
+      "width": 256,
+      "height": 256,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 43912,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\chestguard.vtf": {
+      "width": 256,
+      "height": 256,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 43912,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\coat.vtf": {
+      "width": 1024,
+      "height": 1024,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 699272,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\engineerset.vtf": {
+      "width": 256,
+      "height": 256,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 43912,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\glasses.vtf": {
+      "width": 256,
+      "height": 256,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 43912,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\goggles.vtf": {
+      "width": 256,
+      "height": 256,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 43912,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\helmet.vtf": {
+      "width": 512,
+      "height": 512,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 174984,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\lense.vtf": {
+      "width": 128,
+      "height": 128,
+      "format": "DXT5",
+      "format_id": 15,
+      "has_alpha": true,
+      "file_size": 22080,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    },
+    "G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\\navy\\medic\\lense_ilum.vtf": {
+      "width": 128,
+      "height": 128,
+      "format": "DXT1",
+      "format_id": 13,
+      "has_alpha": false,
+      "file_size": 11144,
+      "needs_upscale": true,
+      "skip_reason": "",
+      "target_w": 4096,
+      "target_h": 4096
+    }
+  }
+}

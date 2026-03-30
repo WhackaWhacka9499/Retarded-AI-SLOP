@@ -1,0 +1,32 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:58:03 ===
+
+[16:58:03] ⚡ Using cached scan for 5 files (instant)...
+[16:58:03] ⊖ Smart skip: 1 files already processed (.bak backup found)
+[16:58:03] ⊖ Skipped 2 files: 1x normal map, 1x .bak exists
+[16:58:03] 🔍 Scan done: 3 to upscale (0.5 MB), 2 skipped | batch size: 200
+[16:58:03] 📦 Batch 1/1 (3 files)...
+[16:58:06] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886283\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774886283\output/0000.png done
+[16:58:06] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886283\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774886283\output/0001.png done
+[16:58:06] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886283\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774886283\output/0002.png done
+[16:58:07] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:58:07] [GPU] [Split] Pass 2: 3 tall images (tile=512, height>=1024)
+[16:58:27] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886283\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774886283\output_pass2/0000.png done
+[16:58:27] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886283\input_pass2/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774886283\output_pass2/0001.png done
+[16:58:34] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886283\input_pass2/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774886283\output_pass2/0002.png done
+[16:59:07] ✓ concreteceiling003a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:59:07] ✓ concretewall_handling01a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:59:07] ⚠ floor_carpet001.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[16:59:07] ✅ Done in 1.1min (2.8/min) | ✓3 ⊖2 ✗0
+[16:59:07] ──────────────────────────────────────────────────
+[16:59:07] 📊 BATCH STATS
+[16:59:07]   ⏱ Total Time:      1.1 min (64s)
+[16:59:07]   📁 Files:           3 upscaled, 2 skipped, 0 failed
+[16:59:07]   📥 Input Size:      0.5 MB
+[16:59:07]   📤 Output Size:     32.0 MB (63.9x)
+[16:59:07]   ⚡ Avg Per File:    21.4s
+[16:59:07]   🚀 Processing Rate: 2.8/min
+[16:59:07] ──────────────────────────────────────────────────
+[16:59:07] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[16:59:07]   → floor_carpet001.vtf
+
+=== Completed: 3 success, 2 skipped, 0 failed in 1.1min ===

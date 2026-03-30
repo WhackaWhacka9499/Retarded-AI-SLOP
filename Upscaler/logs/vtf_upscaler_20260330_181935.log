@@ -1,0 +1,40 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 18:19:35 ===
+
+[18:19:35] ⚡ Using cached scan for 40 files (instant)...
+[18:19:35] ⊖ Skipped 32 files: 29x already 4096x4096, 2x bump map, 1x 4096x2048
+[18:19:35] 🔍 Scan done: 8 to upscale (8.7 MB), 32 skipped | batch size: 36
+[18:19:35] 📦 Batch 1/1 (8 files)...
+[18:19:35] [GPU] [Split] Pass 2: 8 tall images (tile=512, height>=1024)
+[18:19:41] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0000.png done
+[18:19:41] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0001.png done
+[18:19:45] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0002.png done
+[18:19:45] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0003.png done
+[18:19:49] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0004.png done
+[18:19:53] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0006.png done
+[18:19:53] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0005.png done
+[18:20:00] [GPU] G:\_vtf_scratch\vtf_batch_1_1774891175\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774891175\output/0007.png done
+[18:20:00] ⚡ 8x skip: 8 already at target, 0 need pass 2
+[18:20:00] ⚡ GPU batch 1: all files at target after pass 1, skipping pass 2!
+[18:20:08] ✓ rp_anaxes_concrete4.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[18:20:12] ✓ rp_anaxes_concrete_floor10.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[18:20:12] ✓ rp_anaxes_concrete_floor4.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[18:20:14] ✓ rp_anaxes_metal_wall25_framed.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[18:20:20] ✓ rp_anaxes_rockface1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[18:20:20] ⚠ rp_anaxes_hallway_floor3.vtf: 2048x1024 → 4096x2048 [AI] (5.3MB) ⚠️ FLAT
+[18:20:20] ✓ rp_metal_wall_pinkrepub.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[18:20:20] ⚠ rp_anaxes_metal_darkgrey_floor.vtf: 2048x2048 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[18:20:20] ✅ Done in 0.7min (0.2/sec) | ✓8 ⊖32 ✗0
+[18:20:20] ──────────────────────────────────────────────────
+[18:20:20] 📊 BATCH STATS
+[18:20:20]   ⏱ Total Time:      0.7 min (45s)
+[18:20:20]   📁 Files:           8 upscaled, 32 skipped, 0 failed
+[18:20:20]   📥 Input Size:      8.7 MB
+[18:20:20]   📤 Output Size:     90.7 MB (10.5x)
+[18:20:20]   ⚡ Avg Per File:    5.6s
+[18:20:20]   🚀 Processing Rate: 0.2/sec
+[18:20:20] ──────────────────────────────────────────────────
+[18:20:20] ⚠️ CORRUPTION REPORT: 2 file(s) flagged for review:
+[18:20:20]   → rp_anaxes_hallway_floor3.vtf
+[18:20:20]   → rp_anaxes_metal_darkgrey_floor.vtf
+
+=== Completed: 8 success, 32 skipped, 0 failed in 0.7min ===

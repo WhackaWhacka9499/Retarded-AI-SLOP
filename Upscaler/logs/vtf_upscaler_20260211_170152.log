@@ -1,0 +1,30 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 17:01:52 ===
+
+[17:01:52] � Using pre-scan cache (instant start)...
+[17:01:52] 🔍 Scan done: 13 to upscale (2.1 MB), 0 skipped | batch size: 200
+[17:01:52] 📦 Batch 1/1 (13 files)...
+[17:01:52]    Pass 1/2: 4x AI upscale...
+[17:02:04]    ⚡ Pass 1 done: 4 already at target, 22 need pass 2
+[17:02:04]    Pass 2/2: 4x AI upscale (22 files)...
+[17:02:17] ✗ arc_backpack.vtf: AI output missing or corrupted
+[17:02:20] ⚠ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[17:02:20] ✗ cody_visor.vtf: AI output missing or corrupted
+[17:02:20] ✗ cody_visor1.vtf: AI output missing or corrupted
+[17:02:20] ✗ enlisted.vtf: AI output missing or corrupted
+[17:02:20] ✗ enlisted1.vtf: AI output missing or corrupted
+[17:02:20] ✗ feather.vtf: Upscaled output not found
+[17:02:20] ✗ hair.vtf: AI output missing or corrupted
+[17:02:20] ✗ pauldron.vtf: AI output missing or corrupted
+[17:02:20] ⚠ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB) ⚠️ DARK
+[17:02:20] ⚠ phase2helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB) ⚠️ DARK
+[17:02:20] ⚠ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[17:02:20] ⚠ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB) ⚠️ DARK
+[17:02:20] ✅ Done in 0.5min (0.2/sec) | ✓5 ⊖0 ✗8
+[17:02:20] ⚠️ CORRUPTION REPORT: 5 file(s) flagged for review:
+[17:02:20]   → arc_enlisted_gear1.vtf
+[17:02:20]   → phase2helmet.vtf
+[17:02:20]   → phase2helmet1.vtf
+[17:02:20]   → skirt.vtf
+[17:02:20]   → tex_0010_0.vtf
+
+=== Completed: 5 success, 0 skipped, 8 failed in 0.5min ===

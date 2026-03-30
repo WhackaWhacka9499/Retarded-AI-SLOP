@@ -1,0 +1,21 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 18:15:29 ===
+
+[18:15:29] � Using pre-scan cache (instant start)...
+[18:15:29] ⊖ Skipped 1 files: 1x mask texture
+[18:15:29] 🔍 Scan done: 9 to upscale (7.8 MB), 1 skipped | batch size: 50
+[18:15:29] 📦 Batch 1/1 (9 files)...
+[18:15:29]    ↳ Quarantined 9 alpha channel file(s) from GPU input
+[18:15:29]    Pass 1/2: 4x AI upscale (9 files)...
+[18:15:40]    ⚡ Pass 1 done: 4 already at target, 4 need pass 2
+[18:15:40]    Pass 2/2: 4x AI upscale (4 files)...
+[18:15:51] ✗ binos.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0000.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\binos.vtf]
+[18:15:51] ✗ commanderwolffedc15.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0001.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\commanderwolffedc15.vtf]
+[18:15:51] ✗ enlisted.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0002.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\enlisted.vtf]
+[18:15:51] ✗ enlisted2.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0003.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\enlisted2.vtf]
+[18:15:51] ✗ helmet2.vtf: Upscaled output not found (looked for 0004.* in G:\_vtf_scratch\batch_1\output)
+[18:15:51] ✗ phase1trooperbackpack1.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0005.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\phase1trooperbackpack1.vtf]
+[18:15:51] ✗ phase2helmet.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0006.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\phase2helmet.vtf]
+[18:15:51] ✗ survivalbag.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0007.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\survivalbag.vtf]
+[18:15:51] ✗ wear_human_male_head_cloneseason4codyhelm_cody_c.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0008.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\wear_human_male_head_cloneseason4codyhelm_cody_c.vtf]
+
+=== Completed: 0 success, 1 skipped, 9 failed in 0.4min ===

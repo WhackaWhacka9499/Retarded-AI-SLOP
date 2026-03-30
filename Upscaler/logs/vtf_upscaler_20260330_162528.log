@@ -1,0 +1,21 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:25:28 ===
+
+[16:25:28] ⚡ Using cached scan for 1 files (instant)...
+[16:25:28] 🔍 Scan done: 1 to upscale (0.0 MB), 0 skipped | batch size: 200
+[16:25:28] 📦 Batch 1/1 (1 files)...
+[16:25:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884328\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774884328\output/0000.png done
+[16:25:29] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:25:33] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884328\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774884328\output_pass2/0000.png done
+[16:25:41] ✓ woodstair002a.vtf: 512x128 → 4096x1024 [AI] (2.7MB)
+[16:25:41] ✅ Done in 0.2min (0.1/sec) | ✓1 ⊖0 ✗0
+[16:25:41] ──────────────────────────────────────────────────
+[16:25:41] 📊 BATCH STATS
+[16:25:41]   ⏱ Total Time:      0.2 min (13s)
+[16:25:41]   📁 Files:           1 upscaled, 0 skipped, 0 failed
+[16:25:41]   📥 Input Size:      0.0 MB
+[16:25:41]   📤 Output Size:     2.7 MB (63.8x)
+[16:25:41]   ⚡ Avg Per File:    13.3s
+[16:25:41]   🚀 Processing Rate: 0.1/sec
+[16:25:41] ──────────────────────────────────────────────────
+
+=== Completed: 1 success, 0 skipped, 0 failed in 0.2min ===

@@ -1,0 +1,87 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-26 18:44:02 ===
+
+[18:44:02] ⚡ Using cached scan for 12 files (instant)...
+[18:44:02] ⊖ Skipped 1 files: 1x already 4096x4096
+[18:44:02] 🔍 Scan done: 11 to upscale (0.7 MB), 1 skipped | batch size: 200
+[18:44:02] 📦 Batch 1/1 (11 files)...
+[18:44:02] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[18:44:02] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[18:44:02] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[18:44:02] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[18:44:02] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[18:44:02] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[18:44:02] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[18:44:02] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[18:44:03] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0001.png done
+[18:44:03] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0000.png done
+[18:44:03] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0003.png done
+[18:44:03] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0002.png done
+[18:44:04] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0005.png done
+[18:44:04] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0004.png done
+[18:44:05] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0007.png done
+[18:44:11] ⚠ GPU: vkAllocateMemory failed -2
+[18:44:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0006.png done
+[18:44:25] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0008.png done
+[18:44:33] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0009.png done
+[18:44:44] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\input/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1774550642\output/0010.png done
+[18:44:45] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[18:44:45] [GPU] [Split] Pass 1: 4 normal images (tile=1024)
+[18:44:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[18:44:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[18:44:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[18:44:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[18:44:46] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[18:44:46] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[18:44:46] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[18:44:46] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[18:45:01] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0000.png done
+[18:45:01] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0001.png done
+[18:45:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0003.png done
+[18:45:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0002.png done
+[18:45:15] [GPU] [Split] Pass 2: 7 tall images (tile=512, height>=1024)
+[18:45:16] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[18:45:16] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[18:45:16] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[18:45:16] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[18:45:16] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[18:45:16] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[18:45:16] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[18:45:16] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[18:45:47] [GPU] G:\_vtf_scratch\_batch_TALL/0004.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0004.png done
+[18:45:47] [GPU] G:\_vtf_scratch\_batch_TALL/0005.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0005.png done
+[18:46:20] [GPU] G:\_vtf_scratch\_batch_TALL/0007.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0007.png done
+[18:46:55] [GPU] G:\_vtf_scratch\_batch_TALL/0006.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0006.png done
+[18:47:15] [GPU] G:\_vtf_scratch\_batch_TALL/0008.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0008.png done
+[18:47:48] [GPU] G:\_vtf_scratch\_batch_TALL/0009.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0009.png done
+[18:48:04] [GPU] G:\_vtf_scratch\_batch_TALL/0010.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0010.png done
+[18:48:04] ⚠ GPU batch 1: 11 corrupted outputs detected — re-processing with safe settings...
+[18:48:06] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[18:48:06] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[18:48:06] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[18:48:06] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[18:48:06] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[18:48:06] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[18:48:06] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[18:48:06] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[18:48:28] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\safe_input/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0002.png done
+[18:48:28] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\safe_input/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0003.png done
+[18:48:28] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\safe_input/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0001.png done
+[18:48:28] [GPU] G:\_vtf_scratch\vtf_batch_1_1774550642\safe_input/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774550642\output_pass2/0000.png done
+[18:49:33] ⚠ GPU batch 1: 2 files still dark after safe retry
+[18:49:36] ✓ simboots.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[18:49:36] ✓ simbootsn.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[18:49:36] ⚠ simgloves.vtf: 128x128 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[18:49:36] ⚠ simglovesn.vtf: 128x128 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[18:49:36] ✗ simhelmetn.vtf: Upscaled output not found
+[18:49:36] ✗ simvisorn.vtf: Upscaled output not found
+[18:49:36] ✗ simarmorn.vtf: Upscaled output not found
+[18:49:36] ✗ simvisor.vtf: Upscaled output not found
+[18:49:36] ✗ simarmor.vtf: Upscaled output not found
+[18:49:36] ✗ swequipmentlockern.vtf: Upscaled output not found
+[18:49:36] ✗ swequipmentlocker.vtf: Upscaled output not found
+[18:49:36] ✅ Done in 5.6min (0.7/min) | ✓4 ⊖1 ✗7
+[18:49:36] ⚠️ CORRUPTION REPORT: 2 file(s) flagged for review:
+[18:49:36]   → simgloves.vtf
+[18:49:36]   → simglovesn.vtf
+
+=== Completed: 4 success, 1 skipped, 7 failed in 5.6min ===

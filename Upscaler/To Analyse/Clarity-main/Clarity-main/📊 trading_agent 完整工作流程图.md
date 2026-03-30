@@ -1,0 +1,272 @@
+以 `run_track("Warren Buffett")` 为例，详细解释整个 skill 系统的工作流程：
+
+## 📊 完整工作流程图
+
+```
+用户输入: python run_agent.py track "Warren Buffett"
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    run_agent.py                             │
+│                                                             │
+│  1. 加载 .env 环境变量                                       │
+│  2. 创建 AgentConfig                                        │
+│  3. 创建 FinancialAgentOrchestrator                         │
+│  4. 调用 orchestrator.run(task_type=HOLDINGS_TRACKING, ...)│
+└─────────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│               FinancialAgentOrchestrator.run()              │
+│                                                             │
+│  1. 创建 TaskContext(task_type, target, trade_date)         │
+│  2. MasterAgent.create_task_plan() ──────────┐              │
+│  3. WorkingAgent.execute_plan() ◄────────────┤              │
+│  4. StateChecker.validate_final_state()      │              │
+│  5. MasterAgent.synthesize_results()         │              │
+└──────────────────────────────────────────────┼──────────────┘
+                        │                      │
+                        │                      ▼
+                        │     ┌────────────────────────────────┐
+                        │     │     PlanningManager            │
+                        │     │                                │
+                        │     │  初始化 planning-with-files:   │
+                        │     │  • task_plan.md                │
+                        │     │  • findings.md                 │
+                        │     │  • progress.md                 │
+                        │     └────────────────────────────────┘
+                        ▼
+```
+
+## 🔍 详细步骤解析
+
+### 步骤 1: 入口调用
+
+```python:80:95:clarity/run_agent.py
+async def run_track(investor_name: str, trade_date: str | None = None) -> None:
+    """Track an investor's holdings."""
+    config = AgentConfig()
+    orchestrator = FinancialAgentOrchestrator(config)
+
+    print(f"\n{'='*60}")
+    print(f"🔍 Tracking Holdings: {investor_name}")
+    print(f"{'='*60}\n")
+
+    result = await orchestrator.run(
+        task_type=TaskType.HOLDINGS_TRACKING,
+        target=investor_name,
+        trade_date=trade_date or datetime.now().strftime("%Y-%m-%d"),
+    )
+
+    _print_result(result)
+```
+
+### 步骤 2: MasterAgent 创建任务计划
+
+```
+MasterAgent.create_task_plan(context)
+            │
+            ▼
+┌───────────────────────────────────────────────────────────┐
+│  1. 根据 task_type=HOLDINGS_TRACKING 决定需要哪些 SubAgents │
+│                                                           │
+│     subagent_assignments = {                              │
+│         "holdings_hunter": ["Track investor holdings"],   │
+│         "news_analyst": ["Find related news"],            │
+│     }                                                     │
+│     priority_order = ["holdings_hunter", "news_analyst"]  │
+│                                                           │
+│  2. 初始化 planning files (task_plan.md, findings.md,     │
+│     progress.md)                                          │
+│                                                           │
+│  3. 返回 TaskPlan 对象                                     │
+└───────────────────────────────────────────────────────────┘
+```
+
+此时 `task_plan.md` 被创建：
+
+```markdown
+# Task Plan: Financial Intelligence Agent Task
+
+## Goal
+跟踪 Warren Buffett 的最新持仓
+
+## Task Type
+holdings_tracking
+
+## Phases
+### Phase 1: Requirements & Discovery
+- **Status:** in_progress
+
+### Phase 2: Data Collection & Analysis
+- **Status:** pending
+...
+```
+
+### 步骤 3: WorkingAgent 执行计划
+
+```
+WorkingAgent.execute_plan(task_plan, context)
+            │
+            ▼
+┌───────────────────────────────────────────────────────────┐
+│  遍历 priority_order 中的每个 SubAgent:                    │
+│                                                           │
+│  Step 0: holdings_hunter ──────────────────────────────┐  │
+│    │                                                   │  │
+│    ▼                                                   │  │
+│  HoldingsHunter.execute(context)                       │  │
+│    │                                                   │  │
+│    ├─► _search_guru_holdings("Warren Buffett")         │  │
+│    │     └─► SERPER API 搜索持仓信息                    │  │
+│    │                                                   │  │
+│    ├─► _search_13f_filings("Warren Buffett")           │  │
+│    │     └─► SERPER API 搜索 SEC 13F 文件              │  │
+│    │                                                   │  │
+│    └─► 生成报告 → AgentResult                          │  │
+│                                                        │  │
+│  StateChecker.check_step(step) ◄───────────────────────┘  │
+│    │                                                      │
+│    ├─► 成功 → 继续下一步                                  │
+│    └─► 失败 → 重试逻辑 (最多3次)                          │
+│                                                           │
+│  Step 1: news_analyst ─────────────────────────────────┐  │
+│    │                                                   │  │
+│    ▼                                                   │  │
+│  NewsAnalyst.execute(context)                          │  │
+│    └─► 搜索相关新闻                                     │  │
+│                                                        │  │
+│  StateChecker.check_step(step) ◄───────────────────────┘  │
+└───────────────────────────────────────────────────────────┘
+```
+
+### 步骤 4: 每步执行后更新 Planning Files
+
+```
+每个 SubAgent 执行后:
+            │
+            ▼
+┌───────────────────────────────────────────────────────────┐
+│  PlanningManager.append_findings()                        │
+│    └─► findings.md 追加分析结果                           │
+│                                                           │
+│  PlanningManager.append_progress()                        │
+│    └─► progress.md 追加进度日志                           │
+│                                                           │
+│  PlanningManager.update_subagent_status()                 │
+│    └─► task_plan.md 更新 SubAgent 状态表                  │
+└───────────────────────────────────────────────────────────┘
+```
+
+### 步骤 5: StateChecker 重试逻辑
+
+```
+StateCheckerAgent.check_step(step)
+            │
+            ▼
+┌───────────────────────────────────────────────────────────┐
+│  if step.status == "complete":                            │
+│      return SUCCESS → 继续                                │
+│                                                           │
+│  if step.status == "failed":                              │
+│      │                                                    │
+│      ├─► retry_count >= 3?                                │
+│      │     └─► 是关键步骤? → REPLAN (重新规划)            │
+│      │     └─► 非关键步骤? → SKIP (跳过)                  │
+│      │                                                    │
+│      ├─► 错误类型分析:                                    │
+│      │     timeout/connection → RETRY                     │
+│      │     no data/not found → SKIP                       │
+│      │     auth error → REPLAN                            │
+│      │                                                    │
+│      └─► 默认 → RETRY                                     │
+└───────────────────────────────────────────────────────────┘
+```
+
+### 步骤 6: 结果综合
+
+```
+MasterAgent.synthesize_results(results, context)
+            │
+            ▼
+┌───────────────────────────────────────────────────────────┐
+│  合并所有 SubAgent 的报告:                                 │
+│                                                           │
+│  # Financial Analysis Report: Warren Buffett              │
+│                                                           │
+│  ## Holdings Hunter                                       │
+│  [持仓追踪报告]                                            │
+│                                                           │
+│  ## News Analyst                                          │
+│  [相关新闻分析]                                            │
+│                                                           │
+│  ## Recommendation                                        │
+│  [投资建议]                                                │
+└───────────────────────────────────────────────────────────┘
+```
+
+## 🗂️ Planning-with-Files 的核心作用
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                   为什么需要 Planning Files?                 │
+│                                                             │
+│  问题: LLM 的上下文窗口有限，长任务容易"忘记"最初目标         │
+│                                                             │
+│  解决方案: 将重要信息持久化到文件系统                        │
+│                                                             │
+│  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐       │
+│  │ task_plan.md│   │ findings.md │   │ progress.md │       │
+│  │             │   │             │   │             │       │
+│  │ • 任务目标  │   │ • 研究发现  │   │ • 执行日志  │       │
+│  │ • 阶段状态  │   │ • 分析结果  │   │ • 错误记录  │       │
+│  │ • 决策记录  │   │ • API数据   │   │ • 重试追踪  │       │
+│  │ • 错误追踪  │   │             │   │             │       │
+│  └─────────────┘   └─────────────┘   └─────────────┘       │
+│                                                             │
+│  关键规则:                                                  │
+│  • 2-Action Rule: 每2次操作后更新 findings.md               │
+│  • 决策前重读 task_plan.md (注意力操控)                     │
+│  • 所有错误都记录到文件 (避免重复犯错)                       │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## 📝 实际文件示例
+
+执行 `run_track("Warren Buffett")` 后生成的文件：
+
+**task_plan.md:**
+```markdown
+## SubAgent Assignments
+| SubAgent | Task | Status | Retry Count |
+|----------|------|--------|-------------|
+| HoldingsHunter | Track investor holdings | complete | 0 |
+| NewsAnalyst | Find related news | complete | 0 |
+```
+
+**findings.md:**
+```markdown
+### HoldingsHunter Report
+## Holdings Search Results for Warren Buffett
+**Berkshire Hathaway Q4 2024 13F Filing**
+Top holdings: AAPL, BAC, KO, AXP...
+
+### NewsAnalyst Report
+## Web News Search Results
+**Buffett's Latest Moves**...
+```
+
+**progress.md:**
+```markdown
+**[2026-01-18 20:15:30] Phase 2 (WorkingAgent):**
+Step 1 complete: holdings_hunter
+Task: Track investor holdings
+Duration: 5.2s
+
+**[2026-01-18 20:15:36] Phase 2 (WorkingAgent):**
+Step 2 complete: news_analyst
+Task: Find related news
+Duration: 3.1s
+```
+
+这就是整个 claude-skill 风格的 planning-with-files 系统如何协调多个 SubAgent 完成复杂任务的完整流程！

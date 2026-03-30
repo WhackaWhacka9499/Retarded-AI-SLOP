@@ -1,0 +1,12 @@
+build/
+bin/
+*.dll
+*.exe
+*.obj
+*.pdb
+__pycache__/
+*.pyc
+venv/
+.vs/
+.vscode/
+out/

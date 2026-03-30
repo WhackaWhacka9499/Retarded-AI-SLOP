@@ -1,0 +1,23 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:30:12 ===
+
+[16:30:12] ⚡ Using cached scan for 2 files (instant)...
+[16:30:12] ⊖ Skipped 1 files: 1x normal map
+[16:30:12] 🔍 Scan done: 1 to upscale (0.2 MB), 1 skipped | batch size: 200
+[16:30:12] 📦 Batch 1/1 (1 files)...
+[16:30:15] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884612\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774884612\output/0000.png done
+[16:30:15] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:30:15] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[16:30:27] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884612\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774884612\output_pass2/0000.png done
+[16:30:36] ✓ tilefloor016a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:30:36] ✅ Done in 0.4min (0.0/sec) | ✓1 ⊖1 ✗0
+[16:30:36] ──────────────────────────────────────────────────
+[16:30:36] 📊 BATCH STATS
+[16:30:36]   ⏱ Total Time:      0.4 min (24s)
+[16:30:36]   📁 Files:           1 upscaled, 1 skipped, 0 failed
+[16:30:36]   📥 Input Size:      0.2 MB
+[16:30:36]   📤 Output Size:     10.7 MB (63.9x)
+[16:30:36]   ⚡ Avg Per File:    23.6s
+[16:30:36]   🚀 Processing Rate: 0.0/sec
+[16:30:36] ──────────────────────────────────────────────────
+
+=== Completed: 1 success, 1 skipped, 0 failed in 0.4min ===

@@ -1,0 +1,45 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:31:32 ===
+
+[16:31:32] ⚡ Using cached scan for 8 files (instant)...
+[16:31:32] 🔍 Scan done: 8 to upscale (5.7 MB), 0 skipped | batch size: 86
+[16:31:32] 📦 Batch 1/1 (8 files)...
+[16:31:32] [GPU] [Split] Pass 1: 4 normal images (tile=1024)
+[16:31:34] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0000.png done
+[16:31:34] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0002.png done
+[16:31:34] ⚠ GPU: vkAllocateMemory failed -2
+[16:31:35] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0003.png done
+[16:31:35] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0001.png done
+[16:31:40] [GPU] [Split] Pass 2: 4 tall images (tile=512, height>=1024)
+[16:31:46] [GPU] G:\_vtf_scratch\_batch_TALL/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0005.png done
+[16:31:46] [GPU] G:\_vtf_scratch\_batch_TALL/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0004.png done
+[16:31:50] [GPU] G:\_vtf_scratch\_batch_TALL/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0006.png done
+[16:31:50] [GPU] G:\_vtf_scratch\_batch_TALL/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774884692\output/0007.png done
+[16:31:50] ⚡ 8x skip: 6 already at target, 2 need pass 2
+[16:31:50] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:31:50] [GPU] [Split] Pass 1: 1 normal images (tile=1024)
+[16:31:53] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774884692\output_pass2/0000.png done
+[16:31:58] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[16:32:08] [GPU] G:\_vtf_scratch\_batch_TALL/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774884692\output_pass2/0003.png done
+[16:32:11] ✓ metal.vtf: 256x128 → 4096x2048 [AI] (10.7MB)
+[16:32:21] ✓ dsmat1.vtf: 1024x512 → 4096x2048 [AI] (5.3MB)
+[16:32:21] ✓ venwindow1.vtf: 1024x256 → 4096x1024 [AI] (5.3MB)
+[16:32:21] ⚠ sdengine1.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[16:32:32] ✓ dsmat3.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[16:32:32] ✓ ven1.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[16:32:32] ⚠ ven2.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[16:32:32] ✓ ven3.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[16:32:32] ✅ Done in 1.0min (0.1/sec) | ✓8 ⊖0 ✗0
+[16:32:32] ──────────────────────────────────────────────────
+[16:32:32] 📊 BATCH STATS
+[16:32:32]   ⏱ Total Time:      1.0 min (60s)
+[16:32:32]   📁 Files:           8 upscaled, 0 skipped, 0 failed
+[16:32:32]   📥 Input Size:      5.7 MB
+[16:32:32]   📤 Output Size:     117.3 MB (20.5x)
+[16:32:32]   ⚡ Avg Per File:    7.5s
+[16:32:32]   🚀 Processing Rate: 0.1/sec
+[16:32:32] ──────────────────────────────────────────────────
+[16:32:32] ⚠️ CORRUPTION REPORT: 2 file(s) flagged for review:
+[16:32:32]   → sdengine1.vtf
+[16:32:32]   → ven2.vtf
+
+=== Completed: 8 success, 0 skipped, 0 failed in 1.0min ===

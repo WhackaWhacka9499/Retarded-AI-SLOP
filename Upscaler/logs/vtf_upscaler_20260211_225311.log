@@ -1,0 +1,37 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-11 22:53:11 ===
+
+[22:53:11] ⚡ Using cached scan for 13 files (instant)...
+[22:53:11] ⊖ Skipped 1 files: 1x already 4096x4096
+[22:53:11] 🔍 Scan done: 12 to upscale (2.6 MB), 1 skipped | batch size: 200
+[22:53:11] 📦 Batch 1/1 (12 files)...
+[22:53:23] ⚡ 8x skip: 2 already at target, 10 need pass 2
+[22:53:23] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[22:53:38] ⚠ GPU batch 1: VRAM failed — retrying with safe settings (tile=auto, threads=1:1:1)...
+[22:55:15] ✓ GPU batch 1: safe mode succeeded!
+[22:55:16] ⚠ enlistedshoulder.vtf: 256x128 → 4096x2048 [AI] (5.3MB) ⚠️ DARK
+[22:55:16] ⚠ enlistedshoulder5.vtf: 256x128 → 4096x2048 [AI] (5.3MB) ⚠️ DARK
+[22:55:18] ⚠ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ✓ evo_face5.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[22:55:23] ⚠ legs.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ evo_face.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ evo_face1.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ evo_face2.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ evo_face3.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ evo_face4.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ⚠ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[22:55:23] ✅ Done in 2.2min (5.5/min) | ✓12 ⊖1 ✗0
+[22:55:23] ⚠️ CORRUPTION REPORT: 11 file(s) flagged for review:
+[22:55:23]   → enlistedshoulder.vtf
+[22:55:23]   → enlistedshoulder5.vtf
+[22:55:23]   → commanderwolffedc15_d.vtf
+[22:55:23]   → legs.vtf
+[22:55:23]   → evo_face.vtf
+[22:55:23]   → evo_face1.vtf
+[22:55:23]   → evo_face2.vtf
+[22:55:23]   → evo_face3.vtf
+[22:55:23]   → evo_face4.vtf
+[22:55:23]   → enlisted.vtf
+[22:55:23]   → enlisted1.vtf
+
+=== Completed: 12 success, 1 skipped, 0 failed in 2.2min ===

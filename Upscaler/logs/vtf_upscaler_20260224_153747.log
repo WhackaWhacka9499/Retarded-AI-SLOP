@@ -1,0 +1,72 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-24 15:37:47 ===
+
+[15:37:47] ⚡ Using cached scan for 24 files (instant)...
+[15:37:47] 🔍 Scan done: 24 to upscale (1.1 MB), 0 skipped | batch size: 200
+[15:37:47] 📦 Batch 1/1 (24 files)...
+[15:37:47] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[15:37:47] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[15:37:47] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[15:37:47] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[15:37:47] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[15:37:47] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[15:37:47] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[15:37:47] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0001.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0000.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0003.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0002.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0005.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0004.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0007.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0006.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0009.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0008.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0011.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0011.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0010.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0012.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0012.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0013.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0013.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0014.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0014.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0015.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0015.png done
+[15:37:47] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0016.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0016.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0017.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0017.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0018.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0018.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0019.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0019.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0020.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0020.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0021.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0021.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0022.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0022.png done
+[15:37:48] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947467\input/0023.bmp -> G:\_vtf_scratch\vtf_out_1_1771947467\output/0023.png done
+[15:37:48] ✓ sword1.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ⚠ sword1_glow.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:37:48] ✓ sword2.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ sword2_glow.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ epicsword.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ epicsword_glow.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ theswordswill.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ⚠ theswordswill_glow.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:37:48] ✓ marble.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ⚠ sharptip.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:37:48] ✓ innerouter_glow.vtf: 32x256 → 512x4096 [AI] (1.3MB)
+[15:37:48] ✓ innerouter.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ dawnbreaker.vtf: 64x512 → 512x4096 [AI] (2.7MB)
+[15:37:48] ⚠ dawnbreaker_glow.vtf: 64x512 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:37:48] ✓ cult.vtf: 64x512 → 512x4096 [AI] (2.7MB)
+[15:37:48] ⚠ cult_glow.vtf: 64x512 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:37:48] ✓ swirl.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ pulse.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:48] ✓ lightning.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:49] ✓ permafrost.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:49] ✓ saw_tooth.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:49] ⚠ darksaber.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ DARK
+[15:37:49] ⚠ dragonflame.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:37:49] ✓ amplified.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:37:49] ✅ Done in 0.0min (11.6/sec) | ✓24 ⊖0 ✗0
+[15:37:49] ⚠️ CORRUPTION REPORT: 7 file(s) flagged for review:
+[15:37:49]   → sword1_glow.vtf
+[15:37:49]   → theswordswill_glow.vtf
+[15:37:49]   → sharptip.vtf
+[15:37:49]   → dawnbreaker_glow.vtf
+[15:37:49]   → cult_glow.vtf
+[15:37:49]   → darksaber.vtf
+[15:37:49]   → dragonflame.vtf
+
+=== Completed: 24 success, 0 skipped, 0 failed in 0.0min ===

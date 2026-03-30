@@ -1,0 +1,73 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 18:02:02 ===
+
+[18:02:02] ⚡ Using cached scan for 22 files (instant)...
+[18:02:02] ⊖ Skipped 1 files: 1x normal map
+[18:02:02] 🔍 Scan done: 21 to upscale (4.0 MB), 1 skipped | batch size: 200
+[18:02:02] 📦 Batch 1/1 (21 files)...
+[18:02:02] [GPU] [Split] Pass 1: 20 normal images (tile=1024)
+[18:02:04] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0001.png done
+[18:02:04] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0000.png done
+[18:02:04] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0003.png done
+[18:02:04] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0002.png done
+[18:02:04] [GPU] G:\_vtf_scratch\_batch_NORMAL/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0005.png done
+[18:02:04] [GPU] G:\_vtf_scratch\_batch_NORMAL/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0004.png done
+[18:02:05] [GPU] G:\_vtf_scratch\_batch_NORMAL/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0007.png done
+[18:02:05] [GPU] G:\_vtf_scratch\_batch_NORMAL/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0006.png done
+[18:02:06] [GPU] G:\_vtf_scratch\_batch_NORMAL/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0009.png done
+[18:02:06] [GPU] G:\_vtf_scratch\_batch_NORMAL/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0008.png done
+[18:02:07] [GPU] G:\_vtf_scratch\_batch_NORMAL/0011.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0011.png done
+[18:02:07] [GPU] G:\_vtf_scratch\_batch_NORMAL/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0010.png done
+[18:02:08] [GPU] G:\_vtf_scratch\_batch_NORMAL/0013.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0013.png done
+[18:02:08] [GPU] G:\_vtf_scratch\_batch_NORMAL/0012.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0012.png done
+[18:02:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0015.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0015.png done
+[18:02:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0014.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0014.png done
+[18:02:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0017.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0017.png done
+[18:02:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0016.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0016.png done
+[18:02:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0019.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0019.png done
+[18:02:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0018.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0018.png done
+[18:02:16] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[18:02:20] [GPU] G:\_vtf_scratch\_batch_TALL/0020.bmp -> G:\_vtf_scratch\vtf_out_1_1774890122\output/0020.png done
+[18:02:20] ⚡ 8x skip: 1 already at target, 20 need pass 2
+[18:02:20] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[18:02:20] [GPU] [Split] Pass 2: 20 tall images (tile=512, height>=1024)
+[18:02:26] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890122\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774890122\output_pass2/0000.png done
+[18:02:27] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890122\input_pass2/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774890122\output_pass2/0001.png done
+[18:02:30] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890122\input_pass2/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774890122\output_pass2/0003.png done
+[18:02:31] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890122\input_pass2/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774890122\output_pass2/0002.png done
+[18:02:34] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890122\input_pass2/0005.png -> G:\_vtf_scratch\vtf_batch_1_1774890122\output_pass2/0005.png done
+[18:02:35] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890122\input_pass2/0004.png -> G:\_vtf_scratch\vtf_batch_1_1774890122\output_pass2/0004.png done
+[18:04:37] [GPU] ⚠ GPU process hung (no output for 120s) — killed
+[18:04:38] ⚠ GPU batch 1: partial success (7 done, 14 failed)
+[18:04:49] ✓ ceiling_1_01.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[18:05:07] ✓ floor_12.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[18:05:07] ✓ Floor_1_03.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[18:05:07] ✓ Floor_1_06.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[18:05:07] ✓ wood_floor_3.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[18:05:07] ✓ wood_floor_6.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[18:05:07] ✗ Carpet6.vtf: Upscaled output not found
+[18:05:07] ✗ Floor_1_18.vtf: Upscaled output not found
+[18:05:07] ✗ 512.vtf: Upscaled output not found
+[18:05:07] ✗ black.vtf: Upscaled output not found
+[18:05:07] ✗ White1.vtf: Upscaled output not found
+[18:05:07] ✗ carpetl5.vtf: Upscaled output not found
+[18:05:07] ✗ Carpet_1_01.vtf: Upscaled output not found
+[18:05:07] ✗ Grass_1_05.vtf: Upscaled output not found
+[18:05:07] ✗ Wood_1_02.vtf: Upscaled output not found
+[18:05:07] ✗ AmsterDam.vtf: Upscaled output not found
+[18:05:07] ✗ AntiqueSilver.vtf: Upscaled output not found
+[18:05:07] ✗ Mink.vtf: Upscaled output not found
+[18:05:07] ✗ MysticBlack.vtf: Upscaled output not found
+[18:05:07] ✗ glass.vtf: Upscaled output not found
+[18:05:08] ✓ glass_break.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[18:05:08] ✅ Done in 3.1min (2.3/min) | ✓7 ⊖1 ✗14
+[18:05:08] ──────────────────────────────────────────────────
+[18:05:08] 📊 BATCH STATS
+[18:05:08]   ⏱ Total Time:      3.1 min (186s)
+[18:05:08]   📁 Files:           7 upscaled, 1 skipped, 14 failed
+[18:05:08]   📥 Input Size:      4.0 MB
+[18:05:08]   📤 Output Size:     85.3 MB (21.1x)
+[18:05:08]   ⚡ Avg Per File:    26.6s
+[18:05:08]   🚀 Processing Rate: 2.3/min
+[18:05:08] ──────────────────────────────────────────────────
+
+=== Completed: 7 success, 1 skipped, 14 failed in 3.1min ===

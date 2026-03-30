@@ -1,0 +1,9 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:33:56 ===
+
+[16:33:56] ⚡ Using cached scan for 8 files (instant)...
+[16:33:56] ⊖ Smart skip: 7 files already processed (.bak backup found)
+[16:33:56] ⊖ Skipped 8 files: 7x .bak exists, 1x already 4096x4096
+[16:33:56] 🔍 Scan done: 0 to upscale (0.0 MB), 8 skipped | batch size: 200
+[16:33:56] ✅ Done in 0.0min (0.0/sec) | ✓0 ⊖8 ✗0
+
+=== Completed: 0 success, 8 skipped, 0 failed in 0.0min ===

@@ -1,0 +1,27 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 17:48:24 ===
+
+[17:48:24] � Using pre-scan cache (instant start)...
+[17:48:24] ⊖ Skipped 2 files: 1x already 4096x4096, 1x 4096x2048
+[17:48:24] 🔍 Scan done: 11 to upscale (2.0 MB), 2 skipped | batch size: 200
+[17:48:24] 📦 Batch 1/1 (11 files)...
+[17:48:25]    ↳ Quarantined 11 alpha channel file(s) from GPU input
+[17:48:25]    Pass 1/2: 4x AI upscale (11 files)...
+[17:48:25]    [DEBUG] in_dir BMPs: {'0000.bmp': '768KB', '0001.bmp': '192KB', '0002.bmp': '192KB', '0003.bmp': '3072KB', '0004.bmp': '3072KB'} ...
+[17:48:35]    [DEBUG] pass1_dir outputs: {'0000.webp': '2723KB', '0001.webp': '654KB', '0002.webp': '642KB', '0003.webp': '1KB', '0004.webp': '1KB'} ...
+[17:48:36]    ⚡ Pass 1 done: 2 already at target, 9 need pass 2
+[17:48:36]    Pass 2/2: 4x AI upscale (9 files)...
+[17:48:48]    [DEBUG] out_dir has 11 files: {'0000.webp': '1KB', '0001.webp': '1KB', '0002.webp': '1KB', '0003.webp': '1KB', '0004.webp': '1KB', '0005.webp': '1KB', '0006.webp': '1KB', '0007.webp': '1KB', '0008.webp': '0KB', '0009.webp': '1KB'}
+[17:48:48]    [DEBUG] file_meta keys: ['0000.bmp', '0001.bmp', '0002.bmp', '0003.bmp', '0004.bmp', '0005.bmp', '0006.bmp', '0007.bmp', '0008.bmp', '0009.bmp']
+[17:48:48] ✗ arc_enlisted_gear1.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0000.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\arc_enlisted_gear1.vtf]
+[17:48:48] ✗ cody_visor.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0001.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\cody_visor.vtf]
+[17:48:48] ✗ cody_visor1.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0002.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\cody_visor1.vtf]
+[17:48:48] ✗ enlisted.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0003.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\enlisted.vtf]
+[17:48:48] ✗ enlisted1.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0004.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\enlisted1.vtf]
+[17:48:48] ✗ feather.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0005.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\feather.vtf]
+[17:48:48] ✗ hair.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0006.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\hair.vtf]
+[17:48:48] ✗ pauldron.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0007.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\pauldron.vtf]
+[17:48:48] ✗ phase2helmet.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0008.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\phase2helmet.vtf]
+[17:48:48] ✗ skirt.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0009.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\skirt.vtf]
+[17:48:48] ✗ tex_0010_0.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0010.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\zendo\tukk\tex_0010_0.vtf]
+
+=== Completed: 0 success, 2 skipped, 11 failed in 0.4min ===

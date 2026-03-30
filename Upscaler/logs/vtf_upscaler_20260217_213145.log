@@ -1,0 +1,40 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 21:31:45 ===
+
+[21:31:45] 🔍 Pre-flight scanning 5 files...
+[21:31:45] ⊖ Skipped 1 files: 1x mask texture
+[21:31:45] 🔍 Scan done: 4 to upscale (0.7 MB), 1 skipped | batch size: 100
+[21:31:45] 📦 Batch 1/1 (4 files)...
+[21:31:45] [GPU] [Split] Pass 1: 3 normal images (tile=1024)
+[21:31:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:31:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:31:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:31:45] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:31:45] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:31:45] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:31:45] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:31:45] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:31:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_batch_1_1771363905\output/0001.png done
+[21:31:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_batch_1_1771363905\output/0000.png done
+[21:31:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_batch_1_1771363905\output/0002.png done
+[21:31:46] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[21:31:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:31:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:31:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:31:46] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:31:46] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:31:46] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:31:46] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:31:46] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:31:48] Cancelling...
+[21:31:49] No process history found for this folder.
+[21:31:51] [GPU] G:\_vtf_scratch\_batch_TALL/0003.bmp -> G:\_vtf_scratch\vtf_batch_1_1771363905\output/0003.png done
+[21:31:53] ✓ Scan: 5 files (19.4 MB), 0 to upscale, 5 will skip
+[21:31:54] ✓ lightsg.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:31:54] ⚠ rivets.vtf: 128x128 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[21:31:54] ✓ blinky_lights.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[21:32:07] ✓ metal_base_grey.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:32:07] ✅ Done in 0.4min (0.2/sec) | ✓4 ⊖1 ✗0
+[21:32:07] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[21:32:07]   → rivets.vtf
+
+=== Completed: 4 success, 1 skipped, 0 failed in 0.4min ===

@@ -1,0 +1,22 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 18:29:57 ===
+
+[18:29:57] � Using pre-scan cache (instant start)...
+[18:29:57] 🔍 Scan done: 11 to upscale (1.7 MB), 0 skipped | batch size: 200
+[18:29:57] 📦 Batch 1/1 (11 files)...
+[18:29:57]    ↳ Quarantined 11 alpha channel file(s) from GPU input
+[18:29:57]    Pass 1/2: 4x AI upscale (11 files)...
+[18:30:07]    ⚡ Pass 1 done: 2 already at target, 9 need pass 2
+[18:30:07]    Pass 2/2: 4x AI upscale (9 files)...
+[18:30:21] ✗ 327th shoulder.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0000.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\327th shoulder.vtf]
+[18:30:21] ✗ arf1.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0001.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\arf1.vtf]
+[18:30:21] ✗ arf2.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0002.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\arf2.vtf]
+[18:30:21] ✗ arf3.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0003.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\arf3.vtf]
+[18:30:21] ✗ cap.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0004.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\cap.vtf]
+[18:30:21] ✗ coat.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0005.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\coat.vtf]
+[18:30:21] ✗ enlisted.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0006.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\enlisted.vtf]
+[18:30:21] ✗ guns.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0007.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\guns.vtf]
+[18:30:21] ✗ officer.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0008.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\officer.vtf]
+[18:30:21] ✗ pauldron.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0009.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\pauldron.vtf]
+[18:30:21] ✗ rank.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0010.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\navy\arf\rank.vtf]
+
+=== Completed: 0 success, 0 skipped, 11 failed in 0.4min ===

@@ -1,0 +1,9 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-11 20:37:00 ===
+
+[20:37:00] 🔍 Pre-flight scanning 13 files...
+[20:37:00] ⊖ Skipped 2 files: 1x already 4096x4096, 1x 4096x2048
+[20:37:00] 🔍 Scan done: 11 to upscale (2.6 MB), 2 skipped | batch size: 200
+[20:37:00] 📦 Batch 1/1 (11 files)...
+[20:37:11] ⚠ GPU batch 1: VRAM allocation failed! Output may be corrupted. Try reducing tile_size or batch_size.
+
+=== Completed: 0 success, 2 skipped, 11 failed in 0.2min ===

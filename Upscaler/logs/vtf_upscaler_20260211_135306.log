@@ -1,0 +1,6 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 13:53:06 ===
+
+[13:53:06] � Using pre-scan cache (instant start)...
+[13:53:06] ⊖ Skipped 157 files: 37x already 4096x4096, 20x 4096x2048, 9x mask texture, 1x 2048x4096
+[13:53:06] 🔍 Scan done: 579 to upscale (117.7 MB), 157 skipped | batch size: 200
+[13:53:06] 📦 Batch 1/3 (200 files)...

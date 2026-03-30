@@ -1,0 +1,247 @@
+name: Build
+on:
+  push:
+    branches: [mane]
+  pull_request:
+    branches: [mane]
+  workflow_dispatch:
+    # nothing here
+
+env:
+  BUILD_DIR: '${{github.workspace}}/build'
+
+jobs:
+  build-windows:
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+    runs-on: windows-2022
+    defaults:
+      run:
+        shell: cmd
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+
+      - name: Set up MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.8.3'
+          host: 'windows'
+          target: 'desktop'
+          arch: 'win64_msvc2022_64'
+          cache: true
+
+      - name: Configure CMake
+        run: cmake -G "Ninja" -B "${{env.BUILD_DIR}}" -DCMAKE_BUILD_TYPE=${{matrix.build_type}} -DCPACK_GENERATOR=NSIS -DQT_BASEDIR="${{env.QT_ROOT_DIR}}" -DMARETF_USE_LTO=ON -DMARETF_BUILD_INSTALLER=ON
+
+      - name: Build Binaries
+        working-directory: '${{env.BUILD_DIR}}'
+        run: |
+          cmake --build . --config ${{matrix.build_type}} -t maretf -- -j%NUMBER_OF_PROCESSORS%
+          cmake --build . --config ${{matrix.build_type}} -t maretf_gui -- -j%NUMBER_OF_PROCESSORS%
+
+      - name: Upload Standalone
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Windows-Standalone-msvc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/LICENSE
+            ${{env.BUILD_DIR}}/maretf.exe
+            ${{env.BUILD_DIR}}/maretf_gui.exe
+            ${{env.BUILD_DIR}}/*.dll
+            ${{env.BUILD_DIR}}/platforms/*.dll
+            ${{env.BUILD_DIR}}/styles/*.dll
+          retention-days: 7
+
+      - name: Create Installer
+        working-directory: ${{env.BUILD_DIR}}
+        run: cpack
+
+      - name: Upload Installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Windows-Installer-msvc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/MareTF-*-win64.exe
+          retention-days: 7
+
+      - name: Create Standalone Compatibility [build_type:Release]
+        if: ${{matrix.build_type == 'Release'}}
+        working-directory: ${{env.BUILD_DIR}}
+        run: |
+          curl -L -o "__qt__.7z" "https://github.com/crystalidea/qt6windows7/releases/download/v6.8.3/qt6_x64_to_run_on_windows7.7z"
+          7z x __qt__.7z -o__qt__ -y
+          REM Overwrite the already copied binaries for standalone version
+          xcopy /y __qt__\platforms\qwindows.dll            platforms\qwindows.dll
+          xcopy /y /c __qt__\styles\qmodernwindowsstyle.dll styles\qmodernwindowsstyle.dll
+          xcopy /y /c __qt__\styles\qwindowsvistastyle.dll  styles\qwindowsvistastyle.dll
+          xcopy /y __qt__\Qt6Core.dll                       Qt6Core.dll
+          xcopy /y __qt__\Qt6Gui.dll                        Qt6Gui.dll
+          xcopy /y __qt__\Qt6Widgets.dll                    Qt6Widgets.dll
+          REM Overwrite the source of the binaries for installer version
+          xcopy /y __qt__\platforms\qwindows.dll            "${{env.QT_ROOT_DIR}}\plugins\platforms\qwindows.dll"
+          xcopy /y /c __qt__\styles\qmodernwindowsstyle.dll "${{env.QT_ROOT_DIR}}\plugins\styles\qmodernwindowsstyle.dll"
+          xcopy /y /c __qt__\styles\qwindowsvistastyle.dll  "${{env.QT_ROOT_DIR}}\plugins\styles\qwindowsvistastyle.dll"
+          xcopy /y __qt__\Qt6Core.dll                       "${{env.QT_ROOT_DIR}}\bin\Qt6Core.dll"
+          xcopy /y __qt__\Qt6Gui.dll                        "${{env.QT_ROOT_DIR}}\bin\Qt6Gui.dll"
+          xcopy /y __qt__\Qt6Widgets.dll                    "${{env.QT_ROOT_DIR}}\bin\Qt6Widgets.dll"
+
+      - name: Upload Standalone Compatibility [build_type:Release]
+        if: ${{matrix.build_type == 'Release'}}
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Windows-Standalone-Compatibility-msvc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/LICENSE
+            ${{env.BUILD_DIR}}/maretf.exe
+            ${{env.BUILD_DIR}}/maretf_gui.exe
+            ${{env.BUILD_DIR}}/*.dll
+            ${{env.BUILD_DIR}}/platforms/*.dll
+            ${{env.BUILD_DIR}}/styles/*.dll
+          retention-days: 7
+
+      - name: Create Compatibility Installer [build_type:Release]
+        if: ${{matrix.build_type == 'Release'}}
+        working-directory: ${{env.BUILD_DIR}}
+        run: cpack
+
+      - name: Upload Compatibility Installer [build_type:Release]
+        if: ${{matrix.build_type == 'Release'}}
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Windows-Installer-Compatibility-msvc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/MareTF-*-win64.exe
+          retention-days: 7
+
+      - name: Upload Standalone PDBs
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Windows-PDBs-msvc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/maretf.pdb
+            ${{env.BUILD_DIR}}/maretf_gui.pdb
+          retention-days: 7
+
+  build-linux:
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+        cpack_generator: [DEB]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+
+      - name: Install Necessary Packages
+        run: sudo apt update && sudo apt install -y chrpath
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.4.2'
+          host: 'linux'
+          target: 'desktop'
+          arch: 'gcc_64'
+          cache: true
+
+      - name: Configure CMake
+        run: cmake -G "Ninja" -B "${{env.BUILD_DIR}}" -DCMAKE_C_COMPILER="gcc" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_BUILD_TYPE=${{matrix.build_type}} -DCPACK_GENERATOR=${{matrix.cpack_generator}} -DQT_BASEDIR="${{env.QT_ROOT_DIR}}" -DMARETF_USE_LTO=ON -DMARETF_BUILD_INSTALLER=ON
+
+      - name: Build Binaries
+        working-directory: '${{env.BUILD_DIR}}'
+        run: |
+          cmake --build . --config ${{matrix.build_type}} -t maretf -- -j$(nproc)
+          cmake --build . --config ${{matrix.build_type}} -t maretf_gui -- -j$(nproc)
+          
+      - name: Fixup Binaries
+        run: |
+          chmod +x '${{env.BUILD_DIR}}/maretf_gui'
+
+          # runpath cleanup for the Qt binaries. These are (mostly) wrong, leading to crashes
+          for f in ${{env.BUILD_DIR}}/*.so*; do
+            echo "Fixing $f..."
+            chrpath -r '$ORIGIN' "$f"
+          done
+          for f in ${{env.BUILD_DIR}}/*/*.so*; do
+            echo "Fixing $f..."
+            chrpath -r '$ORIGIN/..' "$f"
+          done
+
+      - name: Upload Standalone [cpack_generator:DEB]
+        if: ${{matrix.cpack_generator == 'DEB'}}
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Linux-Standalone-gcc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/LICENSE
+            ${{env.BUILD_DIR}}/maretf
+            ${{env.BUILD_DIR}}/maretf_gui
+            ${{env.BUILD_DIR}}/*.so*
+            ${{env.BUILD_DIR}}/egldeviceintegrations/*.so*
+            ${{env.BUILD_DIR}}/platforminputcontexts/*.so*
+            ${{env.BUILD_DIR}}/platforms/*.so*
+            ${{env.BUILD_DIR}}/platformthemes/*.so*
+            ${{env.BUILD_DIR}}/wayland-decoration-client/*.so*
+            ${{env.BUILD_DIR}}/wayland-graphics-integration-client/*.so*
+            ${{env.BUILD_DIR}}/wayland-shell-integration/*.so*
+            ${{env.BUILD_DIR}}/xcbglintegrations/*.so*
+          retention-days: 7
+
+      - name: Create Installer
+        working-directory: ${{env.BUILD_DIR}}
+        run: cpack
+
+      - name: Upload Installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: 'MareTF-Linux-${{matrix.cpack_generator}}-Installer-gcc-${{matrix.build_type}}'
+          path: |
+            ${{env.BUILD_DIR}}/MareTF-*-Linux.deb
+          retention-days: 7
+
+  deploy:
+    needs:
+      - build-windows
+      - build-linux
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Artifacts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const artifacts = (await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: ${{github.run_id}},
+            })).data.artifacts;
+            const filteredArtifacts = artifacts.filter(artifact => artifact.name.includes("Release"));
+            console.log(`Found ${artifacts.length} artifacts - ${filteredArtifacts.length} qualify for upload.`);
+            for (const artifact of filteredArtifacts) {
+              console.log(`Downloading "${artifact.name}.zip"...`);
+              let download = await github.rest.actions.downloadArtifact({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                artifact_id: artifact.id,
+                archive_format: 'zip',
+              });
+              let fs = require('fs');
+              fs.writeFileSync(`${{github.workspace}}/${artifact.name}.zip`, Buffer.from(download.data));
+            }
+            console.log("Artifact download complete!");
+
+      - name: Upload Release
+        uses: actions/upload-artifact@v4
+        with:
+          name: Release-Artifacts
+          path: |
+            ${{github.workspace}}/*.zip
+          retention-days: 7

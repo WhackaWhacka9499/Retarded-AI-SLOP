@@ -1,0 +1,107 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 23:03:55 ===
+
+[23:03:55] ⚡ Using cached scan for 29 files (instant)...
+[23:03:55] 🔍 Scan done: 29 to upscale (10.3 MB), 0 skipped | batch size: 200
+[23:03:55] 📦 Batch 1/1 (29 files)...
+[23:03:55] [GPU] [Split] Pass 1: 28 normal images (tile=1024)
+[23:03:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:03:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:03:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:03:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:03:55] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:03:55] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:03:55] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:03:55] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:03:56] [GPU] R:\_batch_NORMAL/0000.bmp -> R:\vtf_batch_1_1771369435\output/0000.png done
+[23:03:56] ⚠ GPU: vkAllocateMemory failed -2
+[23:03:56] [GPU] R:\_batch_NORMAL/0002.bmp -> R:\vtf_batch_1_1771369435\output/0002.png done
+[23:03:57] [GPU] R:\_batch_NORMAL/0001.bmp -> R:\vtf_batch_1_1771369435\output/0001.png done
+[23:03:57] [GPU] R:\_batch_NORMAL/0004.bmp -> R:\vtf_batch_1_1771369435\output/0004.png done
+[23:03:57] [GPU] R:\_batch_NORMAL/0003.bmp -> R:\vtf_batch_1_1771369435\output/0003.png done
+[23:03:58] [GPU] R:\_batch_NORMAL/0006.bmp -> R:\vtf_batch_1_1771369435\output/0006.png done
+[23:03:58] [GPU] R:\_batch_NORMAL/0005.bmp -> R:\vtf_batch_1_1771369435\output/0005.png done
+[23:03:58] [GPU] R:\_batch_NORMAL/0008.bmp -> R:\vtf_batch_1_1771369435\output/0008.png done
+[23:03:58] [GPU] R:\_batch_NORMAL/0007.bmp -> R:\vtf_batch_1_1771369435\output/0007.png done
+[23:03:59] [GPU] R:\_batch_NORMAL/0009.bmp -> R:\vtf_batch_1_1771369435\output/0009.png done
+[23:03:59] [GPU] R:\_batch_NORMAL/0010.bmp -> R:\vtf_batch_1_1771369435\output/0010.png done
+[23:04:00] [GPU] R:\_batch_NORMAL/0012.bmp -> R:\vtf_batch_1_1771369435\output/0012.png done
+[23:04:00] [GPU] R:\_batch_NORMAL/0011.bmp -> R:\vtf_batch_1_1771369435\output/0011.png done
+[23:04:00] [GPU] R:\_batch_NORMAL/0014.bmp -> R:\vtf_batch_1_1771369435\output/0014.png done
+[23:04:00] [GPU] R:\_batch_NORMAL/0013.bmp -> R:\vtf_batch_1_1771369435\output/0013.png done
+[23:04:01] [GPU] R:\_batch_NORMAL/0016.bmp -> R:\vtf_batch_1_1771369435\output/0016.png done
+[23:04:01] [GPU] R:\_batch_NORMAL/0015.bmp -> R:\vtf_batch_1_1771369435\output/0015.png done
+[23:04:01] [GPU] R:\_batch_NORMAL/0018.bmp -> R:\vtf_batch_1_1771369435\output/0018.png done
+[23:04:02] [GPU] R:\_batch_NORMAL/0017.bmp -> R:\vtf_batch_1_1771369435\output/0017.png done
+[23:04:02] [GPU] R:\_batch_NORMAL/0020.bmp -> R:\vtf_batch_1_1771369435\output/0020.png done
+[23:04:02] [GPU] R:\_batch_NORMAL/0019.bmp -> R:\vtf_batch_1_1771369435\output/0019.png done
+[23:04:03] [GPU] R:\_batch_NORMAL/0022.bmp -> R:\vtf_batch_1_1771369435\output/0022.png done
+[23:04:03] [GPU] R:\_batch_NORMAL/0021.bmp -> R:\vtf_batch_1_1771369435\output/0021.png done
+[23:04:03] [GPU] R:\_batch_NORMAL/0024.bmp -> R:\vtf_batch_1_1771369435\output/0024.png done
+[23:04:04] [GPU] R:\_batch_NORMAL/0023.bmp -> R:\vtf_batch_1_1771369435\output/0023.png done
+[23:04:04] [GPU] R:\_batch_NORMAL/0025.bmp -> R:\vtf_batch_1_1771369435\output/0025.png done
+[23:04:04] [GPU] R:\_batch_NORMAL/0026.bmp -> R:\vtf_batch_1_1771369435\output/0026.png done
+[23:04:04] [GPU] R:\_batch_NORMAL/0027.bmp -> R:\vtf_batch_1_1771369435\output/0027.png done
+[23:04:10] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[23:04:10] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:04:10] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:04:10] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:04:10] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:04:10] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:04:10] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:04:10] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:04:10] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:04:11] [GPU] R:\_batch_TALL/0028.bmp -> R:\vtf_batch_1_1771369435\output/0028.png done
+[23:04:12] ⚠ GPU batch 1: 13 corrupted outputs detected — re-processing with safe settings...
+[23:04:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:04:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:04:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:04:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:04:15] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:04:15] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:04:15] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:04:15] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:04:17] [GPU] R:\vtf_batch_1_1771369435\safe_input/0006.bmp -> R:\vtf_batch_1_1771369435\output/0006.png done
+[23:04:17] [GPU] R:\vtf_batch_1_1771369435\safe_input/0004.bmp -> R:\vtf_batch_1_1771369435\output/0004.png done
+[23:04:17] [GPU] R:\vtf_batch_1_1771369435\safe_input/0008.bmp -> R:\vtf_batch_1_1771369435\output/0008.png done
+[23:04:17] [GPU] R:\vtf_batch_1_1771369435\safe_input/0002.bmp -> R:\vtf_batch_1_1771369435\output/0002.png done
+[23:04:17] [GPU] R:\vtf_batch_1_1771369435\safe_input/0012.bmp -> R:\vtf_batch_1_1771369435\output/0012.png done
+[23:04:18] [GPU] R:\vtf_batch_1_1771369435\safe_input/0010.bmp -> R:\vtf_batch_1_1771369435\output/0010.png done
+[23:04:18] [GPU] R:\vtf_batch_1_1771369435\safe_input/0016.bmp -> R:\vtf_batch_1_1771369435\output/0016.png done
+[23:04:18] [GPU] R:\vtf_batch_1_1771369435\safe_input/0014.bmp -> R:\vtf_batch_1_1771369435\output/0014.png done
+[23:04:18] [GPU] R:\vtf_batch_1_1771369435\safe_input/0020.bmp -> R:\vtf_batch_1_1771369435\output/0020.png done
+[23:04:18] [GPU] R:\vtf_batch_1_1771369435\safe_input/0024.bmp -> R:\vtf_batch_1_1771369435\output/0024.png done
+[23:04:19] [GPU] R:\vtf_batch_1_1771369435\safe_input/0018.bmp -> R:\vtf_batch_1_1771369435\output/0018.png done
+[23:04:19] [GPU] R:\vtf_batch_1_1771369435\safe_input/0026.bmp -> R:\vtf_batch_1_1771369435\output/0026.png done
+[23:04:19] [GPU] R:\vtf_batch_1_1771369435\safe_input/0022.bmp -> R:\vtf_batch_1_1771369435\output/0022.png done
+[23:04:20] ✓ GPU batch 1: 13 files re-processed with safe settings
+[23:04:20] ✓ cor_skyscene_fog.vtf: 16x256 → 256x4096 [AI] (5.3MB)
+[23:04:21] ✓ planets_alderaan.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_balmorra.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_belsavis.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_corellia.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_coruscant.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_coruscant_nrm.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_dromund_kass.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_hoth.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_hoth_nrm.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_hutta.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_ilum.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_ilum_nrm.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_korriban.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_nar_shadda.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_ord_mantell.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_quesh.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_taris.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_taris_nrm.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_tatooine.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_tatooine_nrm.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_tython.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_uphrades.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ planets_voss.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:21] ✓ cor_skyscene_horizon.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:22] ✓ nar_skyscene_horizon.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:22] ✓ cor_skyscene_building.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:22] ✓ cor_skyscene_building_sun.vtf: 1024x512 → 4096x2048 [AI] (42.7MB)
+[23:04:22] ✓ cor_skyscene_plane.vtf: 1024x1024 → 4096x4096 [AI] (85.3MB)
+
+=== Completed: 29 success, 0 skipped, 0 failed in 0.5min ===

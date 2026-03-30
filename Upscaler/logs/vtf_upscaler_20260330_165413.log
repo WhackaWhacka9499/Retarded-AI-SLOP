@@ -1,0 +1,21 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:54:13 ===
+
+[16:54:13] ⚡ Using cached scan for 1 files (instant)...
+[16:54:13] 🔍 Scan done: 1 to upscale (0.2 MB), 0 skipped | batch size: 200
+[16:54:13] 📦 Batch 1/1 (1 files)...
+[16:54:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886053\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774886053\output/0000.png done
+[16:54:14] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:54:15] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886053\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774886053\output_pass2/0000.png done
+[16:54:15] ✓ tracklight2.vtf: 512x64 → 4096x512 [AI] (10.7MB)
+[16:54:15] ✅ Done in 0.0min (0.4/sec) | ✓1 ⊖0 ✗0
+[16:54:15] ──────────────────────────────────────────────────
+[16:54:15] 📊 BATCH STATS
+[16:54:15]   ⏱ Total Time:      0.0 min (3s)
+[16:54:15]   📁 Files:           1 upscaled, 0 skipped, 0 failed
+[16:54:15]   📥 Input Size:      0.2 MB
+[16:54:15]   📤 Output Size:     10.7 MB (64.0x)
+[16:54:15]   ⚡ Avg Per File:    2.5s
+[16:54:15]   🚀 Processing Rate: 0.4/sec
+[16:54:15] ──────────────────────────────────────────────────
+
+=== Completed: 1 success, 0 skipped, 0 failed in 0.0min ===

@@ -1,0 +1,1461 @@
+ALPHA HEALTH REPORT (scanned: 2026-02-21 15:18:09)
+Total files: 11164
+Broken alpha: 2881
+  Fixable: 1124
+  Orig also white (NOT actually broken): 1609
+  No original found: 148
+
+=== NO ORIGINAL SOURCE FOUND (148 files) ===
+
+[galactic/map] (31 files)
+  galactic/map/glass/glass.vtf
+  galactic/map/glass/glass_break.vtf
+  galactic/map/walls/bunkpanels.vtf
+  galactic/map/walls/bunkpanels_n.vtf
+  galactic/map/walls/hallway.vtf
+  galactic/map/walls/hallway_bunks.vtf
+  galactic/map/walls/hallway_dark.vtf
+  galactic/map/walls/hallway_modules.vtf
+  galactic/map/walls/hallway_n.vtf
+  galactic/map/walls/hallway_tr.vtf
+  galactic/map/walls/patchpanel_alt.vtf
+  galactic/map/walls/patchpanel_normal.vtf
+  galactic/map/walls/revised/floor_dark.vtf
+  galactic/map/walls/revised/floor_normal.vtf
+  galactic/map/walls/revised/longpanels.vtf
+  galactic/map/walls/revised/longpanels_normal.vtf
+  galactic/map/walls/revised/patch_blocky.vtf
+  galactic/map/walls/revised/patch_blocky_dark.vtf
+  galactic/map/walls/revised/patch_blocky_normal.vtf
+  galactic/map/walls/revised/patchpanel_alt.vtf
+  galactic/map/walls/revised/patchpanel_normal.vtf
+  galactic/map/walls/revised/wall_panels.vtf
+  galactic/map/walls/revised/wall_panels2.vtf
+  galactic/map/walls/revised/wall_panels2_normal.vtf
+  galactic/map/walls/revised/wall_panels3.vtf
+  galactic/map/walls/revised/wall_panels3_normal.vtf
+  galactic/map/walls/revised/wall_panels_normal.vtf
+  galactic/map/walls/swwall1.vtf
+  galactic/map/walls/swwall3.vtf
+  galactic/map/walls/swwall4.vtf
+  galactic/map/walls/swwall7.vtf
+
+[models/props_abandoned] (18 files)
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_blue.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_cyan.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_green.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_multi.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_orange.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_pink.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_purple.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_huge_yellow.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_blue.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_cyan.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_green.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_multi.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_orange.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_pink.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_purple.vtf
+  models/props_abandoned/crystals/crystal_default/crystal_default_small_yellow.vtf
+
+[models/props] (6 files)
+  models/props/de_inferno/bushgreen.vtf
+  models/props/de_inferno/tree_large.vtf
+  models/props/de_inferno/wall_lamp.vtf
+  models/props/de_inferno/wall_lamp_bulb.vtf
+  models/props/de_tides/flowerbed1.vtf
+  models/props/de_tides/flowerbed2.vtf
+
+[statua/starwars] (5 files)
+  statua/starwars/sdengine1.vtf
+  statua/starwars/ven1.vtf
+  statua/starwars/ven2.vtf
+  statua/starwars/ven3.vtf
+  statua/starwars/venwindow1.vtf
+
+[mytextures/kamino] (3 files)
+  mytextures/kamino/force_field.vtf
+  mytextures/kamino/force_fieldb.vtf
+  mytextures/kamino/jedibutton.vtf
+
+[hl2_leak/metal] (2 files)
+  hl2_leak/metal/metalarch004b.vtf
+  hl2_leak/metal/metalgrate013b.vtf
+
+[hl2_leak/props] (2 files)
+  hl2_leak/props/doorbutton001a.vtf
+  hl2_leak/props/elevatorbutton003a.vtf
+
+[models/altodev] (2 files)
+  models/altodev/blackhole.vtf
+  models/altodev/blackhole2.vtf
+
+[models/props_c17] (2 files)
+  models/props_c17/cagebulb01.vtf
+  models/props_c17/glassfluorescentlighton01.vtf
+
+[ads/ad01.vtf] (1 files)
+  ads/ad01.vtf
+
+[altodev/starspeed2.vtf] (1 files)
+  altodev/starspeed2.vtf
+
+[bmmat/conveyor.vtf] (1 files)
+  bmmat/conveyor.vtf
+
+[bmmat/conveyor_rubber.vtf] (1 files)
+  bmmat/conveyor_rubber.vtf
+
+[de_nuke/nuke_metalgrate_01.vtf] (1 files)
+  de_nuke/nuke_metalgrate_01.vtf
+
+[de_train/train_oldwindows_01.vtf] (1 files)
+  de_train/train_oldwindows_01.vtf
+
+[detail/detailsprites.vtf] (1 files)
+  detail/detailsprites.vtf
+
+[detail/dt_metal2.vtf] (1 files)
+  detail/dt_metal2.vtf
+
+[detail/dt_stone1.vtf] (1 files)
+  detail/dt_stone1.vtf
+
+[detail/dt_wood1.vtf] (1 files)
+  detail/dt_wood1.vtf
+
+[dev/water.vtf] (1 files)
+  dev/water.vtf
+
+[eyetex/genericwall05.vtf] (1 files)
+  eyetex/genericwall05.vtf
+
+[glass/glasswindow007a.vtf] (1 files)
+  glass/glasswindow007a.vtf
+
+[glass/offwndwb.vtf] (1 files)
+  glass/offwndwb.vtf
+
+[hl2_leak/concrete] (1 files)
+  hl2_leak/concrete/concreteceiling004a.vtf
+
+[hl2_leak/glass] (1 files)
+  hl2_leak/glass/glasswindow066e.vtf
+
+[hl2_leak/wood] (1 files)
+  hl2_leak/wood/woodstair002c.vtf
+
+[lordtrilobite/isd_panel_small01.vtf] (1 files)
+  lordtrilobite/isd_panel_small01.vtf
+
+[lordtrilobite/isd_panel_small02.vtf] (1 files)
+  lordtrilobite/isd_panel_small02.vtf
+
+[metal/metalbar001c.vtf] (1 files)
+  metal/metalbar001c.vtf
+
+[models/de_chateau] (1 files)
+  models/de_chateau/light_chandelier02_on.vtf
+
+[models/props_interiors] (1 files)
+  models/props_interiors/florescentlight01a.vtf
+
+[models/props_windows] (1 files)
+  models/props_windows/window_uban_apt_glass.vtf
+
+[pk02/pk02_ceiling02_c.vtf] (1 files)
+  pk02/pk02_ceiling02_c.vtf
+
+[pk02/pk02_computer01a_c.vtf] (1 files)
+  pk02/pk02_computer01a_c.vtf
+
+[pk02/pk02_computer01c_c.vtf] (1 files)
+  pk02/pk02_computer01c_c.vtf
+
+[pk02/pk02_floor09b_c.vtf] (1 files)
+  pk02/pk02_floor09b_c.vtf
+
+[pk02/pk02_light01a_c.vtf] (1 files)
+  pk02/pk02_light01a_c.vtf
+
+[pk02/pk02_light01b_c.vtf] (1 files)
+  pk02/pk02_light01b_c.vtf
+
+[pk02/pk02_light02a_c.vtf] (1 files)
+  pk02/pk02_light02a_c.vtf
+
+[pk02/pk02_light03_c.vtf] (1 files)
+  pk02/pk02_light03_c.vtf
+
+[pk02/pk02_pipes01_c.vtf] (1 files)
+  pk02/pk02_pipes01_c.vtf
+
+[pk02/pk02_switches01b_c.vtf] (1 files)
+  pk02/pk02_switches01b_c.vtf
+
+[pk02/pk02_switches01c_c.vtf] (1 files)
+  pk02/pk02_switches01c_c.vtf
+
+[pk02/pk02_wall02a_c.vtf] (1 files)
+  pk02/pk02_wall02a_c.vtf
+
+[pk02/pk02_wall07b_c.vtf] (1 files)
+  pk02/pk02_wall07b_c.vtf
+
+[pk02/pk02_wall_big02a_c.vtf] (1 files)
+  pk02/pk02_wall_big02a_c.vtf
+
+[realworldtextures2/detail] (1 files)
+  realworldtextures2/detail/dt_metal2.vtf
+
+[realworldtextures/glass.vtf] (1 files)
+  realworldtextures/glass.vtf
+
+[realworldtextures/glass_break.vtf] (1 files)
+  realworldtextures/glass_break.vtf
+
+[rp_anaxes/rp_anaxes_concrete_floor11.vtf] (1 files)
+  rp_anaxes/rp_anaxes_concrete_floor11.vtf
+
+[rp_anaxes/rp_anaxes_concrete_floor15.vtf] (1 files)
+  rp_anaxes/rp_anaxes_concrete_floor15.vtf
+
+[rp_anaxes/rp_anaxes_jedilogo.vtf] (1 files)
+  rp_anaxes/rp_anaxes_jedilogo.vtf
+
+[rp_anaxes/rp_anaxes_metal_floor16.vtf] (1 files)
+  rp_anaxes/rp_anaxes_metal_floor16.vtf
+
+[rp_anaxes/rp_anaxes_metal_wall_white2.vtf] (1 files)
+  rp_anaxes/rp_anaxes_metal_wall_white2.vtf
+
+[rp_anaxes/rp_anaxes_metalpanel4.vtf] (1 files)
+  rp_anaxes/rp_anaxes_metalpanel4.vtf
+
+[rp_anaxes/rp_anaxes_metalpanel4_nolight.vtf] (1 files)
+  rp_anaxes/rp_anaxes_metalpanel4_nolight.vtf
+
+[rp_anaxes/rp_metal_wall_pinkrepub.vtf] (1 files)
+  rp_anaxes/rp_metal_wall_pinkrepub.vtf
+
+[signs/atctext.vtf] (1 files)
+  signs/atctext.vtf
+
+[signs/eventcontrolroom.vtf] (1 files)
+  signs/eventcontrolroom.vtf
+
+[signs/holoedge.vtf] (1 files)
+  signs/holoedge.vtf
+
+[signs/planettext.vtf] (1 files)
+  signs/planettext.vtf
+
+[signs/swsign_barracks.vtf] (1 files)
+  signs/swsign_barracks.vtf
+
+[signs/swsign_briefingroom.vtf] (1 files)
+  signs/swsign_briefingroom.vtf
+
+[signs/swsign_brig.vtf] (1 files)
+  signs/swsign_brig.vtf
+
+[signs/swsign_citadel.vtf] (1 files)
+  signs/swsign_citadel.vtf
+
+[signs/swsign_emptysimroom.vtf] (1 files)
+  signs/swsign_emptysimroom.vtf
+
+[signs/swsign_engineroom.vtf] (1 files)
+  signs/swsign_engineroom.vtf
+
+[signs/swsign_hangara.vtf] (1 files)
+  signs/swsign_hangara.vtf
+
+[signs/swsign_hangarb.vtf] (1 files)
+  signs/swsign_hangarb.vtf
+
+[signs/swsign_spawn.vtf] (1 files)
+  signs/swsign_spawn.vtf
+
+[signs/walltext7.vtf] (1 files)
+  signs/walltext7.vtf
+
+[skybox/stellarbk.vtf] (1 files)
+  skybox/stellarbk.vtf
+
+[skybox/stellarft.vtf] (1 files)
+  skybox/stellarft.vtf
+
+[skybox/stellarlf.vtf] (1 files)
+  skybox/stellarlf.vtf
+
+[skybox/stellarup.vtf] (1 files)
+  skybox/stellarup.vtf
+
+[statua/lightbar] (1 files)
+  statua/lightbar/metal.vtf
+
+[tools/toolsclip-dx10.vtf] (1 files)
+  tools/toolsclip-dx10.vtf
+
+[tools/toolsclip.vtf] (1 files)
+  tools/toolsclip.vtf
+
+[tools/toolshint-dx10.vtf] (1 files)
+  tools/toolshint-dx10.vtf
+
+[tools/toolshint.vtf] (1 files)
+  tools/toolshint.vtf
+
+[tools/toolsinvisible-dx10.vtf] (1 files)
+  tools/toolsinvisible-dx10.vtf
+
+[tools/toolsinvisible.vtf] (1 files)
+  tools/toolsinvisible.vtf
+
+[tools/toolsskip-dx10.vtf] (1 files)
+  tools/toolsskip-dx10.vtf
+
+[tools/toolsskip.vtf] (1 files)
+  tools/toolsskip.vtf
+
+[tools/toolstrigger-dx10.vtf] (1 files)
+  tools/toolstrigger-dx10.vtf
+
+[tools/toolstrigger.vtf] (1 files)
+  tools/toolstrigger.vtf
+
+=== ORIG ALSO ALL-WHITE (1609 files) ===
+(DXT5 format but never transparent - safe to ignore)
+
+[models/sgg] (123 files)
+  models/sgg/starwars/commando/breenhands.vtf
+  models/sgg/starwars/commando/breenhands_exp.vtf
+  models/sgg/starwars/commando/breenhands_normal.vtf
+  models/sgg/starwars/commando/cloneadult.vtf
+  models/sgg/starwars/commando/cloneadult_normal.vtf
+  ... and 118 more
+
+[models/props_clutter] (106 files)
+  models/props_clutter/barrel01.vtf
+  models/props_clutter/barrel01_normal.vtf
+  models/props_clutter/barrel02.vtf
+  models/props_clutter/barrel02_normal.vtf
+  models/props_clutter/broom01_normal.vtf
+  ... and 101 more
+
+[models/grealms] (97 files)
+  models/grealms/characters/cadbane/a_cadbane_body_c.vtf
+  models/grealms/characters/cadbane/a_cadbane_coat_c.vtf
+  models/grealms/characters/cadbane/a_cadbane_head_c.vtf
+  models/grealms/characters/casualjedi/gloves.vtf
+  models/grealms/characters/casualjedi/gloves_p.vtf
+  ... and 92 more
+
+[models/tobester] (94 files)
+  models/tobester/104th/arf/guns.vtf
+  models/tobester/104th/shared/guns.vtf
+  models/tobester/187th/arctic/guns.vtf
+  models/tobester/187th/arctic/normal_8x8.vtf
+  models/tobester/187th/heavy/visor.vtf
+  ... and 89 more
+
+[models/weapons] (89 files)
+  models/weapons/cp2077/weapons/pistols/malorian_arms/green4.vtf
+  models/weapons/cp2077/weapons/pistols/malorian_arms/led1.vtf
+  models/weapons/cp2077/weapons/pistols/malorian_arms/led2.vtf
+  models/weapons/swb3/weapons/cis_shotgun/cis_shotgun.vtf
+  models/weapons/swb3/weapons/cis_shotgun/cis_shotgun_exp.vtf
+  ... and 84 more
+
+[galactic/cosmetics] (83 files)
+  galactic/cosmetics/arm5/blueblackcamo.vtf
+  galactic/cosmetics/arm5/desertcamo.vtf
+  galactic/cosmetics/arm5/galaxycamo.vtf
+  galactic/cosmetics/arm5/goldcamo.vtf
+  galactic/cosmetics/arm5/navycamo.vtf
+  ... and 78 more
+
+[models/zhidus] (81 files)
+  models/zhidus/jedi/human/head0.vtf
+  models/zhidus/jedi/human/head1.vtf
+  models/zhidus/jedi/human/head2.vtf
+  models/zhidus/jedi/human/head3.vtf
+  models/zhidus/jedi/human/head4.vtf
+  ... and 76 more
+
+[models/starwars] (55 files)
+  models/starwars/ships/firstorder/transport/neotrooptransport_gate_sdh.vtf
+  models/starwars/ships/firstorder/transport/neotrooptransport_interior_sdh.vtf
+  models/starwars/ships/firstorder/transport/neotroptransport_exterior_sdh.vtf
+  models/starwars/sweaw/ships/cis_lucrehulk/sev_lucrehulk.vtf
+  models/starwars/sweaw/ships/cis_lucrehulk/sev_lucrehulk_b.vtf
+  ... and 50 more
+
+[models/elitelukas] (36 files)
+  models/elitelukas/imp/textures/blue_lava.vtf
+  models/elitelukas/imp/textures/dan_bkc1.vtf
+  models/elitelukas/imp/textures/ds_wall.vtf
+  models/elitelukas/imp/textures/dxn_crt.vtf
+  models/elitelukas/imp/textures/leh_light06.vtf
+  ... and 31 more
+
+[models/cac] (33 files)
+  models/cac/212/2abmedic/enlisted.vtf
+  models/cac/212/arf/ct_fbi_upperbody.vtf
+  models/cac/212/cody/flashmask.vtf
+  models/cac/212/cody/guns.vtf
+  models/cac/212/medic/p1backpack.vtf
+  ... and 28 more
+
+[models/hevoc] (30 files)
+  models/hevoc/y_wing_costumt/btlb_body.vtf
+  models/hevoc/y_wing_costumt/btlb_bodyb.vtf
+  models/hevoc/y_wing_costumt/btlb_bodyblack.vtf
+  models/hevoc/y_wing_costumt/btlb_bodyc1.vtf
+  models/hevoc/y_wing_costumt/btlb_bodyc2.vtf
+  ... and 25 more
+
+[models/player] (29 files)
+  models/player/b4p/jawa/jawa.vtf
+  models/player/b4p/jawa/jawa_eyes.vtf
+  models/player/b4p/jawa/jawa_hands.vtf
+  models/player/darth_revan/n_darthrevan01_bump.vtf
+  models/player/falconrx/trooper/none.vtf
+  ... and 24 more
+
+[models/blu] (24 files)
+  models/blu/aat/gun_extra.vtf
+  models/blu/aat/main_extra.vtf
+  models/blu/hsd/homing_texture.vtf
+  models/blu/laat/cockpit_joystick.vtf
+  models/blu/laat/cockpit_numbers.vtf
+  ... and 19 more
+
+[cultist_kun/sw] (23 files)
+  cultist_kun/sw/breenhands.vtf
+  cultist_kun/sw/breenhands_exp.vtf
+  cultist_kun/sw/breenhands_normal.vtf
+  cultist_kun/sw/cloneadult.vtf
+  cultist_kun/sw/cloneadult_normal.vtf
+  ... and 18 more
+
+[models/tfa] (23 files)
+  models/tfa/sw/commandodroid/body_n.vtf
+  models/tfa/sw/commandodroid/fexp.vtf
+  models/tfa/sw/droid_b/body_d.vtf
+  models/tfa/sw/droid_b/body_n.vtf
+  models/tfa/sw/droid_b/fexp.vtf
+  ... and 18 more
+
+[starwars/syphadias] (22 files)
+  starwars/syphadias/props/sw_tor/bioware_ea/items/harvesting/plants/bush_purple.vtf
+  starwars/syphadias/props/sw_tor/bioware_ea/items/harvesting/plants/hypertech_cultural_artifact.vtf
+  starwars/syphadias/props/sw_tor/bioware_ea/items/harvesting/plants/lichen_red.vtf
+  starwars/syphadias/props/sw_tor/bioware_ea/items/harvesting/plants/lichen_silver.vtf
+  starwars/syphadias/props/sw_tor/bioware_ea/items/harvesting/plants/lotus_blue.vtf
+  ... and 17 more
+
+[models/ace] (20 files)
+  models/ace/sw/rh/cgi_console_01/cgi_console_01_d.vtf
+  models/ace/sw/rh/cgi_console_02/cgi_console_02_d.vtf
+  models/ace/sw/rh/cgi_console_02/cgi_console_02_d_alt.vtf
+  models/ace/sw/rh/cgi_console_04/cgi_console_04_d.vtf
+  models/ace/sw/rh/cgi_console_05/cgi_console_05_d.vtf
+  ... and 15 more
+
+[models/ch5] (19 files)
+  models/ch5/awing/box.vtf
+  models/ch5/awing/c_awing_n.vtf
+  models/ch5/awing/eyes_p.vtf
+  models/ch5/awing/face_p.vtf
+  models/ch5/awing/g_dirt_n.vtf
+  ... and 14 more
+
+[models/mcfly] (18 files)
+  models/mcfly/jka/jtg/arms.vtf
+  models/mcfly/jka/jtg/arms3.vtf
+  models/mcfly/jka/jtg/body-armor.vtf
+  models/mcfly/jka/jtg/body-spec.vtf
+  models/mcfly/jka/jtg/body.vtf
+  ... and 13 more
+
+[models/random] (17 files)
+  models/random/cockpit_x/x-wing_c_em.vtf
+  models/random/cockpit_x/x-wing_c_fl.vtf
+  models/random/cockpit_x/x-wing_c_pb1.vtf
+  models/random/cockpit_x/x-wing_c_pb2.vtf
+  models/random/cockpit_x/x-wing_c_pb3.vtf
+  ... and 12 more
+
+[dannio/pm] (16 files)
+  dannio/pm/left4lag/ichigo/addon1.vtf
+  dannio/pm/left4lag/ichigo/belts.vtf
+  dannio/pm/left4lag/ichigo/misc_bump.vtf
+  dannio/pm/left4lag/ichigo/phongwarp_sheen.vtf
+  dannio/pm/left4lag/veritas/bumpmap.vtf
+  ... and 11 more
+
+[models/ssg] (15 files)
+  models/ssg/starwars/landspeeder/hull.vtf
+  models/ssg/starwars/landspeeder/hull_exp.vtf
+  models/ssg/starwars/landspeeder/hull_normal.vtf
+  models/ssg/starwars/landspeeder/parts.vtf
+  models/ssg/starwars/landspeeder/parts_exp.vtf
+  ... and 10 more
+
+[models/kingpommes] (13 files)
+  models/kingpommes/starwars/atrt/screen01.vtf
+  models/kingpommes/starwars/hailfire/hailfire02.vtf
+  models/kingpommes/starwars/venator/bridge_window_consoles_normal.vtf
+  models/kingpommes/starwars/venator/galaxy_asteroid.vtf
+  models/kingpommes/starwars/venator/planet_coruscant.vtf
+  ... and 8 more
+
+[models/chhhhh] (12 files)
+  models/chhhhh/arc170/arc_cockpit_nword_n.vtf
+  models/chhhhh/arc170/arc_seam.vtf
+  models/chhhhh/arc170/arc_wings_c.vtf
+  models/chhhhh/arc170/arc_wings_l.vtf
+  models/chhhhh/arc170/astrodroid_n.vtf
+  ... and 7 more
+
+[models/grizzlerules] (12 files)
+  models/grizzlerules/revan/belt.vtf
+  models/grizzlerules/revan/belt_p.vtf
+  models/grizzlerules/revan/boot.vtf
+  models/grizzlerules/revan/boot_p.vtf
+  models/grizzlerules/revan/chest.vtf
+  ... and 7 more
+
+[models/diggerthings] (11 files)
+  models/diggerthings/awing/anim.vtf
+  models/diggerthings/awing/fus.vtf
+  models/diggerthings/v19/body.vtf
+  models/diggerthings/v19/body1.vtf
+  models/diggerthings/v19/body2.vtf
+  ... and 6 more
+
+[models/epangelmatikes] (11 files)
+  models/epangelmatikes/templeguardopt2/eyeballs.vtf
+  models/epangelmatikes/templeguardopt2/holocron_jedi.vtf
+  models/epangelmatikes/templeguardopt2/jason facemap.vtf
+  models/epangelmatikes/templeguardopt2/lightsideaffiliation.vtf
+  models/epangelmatikes/templeguardopt2/teeth.vtf
+  ... and 6 more
+
+[models/heracles421] (11 files)
+  models/heracles421/galactica_vehicles/barc_speeder_104_d.vtf
+  models/heracles421/galactica_vehicles/barc_speeder_104_n.vtf
+  models/heracles421/galactica_vehicles/barc_speeder_327_d.vtf
+  models/heracles421/galactica_vehicles/barc_speeder_327_n.vtf
+  models/heracles421/galactica_vehicles/barc_speeder_41_d.vtf
+  ... and 6 more
+
+[models/swtor] (11 files)
+  models/swtor/npcs/bantha_bantha_a01_v01.vtf
+  models/swtor/npcs/bantha_bantha_a01_v01_n.vtf
+  models/swtor/npcs/holorancor_a01.vtf
+  models/swtor/npcs/rakghoul_rakghoul_a01_v01.vtf
+  models/swtor/npcs/rakghoul_rakghoul_a01_v03.vtf
+  ... and 6 more
+
+[models/trojan] (11 files)
+  models/trojan/armor.vtf
+  models/trojan/body.vtf
+  models/trojan/buckler.vtf
+  models/trojan/cloak.vtf
+  models/trojan/gloves.vtf
+  ... and 6 more
+
+[tiki/ask] (11 files)
+  tiki/ask/accessories.vtf
+  tiki/ask/gran_legs.vtf
+  tiki/ask/hands_1.vtf
+  tiki/ask/head.vtf
+  tiki/ask/l_arm.vtf
+  ... and 6 more
+
+[galactic/player] (10 files)
+  galactic/player/canada/snco/tex_0010_0.vtf
+  galactic/player/canada/trooper/tex_0010_0.vtf
+  galactic/player/canada/trooper_lt/commanderwolffedc15_d.vtf
+  galactic/player/canada/trooper_lt/tex_0010_0.vtf
+  galactic/player/pc_trooper/tex_0010_0.vtf
+  ... and 5 more
+
+[galactic/seasonal] (9 files)
+  galactic/seasonal/card/boo.vtf
+  galactic/seasonal/card/dabbingghost.vtf
+  galactic/seasonal/card/grabbinghands.vtf
+  galactic/seasonal/card/halloweendark.vtf
+  galactic/seasonal/card/halloweenhouse.vtf
+  ... and 4 more
+
+[models/kriegsyntax] (9 files)
+  models/kriegsyntax/sw/imperialmelee/imperialmeleeunit_ao.vtf
+  models/kriegsyntax/sw/imperialmelee/imperialmeleeunit_c.vtf
+  models/kriegsyntax/sw/imperialmelee/imperialmeleeunit_s.vtf
+  models/kriegsyntax/sw/obiwan/obiwan_body.vtf
+  models/kriegsyntax/sw/obiwan/obiwan_head.vtf
+  ... and 4 more
+
+[tiki/bailorgana] (9 files)
+  tiki/bailorgana/cape.vtf
+  tiki/bailorgana/face.vtf
+  tiki/bailorgana/gun_barrel.vtf
+  tiki/bailorgana/hands_b.vtf
+  tiki/bailorgana/hip_gear.vtf
+  ... and 4 more
+
+[kunozeug/sims2_abteil] (8 files)
+  kunozeug/sims2_abteil/fussboden_teppich_01.vtf
+  kunozeug/sims2_abteil/fussboden_teppich_01_bump.vtf
+  kunozeug/sims2_abteil/holztapete_01.vtf
+  kunozeug/sims2_abteil/holztapete_01_b.vtf
+  kunozeug/sims2_abteil/katzentapete_01.vtf
+  ... and 3 more
+
+[models/gm] (8 files)
+  models/gm/starwars/equil/acc2_bly.vtf
+  models/gm/starwars/equil/acc_212.vtf
+  models/gm/starwars/equil/blykilt.vtf
+  models/gm/starwars/equil/breenhands.vtf
+  models/gm/starwars/equil/clonehands.vtf
+  ... and 3 more
+
+[models/hgn] (8 files)
+  models/hgn/swrp/player/droid_t3m4.vtf
+  models/hgn/swrp/player/geonosianwarrior_n.vtf
+  models/hgn/swrp/player/hk47_body_n.vtf
+  models/hgn/swrp/player/hk50.vtf
+  models/hgn/swrp/player/hk51.vtf
+  ... and 3 more
+
+[models/sample] (7 files)
+  models/sample/jax/jax/forearmscreen.vtf
+  models/sample/jax/jax/normal_8x8.vtf
+  models/sample/newclone/hotson/normal_8x8.vtf
+  models/sample/newclone/hotson/ny.vtf
+  models/sample/ramsey/ramsey/clonehair.vtf
+  ... and 2 more
+
+[tiki/ameda] (7 files)
+  tiki/ameda/body.vtf
+  tiki/ameda/body2.vtf
+  tiki/ameda/cape_goggles.vtf
+  tiki/ameda/chagrian.vtf
+  tiki/ameda/hands.vtf
+  ... and 2 more
+
+[galactic/randybh] (6 files)
+  galactic/randybh/fett_body_d.vtf
+  galactic/randybh/fett_helmet_ao.vtf
+  galactic/randybh/fett_helmet_s.vtf
+  galactic/randybh/fett_jetpak_ao.vtf
+  galactic/randybh/fett_jetpak_s.vtf
+  ... and 1 more
+
+[lordtrilobite/starwars] (6 files)
+  lordtrilobite/starwars/props/tx_bactatank01.vtf
+  lordtrilobite/starwars/props/tx_bactatank01b.vtf
+  lordtrilobite/starwars/props/tx_bactatank01c.vtf
+  lordtrilobite/starwars/props/tx_bactatank01d.vtf
+  lordtrilobite/starwars/props/tx_bactatank02.vtf
+  ... and 1 more
+
+[models/freddo] (6 files)
+  models/freddo/starwars/props/crabdroid/crab_texture.vtf
+  models/freddo/starwars/props/drawfspiderdroid/spider_texture.vtf
+  models/freddo/starwars/props/droidgunship/gunship_texture.vtf
+  models/freddo/starwars/props/droidgunship/gunship_texture2.vtf
+  models/freddo/starwars/props/homingdroid/homing_texture.vtf
+  ... and 1 more
+
+[models/konnie] (6 files)
+  models/konnie/pikejedi/illum.vtf
+  models/konnie/shaakti/body.vtf
+  models/konnie/shaakti/body_n.vtf
+  models/konnie/shaakti/eyes.vtf
+  models/konnie/shaakti/head.vtf
+  ... and 1 more
+
+[models/mark2580] (6 files)
+  models/mark2580/gtav/bathroom/gz_v_cs_chrome.vtf
+  models/mark2580/gtav/dcasino/games/prop_casino_roulette_01_numbers_n.vtf
+  models/mark2580/gtav/shared/env_woodgrain.vtf
+  models/mark2580/gtav/shared/lightwarp_metallic.vtf
+  models/mark2580/sanctum/sanctum_christmas_tree/lightwarp_hair.vtf
+  ... and 1 more
+
+[models/massif] (6 files)
+  models/massif/eyes.vtf
+  models/massif/eyes_n.vtf
+  models/massif/massif_01.vtf
+  models/massif/massif_01_n.vtf
+  models/massif/spikey_bits_n.vtf
+  ... and 1 more
+
+[kingpommes/starwars] (5 files)
+  kingpommes/starwars/venator/baremetal.vtf
+  kingpommes/starwars/venator/baremetal_trim.vtf
+  kingpommes/starwars/venator/baremetal_trim_normal.vtf
+  kingpommes/starwars/venator/hull.vtf
+  kingpommes/starwars/venator/hull_normal.vtf
+
+[models/bable631] (5 files)
+  models/bable631/characters/republictrooper/belt_d.vtf
+  models/bable631/characters/republictrooper/boot_d.vtf
+  models/bable631/characters/republictrooper/glove_d.vtf
+  models/bable631/characters/republictrooper/helmet_d.vtf
+  models/bable631/characters/republictrooper/legs_d.vtf
+
+[models/bushesroses] (5 files)
+  models/bushesroses/bush1/stem_diff.vtf
+  models/bushesroses/bush2/stem_diff.vtf
+  models/bushesroses/bush3/stem_diff.vtf
+  models/bushesroses/bush4/stem_diff.vtf
+  models/bushesroses/bush5/stem_diff.vtf
+
+[models/characters] (5 files)
+  models/characters/honor_guard/boot_tall_heavy_ge_zki01c01_u_d.vtf
+  models/characters/honor_guard/chest_tight_heavy_ge_zki01c01_u_d.vtf
+  models/characters/honor_guard/hand_glove_heavy_ge_zki01c01_u_d.vtf
+  models/characters/honor_guard/leg_pant_heavy_ge_zki01c01_u_d.vtf
+  models/characters/honor_guard/waist_belt_heavy_ge_zki01c01_u_d.vtf
+
+[models/gredwitch] (5 files)
+  models/gredwitch/binoculars/bino.vtf
+  models/gredwitch/binoculars/bino_spec.vtf
+  models/gredwitch/binoculars/binoc_glo.vtf
+  models/gredwitch/binoculars/binoc_normals_f.vtf
+  models/gredwitch/m1_mortar/81mm_m1_mortar_b.vtf
+
+[models/neomatrix] (5 files)
+  models/neomatrix/belt_normal.vtf
+  models/neomatrix/boots.vtf
+  models/neomatrix/boots_normal.vtf
+  models/neomatrix/coat.vtf
+  models/neomatrix/shirt_hands.vtf
+
+[models/zakulu] (5 files)
+  models/zakulu/boot_tall_heavy_ge_zki01c01_u_d.vtf
+  models/zakulu/chest_tight_heavy_ge_zki01c01_u_d.vtf
+  models/zakulu/face_gehelmet69_heavy_ge_zki01c01_u_d.vtf
+  models/zakulu/hand_glove_heavy_ge_zki01c01_u_d.vtf
+  models/zakulu/waist_belt_heavy_ge_zki01c01_u_d.vtf
+
+[vgui/entities] (5 files)
+  vgui/entities/cgilaat2.vtf
+  vgui/entities/pfx1_00.vtf
+  vgui/entities/pfx1_01.vtf
+  vgui/entities/pfx8_00.vtf
+  vgui/entities/pfx_test.vtf
+
+[galactic/weapons] (4 files)
+  galactic/weapons/supsaber1/supsaber1n.vtf
+  galactic/weapons/supsaberstave1/supsaberstave1n.vtf
+  galactic/weapons/supsaberstave2/supsaberstave2n.vtf
+  galactic/weapons/supsaberstave3/supsaberstave3n.vtf
+
+[models/9th_xo] (4 files)
+  models/9th_xo/commanderwolffedc15_d.vtf
+  models/9th_xo/guns.vtf
+  models/9th_xo/gunspad.vtf
+  models/9th_xo/wolffe shoulder.vtf
+
+[models/artel] (4 files)
+  models/artel/kotw/eye.vtf
+  models/artel/kotw/fo_kylo_ren_lower_diff.vtf
+  models/artel/kotw/imperialriottrooper_ao.vtf
+  models/artel/kotw/imperialriottrooper_s.vtf
+
+[models/cpt] (4 files)
+  models/cpt/cody antenna.vtf
+  models/cpt/cpt_body1.vtf
+  models/cpt/cpt_body2.vtf
+  models/cpt/tex_0017_0 (2).vtf
+
+[models/gideon] (4 files)
+  models/gideon/2048p/protector/normal_8x8.vtf
+  models/gideon/2048p/sanderg/normal_8x8.vtf
+  models/gideon/2048p/terry/normal_8x8.vtf
+  models/gideon/2048p/trooperx/normal_8x8.vtf
+
+[models/pak 40] (4 files)
+  models/pak 40/shells/75mm_shell_ap.vtf
+  models/pak 40/shells/75mm_shell_ap_casing.vtf
+  models/pak 40/shells/75mm_shell_he.vtf
+  models/pak 40/shells/75mm_shell_he_casing.vtf
+
+[models/trauma] (4 files)
+  models/trauma/commanderwolffedc15_d.vtf
+  models/trauma/trauma head.vtf
+  models/trauma/trauma shoulder.vtf
+  models/trauma/trauma.vtf
+
+[models/vcmd] (4 files)
+  models/vcmd/501st41st/cody antenna.vtf
+  models/vcmd/cody antenna.vtf
+  models/vcmd/vcmd_body1.vtf
+  models/vcmd/vcmd_body2.vtf
+
+[props/jkaconsole2] (4 files)
+  props/jkaconsole2/controlpanel2n.vtf
+  props/jkaconsole2/controlpanel3n.vtf
+  props/jkaconsole2/controlpanel4n.vtf
+  props/jkaconsole2/controlpanel5n.vtf
+
+[props/kybercrystal] (4 files)
+  props/kybercrystal/darkbluekyber.vtf
+  props/kybercrystal/greenkyber.vtf
+  props/kybercrystal/redkyber.vtf
+  props/kybercrystal/yellowkyber.vtf
+
+[props/shipbarrels] (4 files)
+  props/shipbarrels/dg1.vtf
+  props/shipbarrels/dg1n.vtf
+  props/shipbarrels/dg2.vtf
+  props/shipbarrels/dg2n.vtf
+
+[tiki/tikkes] (4 files)
+  tiki/tikkes/body.vtf
+  tiki/tikkes/hands.vtf
+  tiki/tikkes/head.vtf
+  tiki/tikkes/serpentarmor.vtf
+
+[bluur/beckhilt] (3 files)
+  bluur/beckhilt/bump.vtf
+  bluur/beckhilt/hilt_anim.vtf
+  bluur/beckhilt/hilt_white.vtf
+
+[effects/workshop] (3 files)
+  effects/workshop/north_shine.vtf
+  effects/workshop/prettiest_ring.vtf
+  effects/workshop/prettiest_star.vtf
+
+[galactic/korean] (3 files)
+  galactic/korean/beeparts.vtf
+  galactic/korean/beetorso.vtf
+  galactic/korean/breenhands.vtf
+
+[galactic/supcraftingstation] (3 files)
+  galactic/supcraftingstation/craftn.vtf
+  galactic/supcraftingstation/saberforge.vtf
+  galactic/supcraftingstation/saberforgen.vtf
+
+[jackjack/textures] (3 files)
+  jackjack/textures/slave1base.vtf
+  jackjack/textures/slave1buttons.vtf
+  jackjack/textures/slave1hud.vtf
+
+[models/9th_officer] (3 files)
+  models/9th_officer/612th shoulder.vtf
+  models/9th_officer/612th visor.vtf
+  models/9th_officer/commanderwolffedc15_d.vtf
+
+[models/bluur] (3 files)
+  models/bluur/beck/bbody1.vtf
+  models/bluur/beck/bbody1_n.vtf
+  models/bluur/beck/gloww.vtf
+
+[models/cire992] (3 files)
+  models/cire992/props/datapad01_screenbroken.vtf
+  models/cire992/props/datapad01_screenbroken_n.vtf
+  models/cire992/props/holomod_12_texani.vtf
+
+[models/hannerz] (3 files)
+  models/hannerz/cgi_jocasta_nu/hair.vtf
+  models/hannerz/cgi_jocasta_nu/legs.vtf
+  models/hannerz/cgi_jocasta_nu/neck-hair.vtf
+
+[models/jedii] (3 files)
+  models/jedii/jedi_body.vtf
+  models/jedii/jedi_body_logo.vtf
+  models/jedii/jedi_body_n.vtf
+
+[models/jedimasterfaskin] (3 files)
+  models/jedimasterfaskin/leg_armor02_heavy_jk_a09c01_u_v01_n.vtf
+  models/jedimasterfaskin/n_darthrevan01_bump.vtf
+  models/jedimasterfaskin/phong.vtf
+
+[models/props_foliage] (3 files)
+  models/props_foliage/forestrock_cluster01.vtf
+  models/props_foliage/forestrock_cluster02.vtf
+  models/props_foliage/forestrock_single01.vtf
+
+[models/props_trenches] (3 files)
+  models/props_trenches/r_trenchplanks1.vtf
+  models/props_trenches/r_trenchwall1.vtf
+  models/props_trenches/r_trenchwall2.vtf
+
+[models/salza] (3 files)
+  models/salza/arc170/decal.vtf
+  models/salza/arc170/droid.vtf
+  models/salza/arc170/fuselage.vtf
+
+[models/stitch] (3 files)
+  models/stitch/remi 2.vtf
+  models/stitch/remi visor.vtf
+  models/stitch/remi.vtf
+
+[models/storm] (3 files)
+  models/storm/41/gree/green4.vtf
+  models/storm/custom/heart/light.vtf
+  models/storm/hotwire/normal_8x8.vtf
+
+[props/vehicleprops] (3 files)
+  props/vehicleprops/vhp2n.vtf
+  props/vehicleprops/vhp3n.vtf
+  props/vehicleprops/vhp4n.vtf
+
+[galactic/c3po] (2 files)
+  galactic/c3po/c3p0_body_d.vtf
+  galactic/c3po/metaldetail.vtf
+
+[galactic/citizendroid1] (2 files)
+  galactic/citizendroid1/rd2n.vtf
+  galactic/citizendroid1/rd3n.vtf
+
+[galactic/clones] (2 files)
+  galactic/clones/spooky/tex_0010_0.vtf
+  galactic/clones/spooky/trooper.vtf
+
+[galactic/fortunewheel] (2 files)
+  galactic/fortunewheel/wheellights.vtf
+  galactic/fortunewheel/wheelscreen.vtf
+
+[galactic/robotbounty] (2 files)
+  galactic/robotbounty/robobounty.vtf
+  galactic/robotbounty/robobountyn.vtf
+
+[galactic/swrpbase] (2 files)
+  galactic/swrpbase/battlefront_muzzle.vtf
+  galactic/swrpbase/red_glow.vtf
+
+[models/9th_cmdr] (2 files)
+  models/9th_cmdr/327thlt.vtf
+  models/9th_cmdr/commanderwolffedc15_d.vtf
+
+[models/bacta] (2 files)
+  models/bacta/remi visor.vtf
+  models/bacta/remi.vtf
+
+[models/battlemaster] (2 files)
+  models/battlemaster/body.vtf
+  models/battlemaster/face.vtf
+
+[models/combine_soldier] (2 files)
+  models/combine_soldier/camouflage_normal.vtf
+  models/combine_soldier/combine_sniper_normal.vtf
+
+[models/commando1] (2 files)
+  models/commando1/spartan_chest_harness_jun_normal.vtf
+  models/commando1/spartan_jun_hood_normal.vtf
+
+[models/dpfilms] (2 files)
+  models/dpfilms/metropolice/metrold/radio.vtf
+  models/dpfilms/metropolice/phoenix/gasmask_futuristic.vtf
+
+[models/farena] (2 files)
+  models/farena/weapons/e11d/e11d_a.vtf
+  models/farena/weapons/e11d/e11d_m.vtf
+
+[models/greynavy] (2 files)
+  models/greynavy/a_cloneset_hair_flattop_c.vtf
+  models/greynavy/tex_0010_0.vtf
+
+[models/hotson] (2 files)
+  models/hotson/hotson/backpack.vtf
+  models/hotson/hotson/normal_8x8.vtf
+
+[models/jellik] (2 files)
+  models/jellik/asajj/body.vtf
+  models/jellik/asajj/head.vtf
+
+[models/jessev92] (2 files)
+  models/jessev92/bf2/weapons/wrench_normal.vtf
+  models/jessev92/bfv/weapons/w_usblowtorch.vtf
+
+[models/ltn] (2 files)
+  models/ltn/ltn_body1.vtf
+  models/ltn/ltn_body2.vtf
+
+[models/mace] (2 files)
+  models/mace/char_macewindubody_mace_c.vtf
+  models/mace/char_macewinduhead_mace_c.vtf
+
+[models/nien_numb] (2 files)
+  models/nien_numb/high_nien_nunb.vtf
+  models/nien_numb/high_nien_nunb_wp.vtf
+
+[models/plokoon] (2 files)
+  models/plokoon/char_plokoonbody_plo_c.vtf
+  models/plokoon/char_plokoonhead_plo_c.vtf
+
+[models/shilen] (2 files)
+  models/shilen/eyes.vtf
+  models/shilen/shilen.vtf
+
+[models/star wars] (2 files)
+  models/star wars/rogue one/spartanmark6/e-11d_blaster_rifle_diff.vtf
+  models/star wars/rogue one/spartanmark6/e-11d_blaster_rifle_lights_diff.vtf
+
+[models/stealthship] (2 files)
+  models/stealthship/stealth_texture.vtf
+  models/stealthship/stealth_texture2.vtf
+
+[models/tar] (2 files)
+  models/tar/mofftarkin/high_grandmofftarkin.vtf
+  models/tar/mofftarkin/high_grandmofftarkin_body.vtf
+
+[models/trooper] (2 files)
+  models/trooper/tex_0010_0.vtf
+  models/trooper/trooper.vtf
+
+[models/wullf] (2 files)
+  models/wullf/char_wullfyularenbody_wullfyularen_c.vtf
+  models/wullf/char_wullfyularenhead_wullfyularen_c.vtf
+
+[props/jedistatuev2] (2 files)
+  props/jedistatuev2/js.vtf
+  props/jedistatuev2/jsn.vtf
+
+[props/jkaconsole1] (2 files)
+  props/jkaconsole1/control_station_panel2n.vtf
+  props/jkaconsole1/control_station_panel4n.vtf
+
+[sample/clips] (2 files)
+  sample/clips/hair_n.vtf
+  sample/clips/head_n.vtf
+
+[buildings/factory.vtf] (1 files)
+  buildings/factory.vtf
+
+[buildings/imperial_barracks.vtf] (1 files)
+  buildings/imperial_barracks.vtf
+
+[buildings/imperial_heavy_factory.vtf] (1 files)
+  buildings/imperial_heavy_factory.vtf
+
+[buildings/imperial_light_factory.vtf] (1 files)
+  buildings/imperial_light_factory.vtf
+
+[buildings/imperial_research_facility.vtf] (1 files)
+  buildings/imperial_research_facility.vtf
+
+[buildings/radar.vtf] (1 files)
+  buildings/radar.vtf
+
+[coruscant_chair/coruscant_chair.vtf] (1 files)
+  coruscant_chair/coruscant_chair.vtf
+
+[coruscant_sofa/coruscant_sofa.vtf] (1 files)
+  coruscant_sofa/coruscant_sofa.vtf
+
+[coruscant_tree/coruscant_tree.vtf] (1 files)
+  coruscant_tree/coruscant_tree.vtf
+
+[effects/beam_nocolor.vtf] (1 files)
+  effects/beam_nocolor.vtf
+
+[effects/energy_electric.vtf] (1 files)
+  effects/energy_electric.vtf
+
+[effects/energy_flare_04.vtf] (1 files)
+  effects/energy_flare_04.vtf
+
+[effects/energy_flare_05.vtf] (1 files)
+  effects/energy_flare_05.vtf
+
+[effects/energy_flare_05_warp.vtf] (1 files)
+  effects/energy_flare_05_warp.vtf
+
+[effects/laser_line.vtf] (1 files)
+  effects/laser_line.vtf
+
+[effects/laser_noise.vtf] (1 files)
+  effects/laser_noise.vtf
+
+[effects/sight_glass.vtf] (1 files)
+  effects/sight_glass.vtf
+
+[effects/spark_flamelet.vtf] (1 files)
+  effects/spark_flamelet.vtf
+
+[effects/spectral_square.vtf] (1 files)
+  effects/spectral_square.vtf
+
+[effects/sw_laser_bit.vtf] (1 files)
+  effects/sw_laser_bit.vtf
+
+[effects/sw_laser_blue_main.vtf] (1 files)
+  effects/sw_laser_blue_main.vtf
+
+[effects/sw_laser_green_front.vtf] (1 files)
+  effects/sw_laser_green_front.vtf
+
+[effects/sw_laser_green_main.vtf] (1 files)
+  effects/sw_laser_green_main.vtf
+
+[effects/sw_laser_purple_front.vtf] (1 files)
+  effects/sw_laser_purple_front.vtf
+
+[effects/sw_laser_purple_main.vtf] (1 files)
+  effects/sw_laser_purple_main.vtf
+
+[effects/sw_laser_red_front.vtf] (1 files)
+  effects/sw_laser_red_front.vtf
+
+[effects/sw_laser_red_main.vtf] (1 files)
+  effects/sw_laser_red_main.vtf
+
+[effects/sw_laser_white_front.vtf] (1 files)
+  effects/sw_laser_white_front.vtf
+
+[effects/sw_laser_white_main.vtf] (1 files)
+  effects/sw_laser_white_main.vtf
+
+[effects/sw_laser_yellow_front.vtf] (1 files)
+  effects/sw_laser_yellow_front.vtf
+
+[effects/sw_laser_yellow_main.vtf] (1 files)
+  effects/sw_laser_yellow_main.vtf
+
+[effects/veho_swave.vtf] (1 files)
+  effects/veho_swave.vtf
+
+[effects/veho_swave2.vtf] (1 files)
+  effects/veho_swave2.vtf
+
+[env_spark~.vtf] (1 files)
+  env_spark~.vtf
+
+[env_spark~bloom1.vtf] (1 files)
+  env_spark~bloom1.vtf
+
+[env_spark~bloom2.vtf] (1 files)
+  env_spark~bloom2.vtf
+
+[eta2r/obi-cockpit_n.vtf] (1 files)
+  eta2r/obi-cockpit_n.vtf
+
+[eta2r/obi-hullmap_n.vtf] (1 files)
+  eta2r/obi-hullmap_n.vtf
+
+[eta2r/obi-parts_n.vtf] (1 files)
+  eta2r/obi-parts_n.vtf
+
+[eta2r/obi-wings_n.vtf] (1 files)
+  eta2r/obi-wings_n.vtf
+
+[galactic/bluedroid] (1 files)
+  galactic/bluedroid/bluedroidn.vtf
+
+[galactic/brownbh] (1 files)
+  galactic/brownbh/brownbhn.vtf
+
+[galactic/hk47] (1 files)
+  galactic/hk47/hk47_body_n.vtf
+
+[galactic/maleconsular] (1 files)
+  galactic/maleconsular/maleconsular.vtf
+
+[galactic/projectionred.vtf] (1 files)
+  galactic/projectionred.vtf
+
+[galactic/reddroid] (1 files)
+  galactic/reddroid/reddroidn.vtf
+
+[galactic/repairdroid1] (1 files)
+  galactic/repairdroid1/rd1n.vtf
+
+[galactic/swtormaster] (1 files)
+  galactic/swtormaster/femalemasterheadn.vtf
+
+[galactic/whitedroid] (1 files)
+  galactic/whitedroid/whitedroidn.vtf
+
+[galactic/wookieeslave] (1 files)
+  galactic/wookieeslave/wookieeslave_metals_diff.vtf
+
+[hl2beta-materials/metal] (1 files)
+  hl2beta-materials/metal/metalroof008a.vtf
+
+[jedi_statue1/jedi_statue1.vtf] (1 files)
+  jedi_statue1/jedi_statue1.vtf
+
+[kunozeug/katzentapete_01_decke.vtf] (1 files)
+  kunozeug/katzentapete_01_decke.vtf
+
+[kunozeug/katzentapete_01_decke_b.vtf] (1 files)
+  kunozeug/katzentapete_01_decke_b.vtf
+
+[kunozeug/kuno_tappete-2-b.vtf] (1 files)
+  kunozeug/kuno_tappete-2-b.vtf
+
+[kunozeug/kuno_tappete-2-d-b.vtf] (1 files)
+  kunozeug/kuno_tappete-2-d-b.vtf
+
+[kunozeug/kuno_tappete-2-d.vtf] (1 files)
+  kunozeug/kuno_tappete-2-d.vtf
+
+[kunozeug/kuno_tappete-2.vtf] (1 files)
+  kunozeug/kuno_tappete-2.vtf
+
+[kunozeug/kunowand_02.vtf] (1 files)
+  kunozeug/kunowand_02.vtf
+
+[kunozeug/kunowand_04.vtf] (1 files)
+  kunozeug/kunowand_04.vtf
+
+[kunozeug/kunowand_bump.vtf] (1 files)
+  kunozeug/kunowand_bump.vtf
+
+[models/(ah64)] (1 files)
+  models/(ah64)/2w_m.vtf
+
+[models/9th_nco] (1 files)
+  models/9th_nco/ant.vtf
+
+[models/ackbar] (1 files)
+  models/ackbar/char_captainackbar_ackbar_c.vtf
+
+[models/bf2] (1 files)
+  models/bf2/rep_weap_inf_chaingun.vtf
+
+[models/chubby] (1 files)
+  models/chubby/212th/shared/guns.vtf
+
+[models/exp_gun.vtf] (1 files)
+  models/exp_gun.vtf
+
+[models/gotal] (1 files)
+  models/gotal/char_gotal_bluesuit_c.vtf
+
+[models/hank] (1 files)
+  models/hank/hank/normal_8x8.vtf
+
+[models/jedi] (1 files)
+  models/jedi/cin/none.vtf
+
+[models/karkarodon] (1 files)
+  models/karkarodon/char_karkarodon_blue_c.vtf
+
+[models/orphne] (1 files)
+  models/orphne/char_orphne_orphne_c.vtf
+
+[models/pit_droid] (1 files)
+  models/pit_droid/char_pitdroid_bronze_c.vtf
+
+[models/plo] (1 files)
+  models/plo/melee/gaffi_stick.vtf
+
+[models/props] (1 files)
+  models/props/bbs/dt_stone1.vtf
+
+[models/props_fortifications] (1 files)
+  models/props_fortifications/pak40_snowbank.vtf
+
+[models/quarren] (1 files)
+  models/quarren/char_quarren_brown.vtf
+
+[models/ryu-gi_holiday_props] (1 files)
+  models/ryu-gi_holiday_props/valentine/vday_chocolates.vtf
+
+[models/star_wars] (1 files)
+  models/star_wars/battlefront/characters/cis/cis_inf_droideka.vtf
+
+[models/swcw] (1 files)
+  models/swcw/items/datapad/datapad_exp.vtf
+
+[models/sza_jedi_nico] (1 files)
+  models/sza_jedi_nico/lightwarp_hair.vtf
+
+[models/talz] (1 files)
+  models/talz/char_talz_talz_c.vtf
+
+[models/unconid] (1 files)
+  models/unconid/xmas/bb_warp.vtf
+
+[models/vehicles] (1 files)
+  models/vehicles/sky/turbotank/wheel_n.vtf
+
+[models/wilderness] (1 files)
+  models/wilderness/light.vtf
+
+[models/wos] (1 files)
+  models/wos/lct/weapons/lightsabers/fry_hilt/fry.vtf
+
+[particle/beam_electrical_2.vtf] (1 files)
+  particle/beam_electrical_2.vtf
+
+[particle/beam_energetic_1a.vtf] (1 files)
+  particle/beam_energetic_1a.vtf
+
+[particle/bendibeam_nocolor.vtf] (1 files)
+  particle/bendibeam_nocolor.vtf
+
+[particle/bendibeam_white.vtf] (1 files)
+  particle/bendibeam_white.vtf
+
+[particle/whisp.vtf] (1 files)
+  particle/whisp.vtf
+
+[pfx/mex] (1 files)
+  pfx/mex/mex_muzzle_01.vtf
+
+[police/glow.vtf] (1 files)
+  police/glow.vtf
+
+[portal/border.vtf] (1 files)
+  portal/border.vtf
+
+[portal/rim.vtf] (1 files)
+  portal/rim.vtf
+
+[props/empchairs] (1 files)
+  props/empchairs/empchair2n.vtf
+
+[props/holocronstand] (1 files)
+  props/holocronstand/effects.vtf
+
+[props/serverwall] (1 files)
+  props/serverwall/serverwalln.vtf
+
+[props/supcardtable] (1 files)
+  props/supcardtable/swcn.vtf
+
+[props/swdatapad] (1 files)
+  props/swdatapad/swdn.vtf
+
+[props/swdecorative] (1 files)
+  props/swdecorative/swdecn.vtf
+
+[props/swjedilight] (1 files)
+  props/swjedilight/swjn.vtf
+
+[props/swmedictable] (1 files)
+  props/swmedictable/medtablen.vtf
+
+[props/swtorbomb] (1 files)
+  props/swtorbomb/swtorbombn.vtf
+
+[props/terminal2] (1 files)
+  props/terminal2/t2n.vtf
+
+[scope/gdcw_noise.vtf] (1 files)
+  scope/gdcw_noise.vtf
+
+[sfighter/sith_fighter_l.vtf] (1 files)
+  sfighter/sith_fighter_l.vtf
+
+[sfighter/sith_fighter_l_n.vtf] (1 files)
+  sfighter/sith_fighter_l_n.vtf
+
+[shield/shield_generator.vtf] (1 files)
+  shield/shield_generator.vtf
+
+[skybox/cold_lakebk.vtf] (1 files)
+  skybox/cold_lakebk.vtf
+
+[skybox/cold_lakeft.vtf] (1 files)
+  skybox/cold_lakeft.vtf
+
+[skybox/cold_lakelf.vtf] (1 files)
+  skybox/cold_lakelf.vtf
+
+[skybox/cold_lakert.vtf] (1 files)
+  skybox/cold_lakert.vtf
+
+[skybox/cold_lakeup.vtf] (1 files)
+  skybox/cold_lakeup.vtf
+
+[skybox/night_lakebk.vtf] (1 files)
+  skybox/night_lakebk.vtf
+
+[skybox/night_lakeft.vtf] (1 files)
+  skybox/night_lakeft.vtf
+
+[skybox/night_lakelf.vtf] (1 files)
+  skybox/night_lakelf.vtf
+
+[skybox/night_lakert.vtf] (1 files)
+  skybox/night_lakert.vtf
+
+[skybox/night_lakeup.vtf] (1 files)
+  skybox/night_lakeup.vtf
+
+[skybox/sea_sunsetbk.vtf] (1 files)
+  skybox/sea_sunsetbk.vtf
+
+[skybox/sea_sunsetft.vtf] (1 files)
+  skybox/sea_sunsetft.vtf
+
+[skybox/sea_sunsetlf.vtf] (1 files)
+  skybox/sea_sunsetlf.vtf
+
+[skybox/sea_sunsetrt.vtf] (1 files)
+  skybox/sea_sunsetrt.vtf
+
+[skybox/sea_sunsetup.vtf] (1 files)
+  skybox/sea_sunsetup.vtf
+
+[skybox/sky_harvest_01_side.vtf] (1 files)
+  skybox/sky_harvest_01_side.vtf
+
+[skybox/stellar2bk.vtf] (1 files)
+  skybox/stellar2bk.vtf
+
+[skybox/stellar2ft.vtf] (1 files)
+  skybox/stellar2ft.vtf
+
+[skybox/stellar2lf.vtf] (1 files)
+  skybox/stellar2lf.vtf
+
+[skybox/stellar2up.vtf] (1 files)
+  skybox/stellar2up.vtf
+
+[sprites/blank.vtf] (1 files)
+  sprites/blank.vtf
+
+[sprites/particle_glov.vtf] (1 files)
+  sprites/particle_glov.vtf
+
+[sprites/particle_glov_bfg.vtf] (1 files)
+  sprites/particle_glov_bfg.vtf
+
+[st_materials/st_cargo_3.vtf] (1 files)
+  st_materials/st_cargo_3.vtf
+
+[st_materials/st_cargo_4.vtf] (1 files)
+  st_materials/st_cargo_4.vtf
+
+[st_materials/st_cargo_6.vtf] (1 files)
+  st_materials/st_cargo_6.vtf
+
+[st_materials/st_cargo_7.vtf] (1 files)
+  st_materials/st_cargo_7.vtf
+
+[st_materials/st_cargo_8_2.vtf] (1 files)
+  st_materials/st_cargo_8_2.vtf
+
+[teh_maestro/popcornbuckettexture.vtf] (1 files)
+  teh_maestro/popcornbuckettexture.vtf
+
+[vgui/delta7_cockpit.vtf] (1 files)
+  vgui/delta7_cockpit.vtf
+
+[vgui/scope_dirt.vtf] (1 files)
+  vgui/scope_dirt.vtf
+
+[walls/wall_corner.vtf] (1 files)
+  walls/wall_corner.vtf
+
+[walls/wall_straight.vtf] (1 files)
+  walls/wall_straight.vtf
+
+[zs_christmas/prop] (1 files)
+  zs_christmas/prop/candycane_redstripes.vtf

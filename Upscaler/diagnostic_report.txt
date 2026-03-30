@@ -1,0 +1,204 @@
+
+================================================================================
+  PC DIAGNOSTIC REPORT
+================================================================================
+  Scan Time: 2026-02-09T14:50:42.676894
+  Admin:     False
+
+
+================================================================================
+  SYSTEM INFORMATION
+================================================================================
+  OS:           Windows-11-10.0.26200-SP0
+  Build:        10.0.26200
+  CPU:          AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD
+  RAM:          31.1 GB
+  Motherboard:  Gigabyte Technology Co., Ltd. B650 AORUS ELITE AX ICE x.x
+  BIOS:         F36 (American Megatrends International, LLC.)
+  Manufacturer: Gigabyte Technology Co., Ltd.
+  Model:        B650 AORUS ELITE AX ICE
+
+
+================================================================================
+  FINDINGS SUMMARY
+================================================================================
+  🔴 CRITICAL:  3
+  🟡 WARNING:   2
+  🟢 INFO:      12
+
+
+================================================================================
+  🔴 CRITICAL ISSUES
+================================================================================
+  [Apple] Apple Mobile Device Service (AMDS) is NOT running or not installed.
+    → This service is required for Windows to communicate with iPhones. It should be installed by iTunes or Apple Devices from the Microsoft Store.
+
+  [Apple USB] 'Apple Mobile Device Ethernet' is in 'Unknown' state.
+    → InstanceId: USB\VID_05AC&PID_12A8&MI_02\9&2E5C7FF5&0&0002
+
+  [Apple USB] 'Apple Mobile Device USB Composite Device' is in 'Unknown' state.
+    → InstanceId: USB\VID_05AC&PID_12AC\00008130-0016288E222A001C
+
+
+================================================================================
+  🟡 WARNINGS
+================================================================================
+  [USB-C] No dedicated USB-C / Type-C / UCSI drivers detected.
+    → Your motherboard may use generic xHCI drivers for USB-C. Check Gigabyte's website for B650 AORUS ELITE AX ICE chipset drivers.
+
+  [Windows Update] 1 pending update(s) found.
+    → Microsoft - Other hardware - Xbox Wireless Adapter for Windows
+
+
+================================================================================
+  🟢 INFORMATIONAL
+================================================================================
+  [Apple] Bonjour Service is present and available.
+  [Apple USB] 'Apple Mobile Device USB Device' is OK.
+  [Apple USB] 'Apple iPhone' is OK.
+  [Apple USB] 'Apple Mobile Device USB Composite Device' is OK.
+  [Apple Driver] 'Apple Mobile Device USB Device' driver v538.0.0.0, date: 20230614000000.******+***
+  [Apple Driver] 'Apple Mobile Device USB Composite Device' driver v538.0.0.0, date: 20230614000000.******+***
+  [Apple Software] Store app: AppleInc.iTunes v12139.1.59021.0
+  [Apple Software] Store app: AppleInc.AppleDevices v1.1538.24070.0
+  [Disk] 'ADATA LEGEND 800' is healthy, firmware: V1122B0
+  [Disk] 'ADATA LEGEND 800' is healthy, firmware: W0309A0
+  [Driver Summary] Total signed drivers: 237 across 29 device classes.
+  [Programs] Found 349 registry programs and 163 Store apps.
+
+
+================================================================================
+  USB DEVICE TREE
+================================================================================
+  Status     Class                Name
+  ---------- -------------------- ---------------------------------------------
+  OK         USB                  Generic USB Hub
+  OK         USB                  USB Root Hub (USB 3.0)
+  OK         USBDevice            Apple Mobile Device USB Device
+  OK         HIDClass             USB Input Device
+  OK         MEDIA                Yeti Stereo Microphone
+  OK         USB                  USB Composite Device
+  OK         USB                  USB Root Hub (USB 3.0)
+  OK         Bluetooth            Realtek Bluetooth Adapter
+  OK         USB                  USB Composite Device
+  OK         HIDClass             Razer BlackWidow Chroma V2
+  OK         USB                  AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+  OK         Net                  Xbox Wireless Adapter for Windows
+  OK         USB                  Generic USB Hub
+  OK         USB                  AMD USB 2.0 eXtensible Host Controller - 1.20 (Microsoft)
+  OK         HIDClass             Razer BlackWidow Chroma V2
+  OK         USB                  Generic SuperSpeed USB Hub
+  OK         HIDClass             USB Input Device
+  OK         USB                  USB Root Hub (USB 3.0)
+  OK         HIDClass             USB Input Device
+  OK         HIDClass             USB Input Device
+  OK         USB                  USB Composite Device
+  OK         USB                  AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+  OK         WPD                  Apple iPhone
+  OK         USB                  AMD USB 3.20 eXtensible Host Controller - 1.10 (Microsoft)
+  OK         HIDClass             USB Input Device
+  OK         USB                  USB Root Hub (USB 3.0)
+  OK         USBDevice            Apple Mobile Device USB Composite Device
+
+
+================================================================================
+  APPLE / iPHONE CONNECTIVITY DETAILS
+================================================================================
+
+  Apple Services:
+    Bonjour Service: Running (2)
+
+  Apple USB Devices:
+    [OK] Apple Mobile Device USB Device
+           ID: USB\VID_05AC&PID_12A8&MI_01\9&2E5C7FF5&0&0001
+    [Unknown] Apple Mobile Device Ethernet
+           ID: USB\VID_05AC&PID_12A8&MI_02\9&2E5C7FF5&0&0002
+    [Unknown] Apple Mobile Device USB Composite Device
+           ID: USB\VID_05AC&PID_12AC\00008130-0016288E222A001C
+    [OK] Apple iPhone
+           ID: USB\VID_05AC&PID_12A8&MI_00\9&2E5C7FF5&0&0000
+    [OK] Apple Mobile Device USB Composite Device
+           ID: USB\VID_05AC&PID_12A8\000081300016288E222A001C
+
+  Apple Drivers:
+    Apple Mobile Device USB Device v538.0.0.0 (INF: oem26.inf, Signed: True)
+    Apple Mobile Device USB Composite Device v538.0.0.0 (INF: oem26.inf, Signed: True)
+
+  Apple Store Apps:
+    AppleInc.iTunes v12139.1.59021.0
+    AppleInc.AppleDevices v1.1538.24070.0
+
+  USB Controllers (xHCI / USB 3.x):
+    [OK] USB Root Hub (USB 3.0)
+    [OK] USB Root Hub (USB 3.0)
+    [OK] AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+    [OK] AMD USB 2.0 eXtensible Host Controller - 1.20 (Microsoft)
+    [OK] USB Root Hub (USB 3.0)
+    [OK] AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+    [OK] AMD USB 3.20 eXtensible Host Controller - 1.10 (Microsoft)
+    [OK] USB Root Hub (USB 3.0)
+
+  USB-C / Type-C / UCSI Drivers:
+    None found (using generic xHCI drivers for USB-C)
+
+  AMD USB Drivers:
+
+
+================================================================================
+  DISK DRIVES
+================================================================================
+  ADATA LEGEND 800 — 1863.0 GB
+    Type: SSD, Bus: NVMe
+    Health: Healthy, Firmware: V1122B0
+  ADATA LEGEND 800 — 465.8 GB
+    Type: SSD, Bus: NVMe
+    Health: Healthy, Firmware: W0309A0
+
+
+================================================================================
+  PENDING WINDOWS UPDATES
+================================================================================
+  [⏳ Not downloaded] Microsoft - Other hardware - Xbox Wireless Adapter for Windows
+
+
+================================================================================
+  DRIVER COUNTS BY DEVICE CLASS
+================================================================================
+  SYSTEM                         84
+  HIDCLASS                       21
+  BLUETOOTH                      20
+  PROCESSOR                      16
+  USB                            14
+  Unknown                        11
+  MEDIA                          8
+  NET                            7
+  SOFTWAREDEVICE                 6
+  SOFTWARECOMPONENT              6
+  VOLUME                         6
+  PRINTQUEUE                     5
+  SCSIADAPTER                    4
+  VOLUMESNAPSHOT                 4
+  KEYBOARD                       3
+  AUDIOENDPOINT                  3
+  COMPUTER                       2
+  SECURITYDEVICES                2
+  MOUSE                          2
+  DISPLAY                        2
+  DISKDRIVE                      2
+  USBDEVICE                      2
+  PRINTER                        1
+  IMAGE                          1
+  FIRMWARE                       1
+  AUDIOPROCESSINGOBJECT          1
+  HDC                            1
+  RAZER DEVICE                   1
+  MONITOR                        1
+
+  Total drivers: 237
+
+
+================================================================================
+  GPU & CHIPSET
+================================================================================
+  GPU: NVIDIA GeForce RTX 4080 SUPER — v32.0.15.9174 (4.0 GB VRAM)
+  GPU: AMD Radeon(TM) Graphics — v31.0.22044.1 (0.5 GB VRAM)

@@ -1,0 +1,18 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 18:19:20 ===
+
+[18:19:20] � Using pre-scan cache (instant start)...
+[18:19:20] ⊖ Skipped 1 files: 1x mask texture
+[18:19:20] 🔍 Scan done: 9 to upscale (18.4 MB), 1 skipped | batch size: 50
+[18:19:20] 📦 Batch 1/1 (9 files)...
+[18:19:20]    ↳ Quarantined 9 alpha channel file(s) from GPU input
+[18:19:32] ✗ binos.vtf: Upscaled output not found (looked for 0000.* in G:\_vtf_scratch\batch_1\output)
+[18:19:32] ✗ commanderwolffedc15.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0001.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\commanderwolffedc15.vtf]
+[18:19:32] ✗ enlisted.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0002.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\enlisted.vtf]
+[18:19:32] ✗ enlisted2.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0003.webp, exists=True, size=702B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\enlisted2.vtf]
+[18:19:32] ✗ helmet2.vtf: Upscaled output not found (looked for 0004.* in G:\_vtf_scratch\batch_1\output)
+[18:19:32] ✗ phase1trooperbackpack1.vtf: AI output missing or corrupted [upscaled=G:\_vtf_scratch\batch_1\output\0005.webp, exists=True, size=394B, out_vtf=G:/Program Files (x86)/Steam/steamapps/common/GarrysMod/garrysmod/addons/sups_content/materials/models/cac\rc\advisor\phase1trooperbackpack1.vtf]
+[18:19:32] ✗ phase2helmet.vtf: Upscaled output not found (looked for 0006.* in G:\_vtf_scratch\batch_1\output)
+[18:19:32] ✗ survivalbag.vtf: Upscaled output not found (looked for 0007.* in G:\_vtf_scratch\batch_1\output)
+[18:19:32] ✗ wear_human_male_head_cloneseason4codyhelm_cody_c.vtf: Upscaled output not found (looked for 0008.* in G:\_vtf_scratch\batch_1\output)
+
+=== Completed: 0 success, 1 skipped, 9 failed in 0.2min ===

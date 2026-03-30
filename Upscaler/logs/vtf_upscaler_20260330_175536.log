@@ -1,0 +1,47 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 17:55:36 ===
+
+[17:55:36] ⚡ Using cached scan for 9 files (instant)...
+[17:55:36] ⊖ Skipped 1 files: 1x normal map
+[17:55:36] 🔍 Scan done: 8 to upscale (0.9 MB), 1 skipped | batch size: 200
+[17:55:36] 📦 Batch 1/1 (8 files)...
+[17:55:37] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0000.png done
+[17:55:37] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0001.png done
+[17:55:37] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0002.png done
+[17:55:38] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0003.png done
+[17:55:38] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0004.png done
+[17:55:39] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0005.png done
+[17:55:39] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0006.png done
+[17:55:40] [GPU] G:\_vtf_scratch\vtf_batch_1_1774889736\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774889736\output/0007.png done
+[17:55:40] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[17:55:40] [GPU] [Split] Pass 1: 2 normal images (tile=1024)
+[17:55:43] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0000.png done
+[17:55:43] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0001.png done
+[17:55:48] [GPU] [Split] Pass 2: 6 tall images (tile=512, height>=1024)
+[17:55:51] [GPU] G:\_vtf_scratch\_batch_TALL/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0002.png done
+[17:56:09] [GPU] G:\_vtf_scratch\_batch_TALL/0004.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0004.png done
+[17:56:10] [GPU] G:\_vtf_scratch\_batch_TALL/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0003.png done
+[17:56:24] [GPU] G:\_vtf_scratch\_batch_TALL/0006.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0006.png done
+[17:56:25] [GPU] G:\_vtf_scratch\_batch_TALL/0005.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0005.png done
+[17:56:32] [GPU] G:\_vtf_scratch\_batch_TALL/0007.png -> G:\_vtf_scratch\vtf_batch_1_1774889736\output_pass2/0007.png done
+[17:56:34] ✓ metaltrack001a.vtf: 512x32 → 4096x256 [AI] (683KB)
+[17:56:35] ⚠ metalwall061f.vtf: 512x64 → 4096x512 [AI] (1.3MB) ⚠️ FLAT
+[17:56:35] ✓ metalbar001c.vtf: 128x256 → 2048x4096 [AI] (10.7MB)
+[17:57:05] ✓ metaldoor061a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:57:05] ✓ metalwall005b.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:57:05] ✓ metalwall030a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:57:05] ✓ metalwall060a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:57:05] ✓ metalhull003a.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:57:05] ✅ Done in 1.5min (5.4/min) | ✓8 ⊖1 ✗0
+[17:57:05] ──────────────────────────────────────────────────
+[17:57:05] 📊 BATCH STATS
+[17:57:05]   ⏱ Total Time:      1.5 min (89s)
+[17:57:05]   📁 Files:           8 upscaled, 1 skipped, 0 failed
+[17:57:05]   📥 Input Size:      0.9 MB
+[17:57:05]   📤 Output Size:     66.0 MB (72.7x)
+[17:57:05]   ⚡ Avg Per File:    11.2s
+[17:57:05]   🚀 Processing Rate: 5.4/min
+[17:57:05] ──────────────────────────────────────────────────
+[17:57:05] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[17:57:05]   → metalwall061f.vtf
+
+=== Completed: 8 success, 1 skipped, 0 failed in 1.5min ===

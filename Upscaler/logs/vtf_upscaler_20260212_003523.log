@@ -1,0 +1,38 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-12 00:35:23 ===
+
+[00:35:23] ⚡ Using cached scan for 24 files (instant)...
+[00:35:23] ⊖ Skipped 2 files: 1x already 4096x4096, 1x 4096x2048
+[00:35:23] 🔍 Scan done: 22 to upscale (4.9 MB), 2 skipped | batch size: 50
+[00:35:23] 📦 Batch 1/1 (22 files)...
+[00:35:33] ⚠ GPU batch 1: 15 corrupted outputs detected — re-processing with safe settings...
+[00:35:47] ✓ GPU batch 1: 15 files re-processed with safe settings
+[00:35:51] ✓ phase2visor.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[00:35:51] ✓ hair.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[00:35:54] ✓ phase2boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[00:35:54] ✓ phase2gloves.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[00:35:54] ✓ phase2boots2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[00:35:54] ✓ phase2gloves2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[00:35:54] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ✓ commanderwolffedc15.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ✓ helmet332.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ⚠ pauldron.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[00:36:03] ✓ phase2helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ⚠ 327th shoulder.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[00:36:03] ✓ 327th shoulder2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ✓ arc_enlisted_gear2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:03] ✓ ct_fbi_upperbody.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[00:36:06] ⚠ commanderwolffe.vtf: 512x1024 → 2048x4096 [AI] (5.3MB) ⚠️ SUSPECT
+[00:36:06] ✓ helmet2.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[00:36:06] ⚠ pauldron2.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[00:36:08] ✓ phase2helmet2.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[00:36:11] ✓ phase2armorsep.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[00:36:11] ✓ phase2armorsep2.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[00:36:11] ✅ Done in 0.8min (0.5/sec) | ✓22 ⊖2 ✗0
+[00:36:11] ⚠️ CORRUPTION REPORT: 4 file(s) flagged for review:
+[00:36:11]   → pauldron.vtf
+[00:36:11]   → 327th shoulder.vtf
+[00:36:11]   → commanderwolffe.vtf
+[00:36:11]   → pauldron2.vtf
+
+=== Completed: 22 success, 2 skipped, 0 failed in 0.8min ===

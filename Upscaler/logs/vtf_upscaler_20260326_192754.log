@@ -1,0 +1,39 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-26 19:27:54 ===
+
+[19:27:54] ⚡ Using cached scan for 2 files (instant)...
+[19:27:54] ⊖ Skipped 1 files: 1x normal map
+[19:27:54] 🔍 Scan done: 1 to upscale (0.3 MB), 1 skipped | batch size: 200
+[19:27:54] 📦 Batch 1/1 (1 files)...
+[19:27:54] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[19:27:54] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[19:27:54] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[19:27:54] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[19:27:54] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[19:27:54] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[19:27:54] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[19:27:54] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[19:27:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1774553274\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774553274\output/0000.png done
+[19:27:55] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[19:27:55] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[19:27:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[19:27:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[19:27:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[19:27:55] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[19:27:55] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[19:27:55] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[19:27:55] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[19:27:55] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[19:28:00] [GPU] G:\_vtf_scratch\vtf_batch_1_1774553274\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774553274\output_pass2/0000.png done
+[19:28:06] ✓ n_darkjedim01.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[19:28:06] ✅ Done in 0.2min (0.1/sec) | ✓1 ⊖1 ✗0
+[19:28:06] ──────────────────────────────────────────────────
+[19:28:06] 📊 BATCH STATS
+[19:28:06]   ⏱ Total Time:      0.2 min (12s)
+[19:28:06]   📁 Files:           1 upscaled, 1 skipped, 0 failed
+[19:28:06]   📥 Input Size:      0.3 MB
+[19:28:06]   📤 Output Size:     21.3 MB (64.0x)
+[19:28:06]   ⚡ Avg Per File:    12.3s
+[19:28:06]   🚀 Processing Rate: 0.1/sec
+[19:28:06] ──────────────────────────────────────────────────
+
+=== Completed: 1 success, 1 skipped, 0 failed in 0.2min ===

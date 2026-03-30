@@ -1,0 +1,109 @@
+
+=== nar_redlight_02.vmt ===
+"MonitorScreen"
+{
+	"$basetexture" "starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_redlight_02"
+
+	//"$selfillum"		"1"
+	"$selfillummask"	"starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_redlight_02"
+
+	"$translucent" 1
+	"$nocull" "1"
+}
+
+
+=== nar_redlight_04.vmt ===
+"MonitorScreen"
+{
+	"$basetexture" "starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_redlight_04"
+
+	//"$selfillum"		"1"
+	"$selfillummask"	"starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_redlight_04"
+
+	"$translucent" 1
+	"$nocull" "1"
+}
+
+
+=== nar_signage_01.vmt ===
+"MonitorScreen"
+{
+	"$basetexture" "starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_signage_01"
+
+	//"$selfillum"		"1"
+	"$selfillummask"	"starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_signage_01"
+
+	"$translucent" 1
+	"$nocull" "1"
+}
+
+
+=== nar_signage_02.vmt ===
+"MonitorScreen"
+{
+	"$basetexture" "starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_signage_02"
+
+	//"$selfillum"		"1"
+	"$selfillummask"	"starwars/syphadias/props/sw_tor/bioware_ea/props/nar_shadda/nar_signage_02"
+
+	"$translucent" 1
+	"$nocull" "1"
+}
+
+
+============================================================
+VTF Alpha Analysis
+============================================================
+  [NO ALPHA FMT] buildings\nar_city_facade_01.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_01_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_02.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_02_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_03.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_03_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_metal.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_city_facade_metal_ilum.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_facade_windows_01.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_facade_windows_01_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_facade_windows_02.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] buildings\nar_facade_windows_02_ilum.vtf (4096x4096 DXT1)
+  [ALL-WHITE ALPHA] buildings\nar_signage_trim.vtf (2048x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [NO ALPHA FMT] nar_building_vent.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_building_vent_detail.vtf (256x256 DXT1)
+  [NO ALPHA FMT] nar_building_vent_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_casino_accessories.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_casino_accessories_detail.vtf (256x512 DXT1)
+  [NO ALPHA FMT] nar_casino_accessories_ilum.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_casino_main.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_casino_main_detail.vtf (512x512 DXT1)
+  [NO ALPHA FMT] nar_casino_main_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_elev_access.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_elev_access_detail.vtf (512x512 DXT1)
+  [NO ALPHA FMT] nar_elev_access_ilum.vtf (4096x4096 DXT1)
+  [ALL-WHITE ALPHA] nar_holo_banner.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [NO ALPHA FMT] nar_holo_banner_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_holo_banner_trim.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_holo_bench.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_holo_bench_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_hutt_statue.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_hutt_statue_detail.vtf (1024x1024 DXT1)
+  [NO ALPHA FMT] nar_promenade_light_on.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_promenade_light_on_ilum.vtf (2048x4096 DXT1)
+  [ALL-WHITE ALPHA] nar_redlight_01.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_redlight_02.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_redlight_03.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_redlight_04.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_signage_01.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_signage_02.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_signage_03.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [ALL-WHITE ALPHA] nar_signage_05.vtf (4096x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [NO ALPHA FMT] nar_starforge_fragment.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_starforge_fragment_detail.vtf (256x256 DXT1)
+  [NO ALPHA FMT] nar_starforge_fragment_ilum.vtf (4096x4096 DXT1)
+  [NO ALPHA FMT] nar_street_light.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_street_light_detail.vtf (128x256 DXT1)
+  [NO ALPHA FMT] nar_street_light_ilum.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_tech_generator_detail.vtf (256x512 DXT1)
+  [ALL-WHITE ALPHA] nar_tech_generator_electricity.vtf (2048x4096 DXT5) alpha: min=255 max=255 mean=255.0
+  [NO ALPHA FMT] nar_tech_generator_ilum.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_tech_generator_off.vtf (2048x4096 DXT1)
+  [NO ALPHA FMT] nar_tech_generator_on.vtf (2048x4096 DXT1)

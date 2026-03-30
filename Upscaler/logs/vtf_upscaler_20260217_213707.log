@@ -1,0 +1,28 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 21:37:07 ===
+
+[21:37:07] ⚡ Using cached scan for 7 files (instant)...
+[21:37:07] ⊖ Skipped 1 files: 1x mask texture
+[21:37:07] 🔍 Scan done: 6 to upscale (0.4 MB), 1 skipped | batch size: 200
+[21:37:07] 📦 Batch 1/1 (6 files)...
+[21:37:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:37:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:37:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:37:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:37:08] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:37:08] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:37:08] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:37:08] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:37:08] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364227\input/0001.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364227\output/0001.png done
+[21:37:08] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364227\input/0000.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364227\output/0000.png done
+[21:37:08] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364227\input/0002.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364227\output/0002.png done
+[21:37:08] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364227\input/0003.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364227\output/0003.png done
+[21:37:09] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364227\input/0004.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364227\output/0004.png done
+[21:37:09] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364227\input/0005.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364227\output/0005.png done
+[21:37:16] ✓ b2_dmg.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:37:16] ✓ b2_jetpack.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:37:16] ✓ b2_jetpack3.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:37:16] ✓ droid_b2_gunarm3.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:37:16] ✓ b2_body2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:37:16] ✓ b2_body3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+
+=== Completed: 6 success, 1 skipped, 0 failed in 0.1min ===

@@ -1,0 +1,58 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 17:37:48 ===
+
+[17:37:48] ⚡ Using cached scan for 19 files (instant)...
+[17:37:48] ⊖ Skipped 6 files: 6x normal map
+[17:37:48] 🔍 Scan done: 13 to upscale (10.5 MB), 6 skipped | batch size: 45
+[17:37:48] 📦 Batch 1/1 (13 files)...
+[17:37:48] [GPU] [Split] Pass 1: 4 normal images (tile=1024)
+[17:37:50] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0000.png done
+[17:37:50] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0001.png done
+[17:37:50] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0002.png done
+[17:37:51] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0003.png done
+[17:37:56] [GPU] [Split] Pass 2: 9 tall images (tile=512, height>=1024)
+[17:38:02] [GPU] G:\_vtf_scratch\_batch_TALL/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0005.png done
+[17:38:02] [GPU] G:\_vtf_scratch\_batch_TALL/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0004.png done
+[17:38:05] [GPU] G:\_vtf_scratch\_batch_TALL/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0007.png done
+[17:38:05] [GPU] G:\_vtf_scratch\_batch_TALL/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0006.png done
+[17:38:09] [GPU] G:\_vtf_scratch\_batch_TALL/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0009.png done
+[17:38:09] [GPU] G:\_vtf_scratch\_batch_TALL/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0008.png done
+[17:38:13] [GPU] G:\_vtf_scratch\_batch_TALL/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0010.png done
+[17:38:27] [GPU] G:\_vtf_scratch\_batch_TALL/0011.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0011.png done
+[17:38:29] [GPU] G:\_vtf_scratch\_batch_TALL/0012.bmp -> G:\_vtf_scratch\vtf_out_1_1774888668\output/0012.png done
+[17:38:29] ⚡ 8x skip: 9 already at target, 4 need pass 2
+[17:38:29] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[17:38:29] [GPU] [Split] Pass 1: 1 normal images (tile=1024)
+[17:38:31] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774888668\output_pass2/0000.png done
+[17:38:36] [GPU] [Split] Pass 2: 3 tall images (tile=512, height>=1024)
+[17:38:46] [GPU] G:\_vtf_scratch\_batch_TALL/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774888668\output_pass2/0002.png done
+[17:38:47] [GPU] G:\_vtf_scratch\_batch_TALL/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774888668\output_pass2/0001.png done
+[17:38:50] [GPU] G:\_vtf_scratch\_batch_TALL/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774888668\output_pass2/0003.png done
+[17:38:54] ✓ glass_clear.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[17:38:55] ⚠ isd_lights03.vtf: 256x512 → 2048x4096 [AI] (10.7MB) ⚠️ FLAT
+[17:38:55] ⚠ isd_panel_small01.vtf: 256x512 → 2048x4096 [AI] (10.7MB) ⚠️ FLAT
+[17:38:57] ✓ isd_panel_small02.vtf: 256x512 → 2048x4096 [AI] (10.7MB)
+[17:39:03] ✓ imp_door03.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:39:03] ✓ isd_floor01.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:39:03] ✓ isd_metal01.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:39:03] ✓ isd_metal02.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:39:08] ✓ isd_metal03.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:39:08] ⚠ isd_metal06.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[17:39:08] ✓ isd_metal08.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:39:11] ✓ isd_exteriorgreebles02.vtf: 2048x2048 → 4096x4096 [AI] (10.7MB)
+[17:39:11] ✓ isd_exteriorpanels_dtl.vtf: 2048x2048 → 4096x4096 [AI] (10.7MB)
+[17:39:11] ✅ Done in 1.4min (9.4/min) | ✓13 ⊖6 ✗0
+[17:39:11] ──────────────────────────────────────────────────
+[17:39:11] 📊 BATCH STATS
+[17:39:11]   ⏱ Total Time:      1.4 min (83s)
+[17:39:11]   📁 Files:           13 upscaled, 6 skipped, 0 failed
+[17:39:11]   📥 Input Size:      10.5 MB
+[17:39:11]   📤 Output Size:     149.3 MB (14.2x)
+[17:39:11]   ⚡ Avg Per File:    6.4s
+[17:39:11]   🚀 Processing Rate: 9.4/min
+[17:39:11] ──────────────────────────────────────────────────
+[17:39:11] ⚠️ CORRUPTION REPORT: 3 file(s) flagged for review:
+[17:39:11]   → isd_lights03.vtf
+[17:39:11]   → isd_panel_small01.vtf
+[17:39:11]   → isd_metal06.vtf
+
+=== Completed: 13 success, 6 skipped, 0 failed in 1.4min ===

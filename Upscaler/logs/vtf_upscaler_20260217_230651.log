@@ -1,0 +1,29 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 23:06:51 ===
+
+[23:06:51] ⚡ Using cached scan for 7 files (instant)...
+[23:06:51] 🔍 Scan done: 7 to upscale (1.5 MB), 0 skipped | batch size: 200
+[23:06:51] 📦 Batch 1/1 (7 files)...
+[23:06:51] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:06:51] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:06:51] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:06:51] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:06:51] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:06:51] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:06:51] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:06:51] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:06:52] [GPU] R:\vtf_batch_1_1771369611\input/0000.bmp -> R:\vtf_batch_1_1771369611\output/0000.png done
+[23:06:52] [GPU] R:\vtf_batch_1_1771369611\input/0002.bmp -> R:\vtf_batch_1_1771369611\output/0002.png done
+[23:06:52] [GPU] R:\vtf_batch_1_1771369611\input/0001.bmp -> R:\vtf_batch_1_1771369611\output/0001.png done
+[23:06:52] [GPU] R:\vtf_batch_1_1771369611\input/0003.bmp -> R:\vtf_batch_1_1771369611\output/0003.png done
+[23:06:53] [GPU] R:\vtf_batch_1_1771369611\input/0004.bmp -> R:\vtf_batch_1_1771369611\output/0004.png done
+[23:06:53] [GPU] R:\vtf_batch_1_1771369611\input/0005.bmp -> R:\vtf_batch_1_1771369611\output/0005.png done
+[23:06:53] [GPU] R:\vtf_batch_1_1771369611\input/0006.bmp -> R:\vtf_batch_1_1771369611\output/0006.png done
+[23:06:53] ✗ green.vtf: AI output missing or corrupted
+[23:07:02] ✓ plasterwall01.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[23:07:03] ✓ gridbase_c.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[23:07:03] ✓ venator_gray.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[23:07:03] ✓ starspeed2.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[23:07:03] ✓ gravitycore.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[23:07:03] ✓ gravitycore2.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+
+=== Completed: 6 success, 0 skipped, 1 failed in 0.2min ===

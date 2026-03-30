@@ -1,0 +1,500 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 21:16:14 ===
+
+[21:16:14] ⚡ Using cached scan for 11164 files (instant)...
+[21:16:14] ⊖ Skipped 1211 files: 845x normal map, 70x bump map, 52x specular, 32x special texture, 30x detail texture, 25x mask texture, 5x gloss map, 3x environment map, 1x 4096x2048
+[21:16:14] 🔍 Scan done: 9953 to upscale (3292.6 MB), 1211 skipped | batch size: 100
+[21:16:14] 📦 Batch 1/100 (100 files)...
+[21:16:14] [GPU] invalid format argument
+[21:16:14] ✗ GPU batch 1 failed!
+[21:16:15] 📦 Batch 2/100 (100 files)...
+[21:16:15] [GPU] invalid format argument
+[21:16:15] ✗ GPU batch 2 failed!
+[21:16:15] 📦 Batch 3/100 (100 files)...
+[21:16:15] ✗ c-1024_12288_-9024.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-11264_-11264_1134.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-11264_-512_11374.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-11264_10240_1134.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-11264_11776_11374.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-11297_2_248.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1130_1751_97.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1136_-919_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-11776_-512_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-12288_-12800_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1254_947_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-12800_11776_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1309_342_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1346_-471_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1349_1641_82.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1559_1880_64.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-175_632_-423.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-1935_41_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2091_1881_64.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2382_1925_64.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2386_-1343_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2386_1345_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-243_-839_-423.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2491_-1008_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2502_949_105.vtf: Side must be provided for cubemaps!
+[21:16:15] [GPU] invalid format argument
+[21:16:15] ✗ GPU batch 3 failed!
+[21:16:15] 📦 Batch 4/100 (100 files)...
+[21:16:15] ✗ c-2739_-21_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2882_728_41.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-2950_-1007_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3033_0_-215.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3494_-869_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3522_926_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3704_-13_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3711_-1318_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3712_1322_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-3779_27_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-4073_-749_41.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-4113_993_41.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-4550_17_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-4586_876_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-4733_-2514_-13674.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-4747_0_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-5079_-2_-203.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-512_-12288_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-5504_-776_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-5517_766_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-5684_-1319_-206.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6036_1013_-259.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6062_-22_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-611_-844_-359.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6134_-839_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6163_740_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-624_677_-359.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-637_-12_-424.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6593_-2_-169.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6628_-807_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6656_785_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-68_1781_-527.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-696_-436_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6974_4_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-6977_0_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-7039_255_-148.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-7040_-323_-139.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-736_-1355_-423.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-740_208_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-7582_-644_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-7586_643_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-777_1345_-423.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-7910_-24_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-7937_9049_-15119.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-8717_-8_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-8769_-31_144.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-888_660_-359.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c-970_256_-359.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c10106_9188_-15119.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c12288_12800_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c12800_-11776_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c132_-68_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c13312_512_-9105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c13824_-10240_1134.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c13824_11264_1134.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c13824_12800_11374.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c13824_512_11374.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c15831_-166_190.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c1633_-1413_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c1643_-8362_-14482.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c1846_1437_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c1944_-1373_105.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c1980_-1347_-545.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c2218_1362_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c2315_-114_77.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c2417_1341_-581.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c253_1320_-423.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c2706_1782_1107.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c272_-1343_-423.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c2836_-1965_1068.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c2900_-1354_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c291_-2132_-462.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c3584_-9_176.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c3593_1342_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c3604_-1350_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c3714_1_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4030_433_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4036_-435_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4203_-3_54.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4252_-3_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4450_-317_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4471_293_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4515_1580_-119.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4526_9_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4581_-1332_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4588_1361_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4655_197_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4669_-204_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4707_905_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4719_-1383_-119.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4760_-856_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4796_-4_-23.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c4906_0_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5090_-324_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5111_330_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c512_-10752_1134.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5191_-4_-84.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5309_362_-156.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5337_-335_-162.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5430_-1412_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] 📦 Batch 5/100 (100 files)...
+[21:16:15] ✗ c5508_1407_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5730_-324_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5737_-8_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5744_569_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5751_330_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5753_1087_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5754_-999_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5757_-1410_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5757_-581_-165.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5758_976_-167.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5762_1425_-679.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5766_-575_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5948_438_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c5967_-395_633.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c6026_-385_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c6027_387_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c6144_-1240_-141.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c6144_-1957_-141.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c65_-1219_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c6856_-199_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7155_-2194_-875.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7231_-1626_308.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c72_417_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7321_-198_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7321_387_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c753_1374_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7657_2427_-844.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7673_1631_-231.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7947_384_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c7958_-195_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c8319_-196_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c8382_373_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c8410_-3170_1091.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c8445_-327_4279.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c8583_0_4257.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c8857_2121_1389.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ c89_1202_168.vtf: Side must be provided for cubemaps!
+[21:16:15] ✗ cubemapdefault.vtf: Side must be provided for cubemaps!
+[21:16:15] [GPU] invalid format argument
+[21:16:15] ✗ GPU batch 5 failed!
+[21:16:15] 📦 Batch 6/100 (100 files)...
+[21:16:15] [GPU] invalid format argument
+[21:16:15] ✗ GPU batch 6 failed!
+[21:16:15] 📦 Batch 7/100 (100 files)...
+[21:16:15] [GPU] invalid format argument
+[21:16:15] ✗ GPU batch 7 failed!
+[21:16:15] 📦 Batch 8/100 (100 files)...
+[21:16:15] [GPU] invalid format argument
+[21:16:15] ✗ GPU batch 8 failed!
+[21:16:15] 📦 Batch 9/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 9 failed!
+[21:16:16] 📦 Batch 10/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 10 failed!
+[21:16:16] 📦 Batch 11/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 11 failed!
+[21:16:16] 📦 Batch 12/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 12 failed!
+[21:16:16] 📦 Batch 13/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 13 failed!
+[21:16:16] 📦 Batch 14/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 14 failed!
+[21:16:16] 📦 Batch 15/100 (100 files)...
+[21:16:16] [GPU] invalid format argument
+[21:16:16] ✗ GPU batch 15 failed!
+[21:16:16] 📦 Batch 16/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 16 failed!
+[21:16:17] 📦 Batch 17/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 17 failed!
+[21:16:17] 📦 Batch 18/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 18 failed!
+[21:16:17] 📦 Batch 19/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 19 failed!
+[21:16:17] 📦 Batch 20/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 20 failed!
+[21:16:17] 📦 Batch 21/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 21 failed!
+[21:16:17] 📦 Batch 22/100 (100 files)...
+[21:16:17] [GPU] invalid format argument
+[21:16:17] ✗ GPU batch 22 failed!
+[21:16:18] 📦 Batch 23/100 (100 files)...
+[21:16:18] [GPU] invalid format argument
+[21:16:18] ✗ GPU batch 23 failed!
+[21:16:18] 📦 Batch 24/100 (100 files)...
+[21:16:18] ✗ c-1024_12288_-9024.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-11264_-11264_1134.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-11264_-512_11374.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-11264_10240_1134.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-11264_11776_11374.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-11297_2_248.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1130_1751_97.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1136_-919_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-11776_-512_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-12288_-12800_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1254_947_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-12800_11776_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1309_342_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1346_-471_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1349_1641_82.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1559_1880_64.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-175_632_-423.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-1935_41_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] [GPU] invalid format argument
+[21:16:18] ✗ GPU batch 24 failed!
+[21:16:18] 📦 Batch 25/100 (100 files)...
+[21:16:18] ✗ c-2091_1881_64.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2382_1925_64.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2386_-1343_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2386_1345_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-243_-839_-423.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2491_-1008_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2502_949_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2739_-21_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2882_728_41.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-2950_-1007_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3033_0_-215.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3494_-869_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3522_926_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3704_-13_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3711_-1318_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3712_1322_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-3779_27_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-4073_-749_41.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-4113_993_41.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-4550_17_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-4586_876_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-4733_-2514_-13674.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-4747_0_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-5079_-2_-203.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-512_-12288_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-5504_-776_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-5517_766_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-5684_-1319_-206.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6036_1013_-259.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6062_-22_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-611_-844_-359.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6134_-839_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6163_740_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-624_677_-359.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-637_-12_-424.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6593_-2_-169.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6628_-807_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6656_785_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-68_1781_-527.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-696_-436_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6974_4_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-6977_0_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-7039_255_-148.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-7040_-323_-139.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-736_-1355_-423.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-740_208_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-7582_-644_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-7586_643_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-777_1345_-423.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-7910_-24_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-7937_9049_-15119.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-8717_-8_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-8769_-31_144.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-888_660_-359.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c-970_256_-359.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c10106_9188_-15119.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c12288_12800_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c12800_-11776_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c132_-68_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c13312_512_-9105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c13824_-10240_1134.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c13824_11264_1134.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c13824_12800_11374.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c13824_512_11374.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c15831_-166_190.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c1633_-1413_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c1643_-8362_-14482.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c1846_1437_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c1944_-1373_105.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c1980_-1347_-545.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c2218_1362_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c2315_-114_77.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c2417_1341_-581.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c253_1320_-423.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c2706_1782_1107.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c272_-1343_-423.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c2836_-1965_1068.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c2900_-1354_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c291_-2132_-462.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c3584_-9_176.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c3593_1342_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c3604_-1350_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c3714_1_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4030_433_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4036_-435_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4203_-3_54.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4252_-3_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4450_-317_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4471_293_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4515_1580_-119.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4526_9_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4581_-1332_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4588_1361_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4655_197_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4669_-204_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4707_905_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4719_-1383_-119.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4760_-856_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4796_-4_-23.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c4906_0_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] 📦 Batch 26/100 (100 files)...
+[21:16:18] ✗ c5090_-324_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5111_330_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c512_-10752_1134.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5191_-4_-84.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5309_362_-156.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5337_-335_-162.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5430_-1412_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5508_1407_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5730_-324_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5737_-8_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5744_569_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5751_330_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5753_1087_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5754_-999_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5757_-1410_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5757_-581_-165.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5758_976_-167.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5762_1425_-679.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5766_-575_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5948_438_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c5967_-395_633.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c6026_-385_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c6027_387_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c6144_-1240_-141.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c6144_-1957_-141.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c65_-1219_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c6856_-199_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7155_-2194_-875.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7231_-1626_308.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c72_417_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7321_-198_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7321_387_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c753_1374_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7657_2427_-844.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7673_1631_-231.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7947_384_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c7958_-195_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c8319_-196_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c8382_373_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c8410_-3170_1091.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c8445_-327_4279.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c8583_0_4257.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c8857_2121_1389.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ c89_1202_168.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] ✗ cubemapdefault.hdr.vtf: Side must be provided for cubemaps!
+[21:16:18] [GPU] invalid format argument
+[21:16:18] ✗ GPU batch 26 failed!
+[21:16:18] 📦 Batch 27/100 (100 files)...
+[21:16:18] [GPU] invalid format argument
+[21:16:18] ✗ GPU batch 27 failed!
+[21:16:18] 📦 Batch 28/100 (100 files)...
+[21:16:19] [GPU] invalid format argument
+[21:16:19] ✗ GPU batch 28 failed!
+[21:16:19] 📦 Batch 29/100 (100 files)...
+[21:16:19] ✗ cubemap_sheen001.vtf: Side must be provided for cubemaps!
+[21:16:19] ✗ eye-reflection-cubemap-.vtf: Side must be provided for cubemaps!
+[21:16:19] ✗ cubemap_gold001.vtf: Side must be provided for cubemaps!
+[21:16:19] ✗ saxxy_gold.vtf: Side must be provided for cubemaps!
+[21:16:19] [GPU] invalid format argument
+[21:16:19] ✗ GPU batch 29 failed!
+[21:16:19] 📦 Batch 30/100 (100 files)...
+[21:16:19] [GPU] invalid format argument
+[21:16:19] ✗ GPU batch 30 failed!
+[21:16:19] 📦 Batch 31/100 (100 files)...
+[21:16:19] [GPU] [Split] Pass 1: 84 normal images (tile=1024)
+[21:16:19] [GPU] invalid format argument
+[21:16:19] [GPU] [Split] Pass 2: 16 tall images (tile=512, height>=1024)
+[21:16:19] [GPU] invalid format argument
+[21:16:19] ✗ GPU batch 31 failed!
+[21:16:19] 📦 Batch 32/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 32 failed!
+[21:16:20] 📦 Batch 33/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 33 failed!
+[21:16:20] 📦 Batch 34/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 34 failed!
+[21:16:20] 📦 Batch 35/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 35 failed!
+[21:16:20] 📦 Batch 36/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 36 failed!
+[21:16:20] 📦 Batch 37/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 37 failed!
+[21:16:20] 📦 Batch 38/100 (100 files)...
+[21:16:20] [GPU] invalid format argument
+[21:16:20] ✗ GPU batch 38 failed!
+[21:16:21] 📦 Batch 39/100 (100 files)...
+[21:16:21] [GPU] invalid format argument
+[21:16:21] ✗ GPU batch 39 failed!
+[21:16:21] 📦 Batch 40/100 (100 files)...
+[21:16:21] [GPU] invalid format argument
+[21:16:21] ✗ GPU batch 40 failed!
+[21:16:21] 📦 Batch 41/100 (100 files)...
+[21:16:21] [GPU] invalid format argument
+[21:16:21] ✗ GPU batch 41 failed!
+[21:16:21] 📦 Batch 42/100 (100 files)...
+[21:16:21] [GPU] invalid format argument
+[21:16:21] ✗ GPU batch 42 failed!
+[21:16:21] 📦 Batch 43/100 (100 files)...
+[21:16:22] [GPU] invalid format argument
+[21:16:22] ✗ GPU batch 43 failed!
+[21:16:22] 📦 Batch 44/100 (100 files)...
+[21:16:22] [GPU] invalid format argument
+[21:16:22] ✗ GPU batch 44 failed!
+[21:16:22] 📦 Batch 45/100 (100 files)...
+[21:16:22] [GPU] invalid format argument
+[21:16:22] ✗ GPU batch 45 failed!
+[21:16:22] 📦 Batch 46/100 (100 files)...
+[21:16:23] [GPU] invalid format argument
+[21:16:23] ✗ GPU batch 46 failed!
+[21:16:23] 📦 Batch 47/100 (100 files)...
+[21:16:23] [GPU] invalid format argument
+[21:16:23] ✗ GPU batch 47 failed!
+[21:16:23] 📦 Batch 48/100 (100 files)...
+[21:16:23] [GPU] [Split] Pass 1: 99 normal images (tile=1024)
+[21:16:23] [GPU] invalid format argument
+[21:16:23] [GPU] [Split] Pass 2: 1 tall images (tile=512, height>=1024)
+[21:16:23] [GPU] invalid format argument
+[21:16:23] ✗ GPU batch 48 failed!
+[21:16:23] 📦 Batch 49/100 (100 files)...
+[21:16:23] [GPU] invalid format argument
+[21:16:23] ✗ GPU batch 49 failed!
+[21:16:23] 📦 Batch 50/100 (100 files)...
+[21:16:24] [GPU] invalid format argument
+[21:16:24] ✗ GPU batch 50 failed!
+[21:16:24] 📦 Batch 51/100 (100 files)...
+[21:16:24] [GPU] invalid format argument
+[21:16:24] ✗ GPU batch 51 failed!
+[21:16:24] 📦 Batch 52/100 (100 files)...
+[21:16:24] [GPU] invalid format argument
+[21:16:24] ✗ GPU batch 52 failed!
+[21:16:24] 📦 Batch 53/100 (100 files)...
+[21:16:24] [GPU] invalid format argument
+[21:16:24] ✗ GPU batch 53 failed!
+[21:16:24] 📦 Batch 54/100 (100 files)...
+[21:16:25] Cancelling...
+
+=== Completed: 0 success, 1211 skipped, 5300 failed in 0.2min ===

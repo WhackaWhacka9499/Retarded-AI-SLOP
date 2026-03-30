@@ -1,0 +1,32 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-11 20:16:01 ===
+
+[20:16:01] 🔍 Pre-flight scanning 13 files...
+[20:16:01] ⊖ Skipped 2 files: 2x already 4096x4096
+[20:16:01] 🔍 Scan done: 11 to upscale (2.5 MB), 2 skipped | batch size: 200
+[20:16:01] 📦 Batch 1/1 (11 files)...
+[20:16:17] ⚠ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ enlistedshoulder.vtf: 256x128 → 4096x2048 [AI] (10.7MB) ⚠️ DARK
+[20:16:17] ⚠ enlistedshoulder5.vtf: 256x128 → 4096x2048 [AI] (10.7MB) ⚠️ DARK
+[20:16:17] ⚠ evo_face.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ evo_face1.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ evo_face2.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ evo_face3.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ evo_face4.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ⚠ evo_face5.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[20:16:17] ✅ Done in 0.3min (0.7/sec) | ✓11 ⊖2 ✗0
+[20:16:17] ⚠️ CORRUPTION REPORT: 11 file(s) flagged for review:
+[20:16:17]   → commanderwolffedc15_d.vtf
+[20:16:17]   → enlisted.vtf
+[20:16:17]   → enlisted1.vtf
+[20:16:17]   → enlistedshoulder.vtf
+[20:16:17]   → enlistedshoulder5.vtf
+[20:16:17]   → evo_face.vtf
+[20:16:17]   → evo_face1.vtf
+[20:16:17]   → evo_face2.vtf
+[20:16:17]   → evo_face3.vtf
+[20:16:17]   → evo_face4.vtf
+[20:16:17]   → evo_face5.vtf
+
+=== Completed: 11 success, 2 skipped, 0 failed in 0.3min ===

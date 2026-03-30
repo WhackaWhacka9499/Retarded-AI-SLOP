@@ -1,0 +1,27 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:55:41 ===
+
+[16:55:41] ⚡ Using cached scan for 5 files (instant)...
+[16:55:41] ⊖ Smart skip: 1 files already processed (.bak backup found)
+[16:55:41] ⊖ Skipped 2 files: 1x normal map, 1x .bak exists
+[16:55:41] 🔍 Scan done: 3 to upscale (0.5 MB), 2 skipped | batch size: 200
+[16:55:41] 📦 Batch 1/1 (3 files)...
+[16:55:43] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886141\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774886141\output/0001.png done
+[16:55:43] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886141\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774886141\output/0000.png done
+[16:55:44] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886141\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774886141\output/0002.png done
+[16:55:44] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:55:44] [GPU] [Split] Pass 2: 3 tall images (tile=512, height>=1024)
+[16:56:09] ✓ Scan: 5 files (1.8 MB), 4 to upscale, 1 will skip
+[16:56:09] 🏷️ Classification: 4 AI, 0 LANCZOS, 1 skip
+[16:56:09] 📊 Distribution: 3x medium (256-1024), 1x large (1024+)
+[16:56:31] Cancelling...
+[16:56:34] ⚡ Flushing all resources...
+[16:56:34]   Cleaned 2 items (29 MB) from G:\_vtf_scratch
+[16:56:34]   Scan cache cleared
+[16:56:34] 🧹 RAM cleared: 222MB → 175MB (freed 47MB)
+[16:56:34]   Killed lingering GPU process: realesrgan-ncnn-vulkan.exe (PID 8532)
+[16:56:35] 🎮 VRAM cleared: 13269MB → 1451MB / 16376MB (freed 11818MB)
+[16:56:35] ⚡ Flush complete — PC should be at full capacity
+[16:56:35] ✗ GPU batch 1 failed!
+[16:56:35] ✅ Done in 0.9min (0.0/sec) | ✓0 ⊖2 ✗3
+
+=== Completed: 0 success, 2 skipped, 3 failed in 0.9min ===

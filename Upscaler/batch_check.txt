@@ -1,0 +1,26 @@
+Parsing scan results...
+  Broken alpha: 417
+  Upscaled normals: 39
+  Upscaled bumps: 57
+  After dedup: alpha=417, normals=39, bumps=57
+
+=== PHASE 1: Checking source coverage ===
+  Alpha: 417/417 have originals
+  Normal/Bump: 83/96 have originals
+
+  Missing normal/bump originals (13):
+    - materials\galactic\map\walls\hallway_n.vtf
+    - materials\galactic\map\walls\revised\floor_normal.vtf
+    - materials\galactic\map\walls\revised\wall_panels2_normal.vtf
+    - materials\galactic\map\walls\revised\wall_panels3_normal.vtf
+    - materials\galactic\map\walls\revised\wall_panels_normal.vtf
+    - materials\lordtrilobite\imp_door03_nrm.vtf
+    - materials\lordtrilobite\isd_exteriorgreebles_nrm.vtf
+    - materials\realworldtextures\floor\floor_1_06_nrm.vtf
+    - materials\lordtrilobite\imp_door03_NRM.vtf
+    - materials\lordtrilobite\isd_exteriorgreebles_NRM.vtf
+    - materials\props\engineerstation\engineerstationn.vtf
+    - materials\RealWorldTextures\Floor\Floor_1_06_nrm.vtf
+    - materials\RealWorldTextures\Floor\MixTile\Bump\512.vtf
+
+[CHECK ONLY MODE - no changes made]

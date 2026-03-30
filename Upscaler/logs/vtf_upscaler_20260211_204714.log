@@ -1,0 +1,25 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-11 20:47:14 ===
+
+[20:47:14] 🔍 Pre-flight scanning 13 files...
+[20:47:14] ⊖ Skipped 1 files: 1x already 4096x4096
+[20:47:14] 🔍 Scan done: 12 to upscale (2.6 MB), 1 skipped | batch size: 200
+[20:47:14] 📦 Batch 1/1 (12 files)...
+[20:47:24] ⚠ GPU batch 1: VRAM failed — retrying with safe settings (tile=auto, threads=1:1:1)...
+[20:47:32] ✓ GPU batch 1: safe mode succeeded!
+[20:47:45] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ enlistedshoulder.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[20:47:48] ✓ enlistedshoulder5.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[20:47:48] ✓ evo_face.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ evo_face1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ evo_face2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ evo_face3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ evo_face4.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ✓ evo_face5.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[20:47:48] ⚠ legs.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[20:47:48] ✅ Done in 0.6min (0.4/sec) | ✓12 ⊖1 ✗0
+[20:47:48] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[20:47:48]   → legs.vtf
+
+=== Completed: 12 success, 1 skipped, 0 failed in 0.6min ===

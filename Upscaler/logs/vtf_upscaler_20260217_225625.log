@@ -1,0 +1,72 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 22:56:25 ===
+
+[22:56:25] ⚡ Using cached scan for 30 files (instant)...
+[22:56:25] ⊖ Skipped 10 files: 9x normal map
+[22:56:25] 🔍 Scan done: 20 to upscale (24.3 MB), 10 skipped | batch size: 181
+[22:56:25] 📦 Batch 1/1 (20 files)...
+[22:56:25] [GPU] [Split] Pass 1: 3 normal images (tile=1024)
+[22:56:25] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[22:56:25] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[22:56:25] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[22:56:25] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[22:56:25] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[22:56:25] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[22:56:25] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[22:56:25] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[22:56:26] [GPU] R:\_batch_NORMAL/0000.bmp -> R:\vtf_batch_1_1771368985\output/0000.png done
+[22:56:26] [GPU] R:\_batch_NORMAL/0001.bmp -> R:\vtf_batch_1_1771368985\output/0001.png done
+[22:56:26] [GPU] R:\_batch_NORMAL/0002.bmp -> R:\vtf_batch_1_1771368985\output/0002.png done
+[22:56:31] [GPU] [Split] Pass 2: 17 tall images (tile=512, height>=1024)
+[22:56:32] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[22:56:32] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[22:56:32] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[22:56:32] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[22:56:32] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[22:56:32] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[22:56:32] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[22:56:32] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[22:56:34] [GPU] R:\_batch_TALL/0004.bmp -> R:\vtf_batch_1_1771368985\output/0004.png done
+[22:56:34] [GPU] R:\_batch_TALL/0003.bmp -> R:\vtf_batch_1_1771368985\output/0003.png done
+[22:56:35] [GPU] R:\_batch_TALL/0005.bmp -> R:\vtf_batch_1_1771368985\output/0005.png done
+[22:56:35] [GPU] R:\_batch_TALL/0006.bmp -> R:\vtf_batch_1_1771368985\output/0006.png done
+[22:56:36] [GPU] R:\_batch_TALL/0008.bmp -> R:\vtf_batch_1_1771368985\output/0008.png done
+[22:56:36] [GPU] R:\_batch_TALL/0007.bmp -> R:\vtf_batch_1_1771368985\output/0007.png done
+[22:56:38] [GPU] R:\_batch_TALL/0010.bmp -> R:\vtf_batch_1_1771368985\output/0010.png done
+[22:56:38] [GPU] R:\_batch_TALL/0009.bmp -> R:\vtf_batch_1_1771368985\output/0009.png done
+[22:56:39] [GPU] R:\_batch_TALL/0012.bmp -> R:\vtf_batch_1_1771368985\output/0012.png done
+[22:56:39] [GPU] R:\_batch_TALL/0011.bmp -> R:\vtf_batch_1_1771368985\output/0011.png done
+[22:56:40] [GPU] R:\_batch_TALL/0013.bmp -> R:\vtf_batch_1_1771368985\output/0013.png done
+[22:56:40] [GPU] R:\_batch_TALL/0014.bmp -> R:\vtf_batch_1_1771368985\output/0014.png done
+[22:56:41] [GPU] R:\_batch_TALL/0015.bmp -> R:\vtf_batch_1_1771368985\output/0015.png done
+[22:56:42] [GPU] R:\_batch_TALL/0016.bmp -> R:\vtf_batch_1_1771368985\output/0016.png done
+[22:56:43] [GPU] R:\_batch_TALL/0017.bmp -> R:\vtf_batch_1_1771368985\output/0017.png done
+[22:56:45] [GPU] R:\_batch_TALL/0018.bmp -> R:\vtf_batch_1_1771368985\output/0018.png done
+[22:56:47] [GPU] R:\_batch_TALL/0019.bmp -> R:\vtf_batch_1_1771368985\output/0019.png done
+[22:56:49] ⚠ lightbar.vtf: 64x64 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[22:56:49] ✓ swwall4.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ swwall7.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ⚠ bunkpanels.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[22:56:56] ✓ hallway.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ hallway_bunks.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ hallway_dark.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ hallway_modules.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ hallway_tr.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ⚠ patchpanel_alt.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[22:56:56] ✓ longpanels.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ⚠ patchpanel_alt.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[22:56:56] ✓ patch_blocky.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ patch_blocky_dark.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ swwall1.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ swwall3.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[22:56:56] ✓ wall_panels.vtf: 2048x1024 → 4096x2048 [AI] (10.7MB)
+[22:56:56] ✓ wall_panels2.vtf: 2048x1024 → 4096x2048 [AI] (10.7MB)
+[22:56:56] ✓ wall_panels3.vtf: 2048x1024 → 4096x2048 [AI] (10.7MB)
+[22:56:57] ✓ floor_dark.vtf: 2048x2048 → 4096x4096 [AI] (21.3MB)
+[22:56:57] ✅ Done in 0.5min (0.6/sec) | ✓20 ⊖10 ✗0
+[22:56:57] ⚠️ CORRUPTION REPORT: 4 file(s) flagged for review:
+[22:56:57]   → lightbar.vtf
+[22:56:57]   → bunkpanels.vtf
+[22:56:57]   → patchpanel_alt.vtf
+[22:56:57]   → patchpanel_alt.vtf
+
+=== Completed: 20 success, 10 skipped, 0 failed in 0.5min ===

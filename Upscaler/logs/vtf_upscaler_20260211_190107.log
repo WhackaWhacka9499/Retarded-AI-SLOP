@@ -1,0 +1,27 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 19:01:07 ===
+
+[19:01:07] 📋 Using pre-scan cache (instant start)...
+[19:01:07] ⊖ Skipped 1 files: 1x already 4096x4096
+[19:01:07] 🔍 Scan done: 10 to upscale (1.7 MB), 1 skipped | batch size: 200
+[19:01:07] 📦 Batch 1/1 (10 files)...
+[19:01:07]    Pass 1/2: 4x AI upscale...
+[19:01:16]    ⚡ Pass 1 done: 2 already at target, 8 need pass 2
+[19:01:16]    Pass 2/2: 4x AI upscale (8 files)...
+[19:01:26] ✗ 327th shoulder.vtf: AI output missing or corrupted
+[19:01:29] ⚠ arf1.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:01:29] ⚠ arf2.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:01:29] ⚠ arf3.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:01:29] ✗ cap.vtf: AI output missing or corrupted
+[19:01:29] ⚠ coat.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:01:29] ✗ enlisted.vtf: AI output missing or corrupted
+[19:01:29] ✗ guns.vtf: Upscaled output not found
+[19:01:29] ✗ officer.vtf: AI output missing or corrupted
+[19:01:29] ✗ pauldron.vtf: AI output missing or corrupted
+[19:01:29] ✅ Done in 0.4min (0.2/sec) | ✓4 ⊖1 ✗6
+[19:01:29] ⚠️ CORRUPTION REPORT: 4 file(s) flagged for review:
+[19:01:29]   → arf1.vtf
+[19:01:29]   → arf2.vtf
+[19:01:29]   → arf3.vtf
+[19:01:29]   → coat.vtf
+
+=== Completed: 4 success, 1 skipped, 6 failed in 0.4min ===

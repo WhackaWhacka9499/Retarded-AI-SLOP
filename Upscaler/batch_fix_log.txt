@@ -1,0 +1,118 @@
+Parsing scan results...
+  Broken alpha: 417
+  Upscaled normals: 39
+  Upscaled bumps: 57
+  After dedup: alpha=417, normals=39, bumps=57
+
+=== PHASE 1: Checking source coverage ===
+  Alpha: 417/417 have originals
+  Normal/Bump: 83/96 have originals
+
+  Missing normal/bump originals (13):
+    - materials\galactic\map\walls\hallway_n.vtf
+    - materials\galactic\map\walls\revised\floor_normal.vtf
+    - materials\galactic\map\walls\revised\wall_panels2_normal.vtf
+    - materials\galactic\map\walls\revised\wall_panels3_normal.vtf
+    - materials\galactic\map\walls\revised\wall_panels_normal.vtf
+    - materials\lordtrilobite\imp_door03_nrm.vtf
+    - materials\lordtrilobite\isd_exteriorgreebles_nrm.vtf
+    - materials\realworldtextures\floor\floor_1_06_nrm.vtf
+    - materials\lordtrilobite\imp_door03_NRM.vtf
+    - materials\lordtrilobite\isd_exteriorgreebles_NRM.vtf
+    - materials\props\engineerstation\engineerstationn.vtf
+    - materials\RealWorldTextures\Floor\Floor_1_06_nrm.vtf
+    - materials\RealWorldTextures\Floor\MixTile\Bump\512.vtf
+
+=== PHASE 2: Fixing broken alpha channels ===
+  [1/417] FIXED: addon1.vtf - alpha restored (256->4096)
+  [2/417] FIXED: rangerbelts01_d.vtf - alpha restored (512->4096)
+  [3/417] FIXED: rangerriotduster_d.vtf - alpha restored (1024->4096)
+  [4/417] FIXED: ncrtrooperextras01_d.vtf - alpha restored (512->4096)
+  [5/417] FIXED: ncrriotgear01_d.vtf - alpha restored (512->4096)
+  [SKIP] extraequipment.vtf - original alpha also all-white (not fixable)
+  [SKIP] blind.vtf - original alpha also all-white (not fixable)
+  [10/417] FIXED: jetpack.vtf - alpha restored (256->4096)
+  [SKIP] tex_0010_0.vtf - original alpha also all-white (not fixable)
+  [SKIP] trooper.vtf - original alpha also all-white (not fixable)
+  [20/417] FIXED: medicc.vtf - alpha restored (1024->4096)
+  [30/417] FIXED: 212thlt.vtf - alpha restored (1024->4096)
+  [SKIP] slave1base.vtf - original alpha also all-white (not fixable)
+  [SKIP] slave1buttons.vtf - original alpha also all-white (not fixable)
+  [SKIP] slave1hud.vtf - original alpha also all-white (not fixable)
+  [SKIP] cockpit_joystick.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_1_blue.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_1_blue_spec.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_1_green.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_1_green_spec.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_1_spec.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_1_d.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_3_d.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_2_blue.vtf - original alpha also all-white (not fixable)
+  [SKIP] gunship_2_green.vtf - original alpha also all-white (not fixable)
+  [SKIP] bbody1.vtf - original alpha also all-white (not fixable)
+  [40/417] FIXED: p1_helmet.vtf - alpha restored (512->4096)
+  [50/417] FIXED: mask.vtf - alpha restored (512->4096)
+  [SKIP] gz_v_cs_chrome.vtf - original alpha also all-white (not fixable)
+  [60/417] FIXED: hwn_pet_balloon.vtf - alpha restored (256->4096)
+  [70/417] FIXED: armor.vtf - alpha restored (512->4096)
+  [80/417] FIXED: sgt_body1.vtf - alpha restored (1024->4096)
+  [90/417] FIXED: gloves.vtf - alpha restored (512->4096)
+  [100/417] FIXED: p2_helmet.vtf - alpha restored (512->4096)
+  [110/417] FIXED: arc_enlisted_boots.vtf - alpha restored (256->4096)
+  [120/417] FIXED: helmet_visor.vtf - alpha restored (512->4096)
+  [SKIP] visor.vtf - original alpha also all-white (not fixable)
+  [130/417] FIXED: arc_enlisted_gloves.vtf - alpha restored (256->4096)
+  [140/417] FIXED: n_darthrevan01.vtf - alpha restored (512->4096)
+  [150/417] FIXED: arc_enlisted_bootsblue.vtf - alpha restored (256->4096)
+  [160/417] FIXED: helmet.vtf - alpha restored (512->4096)
+  [170/417] FIXED: arc_enlisted_helmet.vtf - alpha restored (512->4096)
+  [180/417] FIXED: arc_enlisted_boots.vtf - alpha restored (256->4096)
+  [190/417] FIXED: arc_enlisted_gloves.vtf - alpha restored (256->4096)
+  [200/417] FIXED: arc_enlisted_armour.vtf - alpha restored (512->2048)
+  [210/417] FIXED: visor.vtf - alpha restored (512->4096)
+  [220/417] FIXED: arc_enlisted_gloves.vtf - alpha restored (256->4096)
+  [230/417] FIXED: chest2.vtf - alpha restored (1024->4096)
+  [240/417] FIXED: arc_enlisted_gloves_right_forest.vtf - alpha restored (256->4096)
+  [250/417] FIXED: razer.vtf - alpha restored (1024->4096)
+  [260/417] FIXED: arc_enlisted_armour.vtf - alpha restored (512->2048)
+  [270/417] FIXED: arc_enlisted_armour.vtf - alpha restored (512->2048)
+  [280/417] FIXED: arc_enlisted_boots.vtf - alpha restored (256->4096)
+  [290/417] FIXED: phase2helmet2_black.vtf - alpha restored (512->4096)
+  [300/417] FIXED: arc_enlisted_armour1.vtf - alpha restored (512->2048)
+  [SKIP] 1001.vtf - original alpha also all-white (not fixable)
+  [310/417] FIXED: light.vtf - alpha restored (512->4096)
+  [320/417] FIXED: visor.vtf - alpha restored (512->4096)
+  [330/417] FIXED: dec22_battle_bear_style1_1_color.vtf - alpha restored (512->4096)
+  [340/417] FIXED: hwn2015_grim_tweeter_color.vtf - alpha restored (512->4096)
+  [350/417] FIXED: dec23_nightcap_color.vtf - alpha restored (512->4096)
+  [360/417] FIXED: hw2013_the_creature_from_the_heap_color.vtf - alpha restored (512->4096)
+  [370/417] FIXED: dec16_snowwing_blue_color.vtf - alpha restored (512->4096)
+  [380/417] FIXED: sum21_fast_food_color.vtf - alpha restored (512->4096)
+  [390/417] FIXED: sum20_breach_and_bomb_color.vtf - alpha restored (512->4096)
+
+  Alpha fix complete: 396 fixed, 21 failed, 0 skipped (no original)
+
+=== PHASE 3: Restoring normal/bump maps ===
+  [1] RESTORED: sheriff_normal.vtf
+  [2] RESTORED: droidpod_n.vtf
+  [3] RESTORED: defib_nm.vtf
+  [4] RESTORED: glass_nm.vtf
+  [5] RESTORED: glass_nm.vtf
+  [10] RESTORED: wings_nm.vtf
+  [20] RESTORED: turbotank_03_nm.vtf
+  [30] RESTORED: organa_speeder_cockpit_nrm.vtf
+  [40] RESTORED: TEX00000_norm.vtf
+  [50] RESTORED: TEX00011_norm.vtf
+  [60] RESTORED: TEX00022_norm.vtf
+  [70] RESTORED: santa_nor_01.vtf
+  [80] RESTORED: thruster_norm.vtf
+
+  Normal/bump restore: 83 restored, 0 failed, 13 skipped
+
+============================================================
+BATCH FIX COMPLETE
+============================================================
+Alpha channels fixed: 396/417
+Normal maps restored: 83/96
+Backups saved to: G:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons\Content\_vtf_backups
+Total issues remaining: 13 (no originals found)

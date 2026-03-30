@@ -1,0 +1,24 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 17:10:07 ===
+
+[17:10:07] � Using pre-scan cache (instant start)...
+[17:10:07] 🔍 Scan done: 13 to upscale (2.1 MB), 0 skipped | batch size: 200
+[17:10:07] 📦 Batch 1/1 (13 files)...
+[17:10:07]    ⚡ 8x routing: 2 single-pass, 11 multi-pass
+[17:10:08]    Pass 1/1: 4x AI upscale (2 files)...
+[17:10:21]    Pass 1/2: 4x AI upscale (11 files)...
+[17:10:33]    Pass 2/2: 4x AI upscale (11 files)...
+[17:10:44] ✗ arc_backpack.vtf: AI output missing or corrupted
+[17:10:44] ✗ arc_enlisted_gear1.vtf: AI output missing or corrupted
+[17:10:44] ✗ cody_visor.vtf: AI output missing or corrupted
+[17:10:44] ✗ cody_visor1.vtf: AI output missing or corrupted
+[17:10:44] ✗ enlisted.vtf: AI output missing or corrupted
+[17:10:44] ✗ enlisted1.vtf: AI output missing or corrupted
+[17:10:44] ✗ feather.vtf: AI output missing or corrupted
+[17:10:44] ✗ hair.vtf: AI output missing or corrupted
+[17:10:44] ✗ pauldron.vtf: AI output missing or corrupted
+[17:10:44] ✗ phase2helmet.vtf: AI output missing or corrupted
+[17:10:44] ✗ phase2helmet1.vtf: AI output missing or corrupted
+[17:10:44] ✗ skirt.vtf: AI output missing or corrupted
+[17:10:44] ✗ tex_0010_0.vtf: AI output missing or corrupted
+
+=== Completed: 0 success, 0 skipped, 13 failed in 0.6min ===

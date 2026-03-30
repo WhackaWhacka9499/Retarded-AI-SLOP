@@ -1,0 +1,124 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Cupscale</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Configurations>Debug;Release;NoNCNN</Configurations>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <ApplicationIcon>CupscaleLogo1.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='NoNCNN|x64'">
+    <Optimize></Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Costura32\DdsFileTypePlusIO_x86.dll" />
+    <None Remove="Costura64\DdsFileTypePlusIO_x64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Costura32\DdsFileTypePlusIO_x86.dll">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costura64\DdsFileTypePlusIO_x64.dll">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="7z.NET" Version="1.0.3" />
+    <PackageReference Include="Costura.Fody" Version="4.1.0" />
+    <PackageReference Include="CyotekImageBox" Version="1.2.1" />
+    <PackageReference Include="CyotekTabList" Version="2.0.0" />
+    <PackageReference Include="DdsFileTypePlusHack" Version="1.0.4" />
+    <PackageReference Include="Fody" Version="6.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="HTAlt.WinForms" Version="0.1.6" />
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="7.23.1" />
+    <PackageReference Include="MozJpegSharp" Version="1.0.27" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NvAPIWrapper.Net" Version="0.8.1.101" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Magick.NET-Q16-AnyCPU" />
+    <Reference Include="Cyotek.Windows.Forms.ImageBox" />
+    <Reference Include="System.Management" />
+    <Reference Include="TabControl" />
+    <Reference Include="PagedControl" />
+    <Reference Include="Magick.NET.Core" />
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.IO.Compression.FileSystem\v4.0_4.0.0.0__b77a5c561934e089\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Main\MainForm.resx">
+      <Generator></Generator>
+      <CustomToolNamespace></CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="C:\Users\NMKD\.nuget\packages\sevenzipextractor\1.0.15\build\x64\7z.dll" Link="Costura64\7z.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="C:\Users\NMKD\.nuget\packages\sevenzipextractor\1.0.15\build\x64\7z.dll" Link="Costura64\7z.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="C:\Users\NMKD\.nuget\packages\sevenzipextractor\1.0.15\build\x86\7z.dll" Link="Costura32\7z.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="C:\Users\NMKD\.nuget\packages\sevenzipextractor\1.0.15\build\x86\7z.dll" Link="Costura32\7z.dll" />
+    <None Update="Resources\esrgan-ncnn.7z">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeLibs Remove="Resources\7za.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="C:\Users\NMKD\.nuget\packages\7z.net\1.0.3\build\7za.exe" Link="ThirdParty\7za.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="C:\Users\NMKD\.nuget\packages\ddsfiletypeplushack\1.0.4\build\\x64\DdsFileTypePlusIO_x64.dll" Link="ThirdParty\DdsFileTypePlusIO_x64.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="C:\Users\NMKD\.nuget\packages\ddsfiletypeplushack\1.0.4\build\\x86\DdsFileTypePlusIO_x86.dll" Link="ThirdParty\DdsFileTypePlusIO_x86.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeLibs Remove="Resources\nvcompress.exe" />
+  </ItemGroup>
+</Project>

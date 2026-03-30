@@ -1,0 +1,29 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 17:09:20 ===
+
+[17:09:20] ⚡ Using cached scan for 2 files (instant)...
+[17:09:20] 🔍 Scan done: 2 to upscale (0.3 MB), 0 skipped | batch size: 200
+[17:09:20] 📦 Batch 1/1 (2 files)...
+[17:09:23] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886960\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774886960\output/0000.png done
+[17:09:24] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886960\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774886960\output/0001.png done
+[17:09:24] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[17:09:24] [GPU] [Split] Pass 2: 2 tall images (tile=512, height>=1024)
+[17:09:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886960\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774886960\output_pass2/0000.png done
+[17:09:38] [GPU] G:\_vtf_scratch\vtf_batch_1_1774886960\input_pass2/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774886960\output_pass2/0001.png done
+[17:09:47] ✓ nuke_metalgrate_01.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[17:09:54] 🔬 Alpha health check: scanning 1 DXT5/DXT3 files...
+[17:09:54] ✓ Scan: 2 files (21.5 MB), 1 to upscale, 1 will skip
+[17:09:54] 🏷️ Classification: 1 AI, 0 LANCZOS, 1 skip
+[17:09:54] 📊 Distribution: 1x medium (256-1024)
+[17:10:02] ✓ nukmetwallh.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:10:02] ✅ Done in 0.7min (0.0/sec) | ✓2 ⊖0 ✗0
+[17:10:02] ──────────────────────────────────────────────────
+[17:10:02] 📊 BATCH STATS
+[17:10:02]   ⏱ Total Time:      0.7 min (42s)
+[17:10:02]   📁 Files:           2 upscaled, 0 skipped, 0 failed
+[17:10:02]   📥 Input Size:      0.3 MB
+[17:10:02]   📤 Output Size:     32.0 MB (127.8x)
+[17:10:02]   ⚡ Avg Per File:    21.0s
+[17:10:02]   🚀 Processing Rate: 0.0/sec
+[17:10:02] ──────────────────────────────────────────────────
+
+=== Completed: 2 success, 0 skipped, 0 failed in 0.7min ===

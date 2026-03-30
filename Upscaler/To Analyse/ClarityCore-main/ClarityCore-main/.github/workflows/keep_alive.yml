@@ -1,0 +1,21 @@
+name: Keep ClarityCore Awake
+on:
+  schedule:
+    - cron: '0 */10 * * *' # Runs every 10 hours
+  workflow_dispatch:      # Allows manual testing
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Gives GitHub permission to push the commit
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      
+      - name: Create empty commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit --allow-empty -m "Keep alive"
+          git push

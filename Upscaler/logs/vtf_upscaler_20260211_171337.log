@@ -1,0 +1,25 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 17:13:37 ===
+
+[17:13:37] � Using pre-scan cache (instant start)...
+[17:13:37] ⊖ Skipped 1 files: 1x already 4096x4096
+[17:13:37] 🔍 Scan done: 12 to upscale (2.1 MB), 1 skipped | batch size: 200
+[17:13:37] 📦 Batch 1/1 (12 files)...
+[17:13:37]    ⚡ 8x routing: 2 single-pass, 10 multi-pass
+[17:13:37]    Pass 1/1: 4x AI upscale (2 files)...
+[17:13:47]    Pass 1/2: 4x AI upscale (10 files)...
+[17:14:00]    Pass 2/2: 4x AI upscale (10 files)...
+[17:14:13]    [DEBUG] out_dir has 12 files: ['0000.webp', '0001.webp', '0002.webp', '0003.webp', '0004.webp', '0005.webp', '0006.webp', '0007.webp', '0008.webp', '0009.webp', '0010.webp', '0011.webp']
+[17:14:13] ✗ arc_enlisted_gear1.vtf: AI output missing or corrupted
+[17:14:13] ✗ cody_visor.vtf: AI output missing or corrupted
+[17:14:13] ✗ cody_visor1.vtf: AI output missing or corrupted
+[17:14:13] ✗ enlisted.vtf: AI output missing or corrupted
+[17:14:13] ✗ enlisted1.vtf: AI output missing or corrupted
+[17:14:13] ✗ feather.vtf: AI output missing or corrupted
+[17:14:13] ✗ hair.vtf: AI output missing or corrupted
+[17:14:13] ✗ pauldron.vtf: AI output missing or corrupted
+[17:14:13] ✗ phase2helmet.vtf: AI output missing or corrupted
+[17:14:13] ✗ phase2helmet1.vtf: AI output missing or corrupted
+[17:14:13] ✗ skirt.vtf: AI output missing or corrupted
+[17:14:13] ✗ tex_0010_0.vtf: AI output missing or corrupted
+
+=== Completed: 0 success, 1 skipped, 12 failed in 0.6min ===

@@ -1,0 +1,9 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:33:35 ===
+
+[16:33:35] ⚡ Using cached scan for 8 files (instant)...
+[16:33:35] ⚡ Resumed: skipped 7 already-completed files from previous run
+[16:33:35] ⊖ Skipped 8 files: 1x already 4096x4096
+[16:33:35] 🔍 Scan done: 0 to upscale (0.0 MB), 8 skipped, 7 resumed | batch size: 200
+[16:33:35] ✅ Done in 0.0min (0.0/sec) | ✓0 ⊖8 ✗0
+
+=== Completed: 0 success, 8 skipped, 0 failed in 0.0min ===

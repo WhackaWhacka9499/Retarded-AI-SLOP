@@ -1,0 +1,10 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-11 23:38:36 ===
+
+[23:38:36] ⚡ Using cached scan for 13 files (instant)...
+[23:38:36] ⊖ Skipped 2 files: 2x already 4096x4096
+[23:38:36] 🔍 Scan done: 11 to upscale (2.5 MB), 2 skipped | batch size: 50
+[23:38:36] 📦 Batch 1/1 (11 files)...
+[23:38:46] ⚠ GPU batch 1: VRAM failed — retrying with safe settings (75% VRAM cap, threads=1:1:1)...
+[23:38:59] ✗ GPU batch 1: failed even with safe settings!
+
+=== Completed: 0 success, 2 skipped, 11 failed in 0.4min ===

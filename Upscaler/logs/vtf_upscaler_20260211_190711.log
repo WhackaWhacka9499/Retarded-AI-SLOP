@@ -1,0 +1,30 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 19:07:11 ===
+
+[19:07:11] 📋 Using pre-scan cache (instant start)...
+[19:07:11] 🔍 Scan done: 9 to upscale (1.1 MB), 0 skipped | batch size: 200
+[19:07:11] 📦 Batch 1/1 (9 files)...
+[19:07:11]    Pass 1/2: 4x AI upscale...
+[19:07:23]    ⚡ Pass 1 done: 2 already at target, 7 need pass 2
+[19:07:23]    Pass 2/2: 4x AI upscale (7 files)...
+[19:07:32] ⚠ cap.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ chestguard.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ coat.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ engineerset.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ glasses.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ goggles.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ helmet.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ lense.vtf: 128x128 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ⚠ lense_ilum.vtf: 128x128 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[19:07:32] ✅ Done in 0.4min (0.4/sec) | ✓9 ⊖0 ✗0
+[19:07:32] ⚠️ CORRUPTION REPORT: 9 file(s) flagged for review:
+[19:07:32]   → cap.vtf
+[19:07:32]   → chestguard.vtf
+[19:07:32]   → coat.vtf
+[19:07:32]   → engineerset.vtf
+[19:07:32]   → glasses.vtf
+[19:07:32]   → goggles.vtf
+[19:07:32]   → helmet.vtf
+[19:07:32]   → lense.vtf
+[19:07:32]   → lense_ilum.vtf
+
+=== Completed: 9 success, 0 skipped, 0 failed in 0.4min ===

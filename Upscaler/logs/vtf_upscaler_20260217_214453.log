@@ -1,0 +1,1200 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 21:44:53 ===
+
+[21:44:53] ⚡ Using cached scan for 736 files (instant)...
+[21:44:53] ⊖ Skipped 204 files: 62x already 4096x4096, 21x 4096x2048, 9x mask texture, 3x 2048x4096
+[21:44:53] 🔍 Scan done: 532 to upscale (109.8 MB), 204 skipped | batch size: 200
+[21:44:53] 📦 Batch 1/3 (200 files)...
+[21:44:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:44:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:44:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:44:53] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:44:53] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:44:53] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:44:53] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:44:53] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0000.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0000.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0001.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0001.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0002.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0002.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0003.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0003.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0005.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0005.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0004.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0004.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0007.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0007.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0006.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0006.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0009.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0009.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0008.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0008.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0011.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0011.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0010.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0010.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0013.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0013.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0015.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0015.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0012.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0012.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0014.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0014.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0017.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0017.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0016.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0016.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0019.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0019.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0021.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0021.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0018.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0018.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0020.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0020.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0023.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0023.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0022.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0022.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0025.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0025.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0024.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0024.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0027.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0027.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0029.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0029.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0026.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0026.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0028.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0028.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0031.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0031.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0033.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0033.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0030.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0030.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0035.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0035.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0037.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0037.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0032.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0032.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0034.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0034.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0039.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0039.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0036.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0036.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0041.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0041.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0043.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0043.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0038.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0038.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0040.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0040.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0045.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0045.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0042.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0042.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0047.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0047.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0044.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0044.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0049.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0049.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0046.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0046.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0051.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0051.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0053.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0053.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0048.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0048.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0050.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0050.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0052.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0052.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0055.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0055.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0054.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0054.png done
+[21:44:54] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0057.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0057.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0059.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0059.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0056.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0056.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0061.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0061.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0063.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0063.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0058.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0058.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0060.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0060.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0062.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0062.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0065.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0065.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0067.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0067.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0064.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0064.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0066.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0066.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0069.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0069.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0071.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0071.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0068.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0068.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0073.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0073.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0070.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0070.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0075.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0075.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0072.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0072.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0077.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0077.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0074.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0074.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0079.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0079.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0076.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0076.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0081.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0081.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0078.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0078.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0083.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0083.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0080.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0080.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0085.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0085.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0082.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0082.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0087.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0087.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0084.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0084.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0089.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0089.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0086.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0086.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0088.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0088.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0091.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0091.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0093.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0093.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0090.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0090.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0095.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0095.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0092.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0092.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0097.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0097.png done
+[21:44:55] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0094.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0094.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0099.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0099.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0096.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0096.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0101.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0101.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0098.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0098.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0103.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0103.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0100.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0100.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0105.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0105.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0102.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0102.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0107.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0107.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0104.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0104.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0109.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0109.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0106.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0106.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0111.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0111.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0108.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0108.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0113.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0113.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0110.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0110.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0115.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0115.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0112.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0112.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0117.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0117.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0114.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0114.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0119.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0119.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0116.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0116.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0121.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0121.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0118.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0118.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0123.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0123.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0120.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0120.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0125.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0125.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0122.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0122.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0127.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0127.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0124.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0124.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0129.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0129.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0126.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0126.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0131.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0131.png done
+[21:44:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0128.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0128.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0133.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0133.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0130.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0130.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0135.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0135.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0132.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0132.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0137.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0137.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0134.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0134.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0139.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0139.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0136.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0136.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0141.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0141.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0138.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0138.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0143.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0143.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0140.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0140.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0145.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0145.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0142.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0142.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0147.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0147.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0144.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0144.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0149.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0149.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0146.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0146.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0151.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0151.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0148.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0148.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0153.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0153.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0150.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0150.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0155.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0155.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0152.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0152.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0157.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0157.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0154.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0154.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0159.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0159.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0156.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0156.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0161.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0161.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0158.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0158.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0163.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0163.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0160.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0160.png done
+[21:44:57] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0165.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0165.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0162.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0162.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0167.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0167.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0164.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0164.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0169.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0169.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0166.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0166.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0171.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0171.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0168.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0168.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0173.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0173.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0170.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0170.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0172.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0172.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0175.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0175.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0174.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0174.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0177.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0177.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0179.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0179.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0176.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0176.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0181.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0181.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0178.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0178.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0180.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0180.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0183.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0183.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0185.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0185.png done
+[21:44:58] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0182.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0182.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0187.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0187.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0184.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0184.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0189.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0189.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0186.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0186.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0191.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0191.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0188.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0188.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0193.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0193.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0190.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0190.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0195.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0195.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0192.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0192.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0197.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0197.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0194.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0194.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0199.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0199.png done
+[21:44:59] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0196.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0196.png done
+[21:45:00] [GPU] G:\_vtf_scratch\vtf_batch_1_1771364693\input/0198.bmp -> G:\_vtf_scratch\vtf_batch_1_1771364693\output/0198.png done
+[21:45:00] ✗ normal_8x8.vtf: AI output missing or corrupted
+[21:45:01] ✓ antennas.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ ball.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ nades.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ nades.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ shoulderbelt.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ glround.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ shoulderantenna.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ shoulderantenna.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ bacta_shell.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ ball.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ nades.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ shoulderantenna.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ shoulderbelt.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ red_glowy.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:04] ✓ shoulderbelt.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[21:45:07] ✓ boots.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:07] ✓ engineerset.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:07] ✓ grill.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:07] ✓ antennas.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:07] ✓ platestrap.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:07] ✓ enlshoulder.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:08] ✓ enlshoulder3.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:08] ✓ enlshoulder.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:08] ✓ enlshoulder2.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:08] ✓ codybits.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:08] ✓ cody_flash.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:09] ✓ enlshoulder.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:09] ✓ antenna.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ bandage.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ necklace.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ hands.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ enlshoulder.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ enlshoulder1.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ antenna.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:13] ✓ bacta_shell.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ guns.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✗ visor.vtf: AI output missing or corrupted
+[21:45:17] ✓ enlistedchest.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ enlistedchest1.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ enlistedchest2.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ enlistedchest3.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ straps.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ antenna.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ antenna1.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ antenna2.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ enlshoulder.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ boots2.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:17] ✓ boots21.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ thermal_det.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ shoulders.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ lense_ilum.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ hands.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ mouth_eyes.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ glow.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:45:21] ✓ phase2visor.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ enlistedshoulder.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ enlistedshoulder5.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ tubes.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ enlisted2.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ hair.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ hair.vtf: 256x128 → 4096x2048 [AI] (5.3MB)
+[21:45:21] ✓ flashmask.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[21:45:24] ✓ guns.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[21:45:24] ⚠ thermalmask.vtf: 128x128 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[21:45:24] ✓ guns.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[21:45:24] ✓ lense.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[21:45:24] ✓ feather.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[21:45:24] ⚠ 327th shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[21:45:24] ✓ boots2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:24] ✓ 10thxohelmetstuff.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:24] ✓ platestrap.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:24] ✓ 10thxohelmetstuff.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:24] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:24] ✓ muffs_p1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:25] ✓ boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:25] ✓ boots2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:25] ✓ sash.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:25] ✓ shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:25] ✓ muffs_p1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:25] ✓ boots12.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:26] ✓ boots22.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:26] ✓ muffs.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:26] ✓ muffs2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:26] ✓ sash.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:26] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:27] ✓ muffs.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:27] ✓ muffs_p1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:27] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:27] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:28] ✓ sash.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:30] ✓ boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:30] ✓ boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:30] ⚠ boots2.vtf: 256x256 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:45:30] ✓ sash.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:30] ✓ sash.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:30] ✓ sash.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ✓ phase2boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ✓ phase2gloves.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ✓ chest.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ⚠ chest2.vtf: 256x256 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[21:45:31] ✓ hands.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ✓ hands2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ✓ phase2armorsep.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:31] ✓ phase2armorsep2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:32] ✓ wear_human_male_head_cloneseason4codyhelm_cody_c.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:32] ✓ vol_lightmask02.vtf: 128x512 → 1024x4096 [AI] (2.7MB)
+[21:45:32] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:32] ✓ platestrap.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:32] ✓ armarmor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:33] ✓ heavyarmor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:36] ✓ p1backpack.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:36] ✓ backantenna.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:36] ✓ backantenna2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:36] ✓ codyjetpack.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:37] ✓ cody_visor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:37] ✓ hair.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:37] ✓ cody_visor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:37] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:39] ✓ 327th shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:39] ✓ satchel.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:39] ✓ chestplate.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:39] ✓ shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:39] ✓ shoulder_tire.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ p1helm.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ arc_arm.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ arc_backpack.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:41] ✓ arc_arm.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ p1helm.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ p1helm5.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ p1helm6.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ ph2pilotgear.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ hair.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:44] ✓ neyobackarmor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:45] ✓ neyohead.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:45] ✓ neyo_hair.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:47] ✓ 327th shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:47] ✓ pauldron1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:47] ✓ arc_arm.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:48] ✓ arc_arm1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ arc_arm2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ pauldrongray1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ cody_visor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ phase2boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ phase2gloves.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ shoulder.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ platestrap.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:49] ✓ arc_arm2.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:50] ✓ backantenna.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:50] ✓ boots.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:51] ✓ boots1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:51] ✓ legs.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:51] ✓ cap.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:51] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:51] ✓ rank.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:51] ✓ cap.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:54] ✓ chestguard.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:54] ✓ engineerset.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:54] ✓ glasses.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:54] ✓ goggles.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:54] ✓ binos.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:55] ✓ saber.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:55] ⚠ v_awp_scope.vtf: 256x256 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[21:45:55] ✓ arc_backpack.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:55] ✓ cody_visor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:55] ✓ cody_visor1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:55] ✓ hair.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:45:55] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[21:46:01] ✓ screen.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:46:01] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ backantenna.vtf: 256x512 → 2048x4096 [AI] (5.3MB)
+[21:46:01] ✓ backantenna2.vtf: 256x512 → 2048x4096 [AI] (5.3MB)
+[21:46:01] ✓ repcom_numbers_cs2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:01] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:01] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:03] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:03] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:03] ✓ phase2helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:04] ✓ phase2helmet2.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:04] ✓ phase2helmet3.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:05] ✓ phase2helmet5.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:05] ✓ phase2helmet6.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:06] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:07] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:07] ✓ phase2helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:07] ✓ phase2helmet2.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:08] ✓ phase2helmet3.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:09] ✓ phase2helmet4.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:09] ✓ p1_helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:09] 📦 Batch 2/3 (200 files)...
+[21:46:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:46:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:46:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:46:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:46:09] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:46:09] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:46:09] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:46:09] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0000.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0000.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0001.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0001.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0003.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0003.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0002.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0002.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0005.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0005.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0004.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0004.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0007.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0007.png done
+[21:46:10] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0006.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0006.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0009.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0009.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0008.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0008.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0011.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0011.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0010.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0010.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0013.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0013.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0012.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0012.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0015.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0015.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0014.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0014.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0017.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0017.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0016.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0016.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0019.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0019.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0018.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0018.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0021.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0021.png done
+[21:46:11] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0020.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0020.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0023.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0023.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0022.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0022.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0024.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0024.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0025.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0025.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0027.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0027.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0026.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0026.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0029.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0029.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0028.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0028.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0031.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0031.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0030.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0030.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0033.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0033.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0032.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0032.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0034.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0034.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0036.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0036.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0035.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0035.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0037.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0037.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0038.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0038.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0039.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0039.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0040.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0040.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0041.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0041.png done
+[21:46:12] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0042.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0042.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0043.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0043.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0044.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0044.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0045.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0045.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0046.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0046.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0047.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0047.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0048.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0048.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0049.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0049.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0050.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0050.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0051.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0051.png done
+[21:46:13] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0052.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0052.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0053.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0053.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0054.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0054.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0055.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0055.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0056.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0056.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0057.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0057.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0058.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0058.png done
+[21:46:14] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0059.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0059.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0060.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0060.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0061.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0061.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0062.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0062.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0063.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0063.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0064.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0064.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0065.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0065.png done
+[21:46:15] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0066.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0066.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0067.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0067.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0068.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0068.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0069.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0069.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0070.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0070.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0071.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0071.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0072.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0072.png done
+[21:46:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0073.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0073.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0074.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0074.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0075.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0075.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0076.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0076.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0077.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0077.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0078.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0078.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0079.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0079.png done
+[21:46:17] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0080.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0080.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0081.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0081.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0082.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0082.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0083.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0083.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0084.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0084.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0085.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0085.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0086.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0086.png done
+[21:46:18] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0087.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0087.png done
+[21:46:19] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0088.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0088.png done
+[21:46:19] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0089.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0089.png done
+[21:46:19] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0090.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0090.png done
+[21:46:19] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0091.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0091.png done
+[21:46:19] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0092.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0092.png done
+[21:46:19] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0093.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0093.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0094.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0094.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0095.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0095.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0096.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0096.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0097.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0097.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0098.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0098.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0099.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0099.png done
+[21:46:20] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0100.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0100.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0101.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0101.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0102.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0102.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0103.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0103.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0104.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0104.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0105.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0105.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0106.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0106.png done
+[21:46:21] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0107.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0107.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0108.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0108.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0109.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0109.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0110.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0110.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0111.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0111.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0113.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0113.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0112.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0112.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0114.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0114.png done
+[21:46:22] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0116.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0116.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0115.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0115.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0117.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0117.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0118.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0118.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0119.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0119.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0120.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0120.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0121.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0121.png done
+[21:46:23] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0122.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0122.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0123.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0123.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0124.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0124.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0125.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0125.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0126.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0126.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0127.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0127.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0128.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0128.png done
+[21:46:24] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0129.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0129.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0130.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0130.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0131.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0131.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0132.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0132.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0133.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0133.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0134.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0134.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0135.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0135.png done
+[21:46:25] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0136.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0136.png done
+[21:46:26] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0137.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0137.png done
+[21:46:26] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0138.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0138.png done
+[21:46:26] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0139.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0139.png done
+[21:46:26] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0140.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0140.png done
+[21:46:26] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0141.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0141.png done
+[21:46:26] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0142.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0142.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0143.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0143.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0144.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0144.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0145.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0145.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0146.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0146.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0147.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0147.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0148.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0148.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0149.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0149.png done
+[21:46:27] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0150.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0150.png done
+[21:46:28] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0151.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0151.png done
+[21:46:28] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0152.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0152.png done
+[21:46:28] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0153.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0153.png done
+[21:46:28] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0154.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0154.png done
+[21:46:28] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0155.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0155.png done
+[21:46:28] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0156.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0156.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0157.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0157.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0158.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0158.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0159.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0159.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0160.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0160.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0161.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0161.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0162.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0162.png done
+[21:46:29] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0163.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0163.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0164.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0164.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0165.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0165.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0166.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0166.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0167.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0167.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0168.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0168.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0169.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0169.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0170.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0170.png done
+[21:46:30] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0171.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0171.png done
+[21:46:31] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0172.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0172.png done
+[21:46:31] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0173.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0173.png done
+[21:46:31] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0174.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0174.png done
+[21:46:31] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0175.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0175.png done
+[21:46:31] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0176.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0176.png done
+[21:46:31] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0177.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0177.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0178.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0178.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0179.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0179.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0180.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0180.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0181.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0181.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0182.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0182.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0183.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0183.png done
+[21:46:32] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0184.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0184.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0185.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0185.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0186.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0186.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0187.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0187.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0188.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0188.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0189.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0189.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0190.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0190.png done
+[21:46:33] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0191.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0191.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0192.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0192.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0193.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0193.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0194.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0194.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0195.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0195.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0196.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0196.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0197.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0197.png done
+[21:46:34] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0198.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0198.png done
+[21:46:35] [GPU] G:\_vtf_scratch\vtf_batch_2_1771364769\input/0199.bmp -> G:\_vtf_scratch\vtf_batch_2_1771364769\output/0199.png done
+[21:46:38] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:38] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:40] ✓ helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:40] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:40] ✓ phase2helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:40] ✓ p1_helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:40] ✓ p1_helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:40] ✓ p1_helmet2.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:41] ✓ p1_helmet3.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:41] ✓ p1_helmet4.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:42] ✓ p1_helmet5.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:43] ✓ p1_helmet6.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:44] ✓ helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:44] ✓ helmet2.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:44] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:44] ✓ phase2helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:46] ✓ phase2helmet2.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:46] ✓ phase2helmet3.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:46] ✓ phase2helmet4.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:46] ✓ phase2helmet5.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:47] ✓ phase2helmet6.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:47] ✓ clonehead.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:47] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:47] ✓ clonehead.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:47] ✓ face.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:47] ✓ scout_helmet.vtf: 256x512 → 2048x4096 [AI] (5.3MB)
+[21:46:49] ✓ scout_helmet1.vtf: 256x512 → 2048x4096 [AI] (5.3MB)
+[21:46:49] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:51] ✓ helmet2.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:51] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:51] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:51] ✓ phase2helmet1.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:51] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[21:46:51] ✓ dust01.vtf: 128x512 → 1024x4096 [AI] (5.3MB)
+[21:46:51] ✓ ct_fbi_upperbody.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ p1backpack.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ pauldrongray.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ 327th shoulder1.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ ct_fbi_upperbody.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ pauldrongray.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:53] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ phase2boots2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ phase2gloves2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ binos.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ cloak.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ hair2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ legs2.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[21:46:56] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:46:57] ✓ evo_face5.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:46:57] ⚠ legs.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[21:46:57] ✓ arf12.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:46:58] ✓ arf13.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:00] ✓ 327th shoulder.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:00] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:00] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:01] ✓ atrt_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:04] ✓ phase2helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:04] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:04] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:04] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:04] ✓ commanderwolffedc15_d2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:05] ✓ gmbackpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:05] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:05] ✓ helmet2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:05] ⚠ legs.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[21:47:05] ✓ backpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:05] ✓ backpack2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:05] ✓ commanderwolffedc15_d2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:06] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:06] ✓ helmet2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:07] ✓ legs.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:07] ⚠ legs2.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:47:11] ✓ phase2helmetalt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ phase2helmetalt2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ 2ab_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ phase2helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ 327th shoulder.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:11] ✓ phase2helmetalt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:13] ✓ 2ab_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:15] ✓ robe_hips.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:15] ✓ robe_torso.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:15] ✓ tg_cap.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:15] ✓ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:15] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:16] ✓ 2ab_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:16] ✓ bacta_shell.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:17] ✓ gmbackpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:17] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:17] ✓ gmbackpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:17] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:19] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:19] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:22] ✓ commanderwolffedc15.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:22] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:22] ✓ helmet332.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:22] ⚠ pauldron.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[21:47:23] ✓ phase2helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:23] ✓ body.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:23] ⚠ commanderwolffedc15_d.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:47:23] ⚠ commanderwolffedc15_d2.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:47:23] ✓ demopack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:24] ✓ e22_lowres.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:24] ⚠ helm12.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[21:47:24] ✓ helm2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:24] ✓ helm22.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:25] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:25] ✓ arf2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:25] ✓ arf3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ phase2helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ flamethrower.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ barrettsaber.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ visor.vtf: 128x64 → 4096x2048 [AI] (10.7MB)
+[21:47:29] ✓ p1_helmet.vtf: 512x256 → 4096x2048 [AI] (10.7MB)
+[21:47:29] ✓ evo_face.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ evo_face1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:29] ✓ evo_face2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:30] ✓ evo_face3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:30] ✓ evo_face4.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:33] ✓ 2abhelm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:33] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:36] ✓ 2abhelm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:36] ✓ enlleg.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:36] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:40] ✓ 2abhelm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:40] ✓ 2abhelm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:40] ✓ 2abhelm1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:40] ✓ 2abhelm2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ 2abhelm3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ enlleg3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ arf11.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ enlisted2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ coat.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ engineer.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:43] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:45] ✓ arc_enlisted_gear11.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:45] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:45] ✓ arf1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:45] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:46] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:48] ✓ p15_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:48] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:48] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:48] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:48] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:51] ✓ p1backpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:51] ✓ 327th shoulder.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:51] ✓ arcforearm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:51] ✓ enlisted2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:51] ✓ neyostrap.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:51] ⚠ pauldron.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[21:47:54] ✓ p15_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ p15_helm1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ p15_helm2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ p15_helm3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ arc_enlisted_gear11.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:55] ✓ arc_enlisted_gear13.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:56] ✓ arc_enlisted_gear15.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:57] ✓ arc_enlisted_gear16.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:57] ✓ skirt1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:57] ✓ skirt4.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:57] ✓ skirt6.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:58] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:59] ✓ arc_enlisted_gear11.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:47:59] ✓ arc_enlisted_gear12.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:00] ✓ p15_helm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:01] ✓ p15_helm1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:01] ✓ p15_helm2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ p15_helm3.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ skirt1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ skirt2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ backpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ cloak.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:02] ✓ extra_pieces-2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:03] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ 2abhelm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ beehead.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ robotlegs.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ⚠ 327th shoulder.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[21:48:07] ✓ 327th shoulder2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ arc_enlisted_gear2.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ ct_fbi_upperbody.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ emiss.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ emiss1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ limbs.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ⚠ body2.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:48:07] ✓ f_face.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] ✓ hair.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:48:07] 📦 Batch 3/3 (132 files)...
+[21:48:08] [GPU] [Split] Pass 1: 33 normal images (tile=1024)
+[21:48:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:48:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:48:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:48:08] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:48:08] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:48:08] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:48:08] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:48:08] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:48:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0000.png done
+[21:48:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0001.png done
+[21:48:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0003.png done
+[21:48:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0002.png done
+[21:48:09] [GPU] G:\_vtf_scratch\_batch_NORMAL/0005.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0005.png done
+[21:48:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0004.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0004.png done
+[21:48:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0007.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0007.png done
+[21:48:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0006.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0006.png done
+[21:48:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0009.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0009.png done
+[21:48:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0008.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0008.png done
+[21:48:10] [GPU] G:\_vtf_scratch\_batch_NORMAL/0011.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0011.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0010.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0010.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0013.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0013.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0012.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0012.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0014.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0014.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0015.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0015.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0019.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0019.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0017.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0017.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0021.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0021.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0016.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0016.png done
+[21:48:11] [GPU] G:\_vtf_scratch\_batch_NORMAL/0018.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0018.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0020.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0020.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0027.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0027.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0026.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0026.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0029.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0029.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0028.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0028.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0030.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0030.png done
+[21:48:12] [GPU] G:\_vtf_scratch\_batch_NORMAL/0031.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0031.png done
+[21:48:12] ⚠ GPU: vkAllocateMemory failed -2
+[21:48:13] [GPU] G:\_vtf_scratch\_batch_NORMAL/0033.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0033.png done
+[21:48:13] [GPU] G:\_vtf_scratch\_batch_NORMAL/0032.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0032.png done
+[21:48:13] [GPU] G:\_vtf_scratch\_batch_NORMAL/0035.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0035.png done
+[21:48:13] [GPU] G:\_vtf_scratch\_batch_NORMAL/0034.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0034.png done
+[21:48:13] [GPU] G:\_vtf_scratch\_batch_NORMAL/0058.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0058.png done
+[21:48:18] [GPU] [Split] Pass 2: 99 tall images (tile=512, height>=1024)
+[21:48:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:48:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:48:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:48:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:48:19] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:48:19] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:48:19] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:48:19] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:48:21] [GPU] G:\_vtf_scratch\_batch_TALL/0022.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0022.png done
+[21:48:21] [GPU] G:\_vtf_scratch\_batch_TALL/0025.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0025.png done
+[21:48:21] [GPU] G:\_vtf_scratch\_batch_TALL/0023.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0023.png done
+[21:48:21] [GPU] G:\_vtf_scratch\_batch_TALL/0024.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0024.png done
+[21:48:23] [GPU] G:\_vtf_scratch\_batch_TALL/0038.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0038.png done
+[21:48:24] [GPU] G:\_vtf_scratch\_batch_TALL/0039.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0039.png done
+[21:48:24] [GPU] G:\_vtf_scratch\_batch_TALL/0036.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0036.png done
+[21:48:24] [GPU] G:\_vtf_scratch\_batch_TALL/0037.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0037.png done
+[21:48:26] [GPU] G:\_vtf_scratch\_batch_TALL/0043.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0043.png done
+[21:48:26] [GPU] G:\_vtf_scratch\_batch_TALL/0040.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0040.png done
+[21:48:26] [GPU] G:\_vtf_scratch\_batch_TALL/0041.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0041.png done
+[21:48:26] [GPU] G:\_vtf_scratch\_batch_TALL/0042.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0042.png done
+[21:48:28] [GPU] G:\_vtf_scratch\_batch_TALL/0047.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0047.png done
+[21:48:28] [GPU] G:\_vtf_scratch\_batch_TALL/0045.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0045.png done
+[21:48:29] [GPU] G:\_vtf_scratch\_batch_TALL/0044.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0044.png done
+[21:48:29] [GPU] G:\_vtf_scratch\_batch_TALL/0046.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0046.png done
+[21:48:31] [GPU] G:\_vtf_scratch\_batch_TALL/0051.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0051.png done
+[21:48:31] [GPU] G:\_vtf_scratch\_batch_TALL/0049.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0049.png done
+[21:48:31] [GPU] G:\_vtf_scratch\_batch_TALL/0048.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0048.png done
+[21:48:31] [GPU] G:\_vtf_scratch\_batch_TALL/0050.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0050.png done
+[21:48:33] [GPU] G:\_vtf_scratch\_batch_TALL/0055.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0055.png done
+[21:48:33] [GPU] G:\_vtf_scratch\_batch_TALL/0052.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0052.png done
+[21:48:33] [GPU] G:\_vtf_scratch\_batch_TALL/0053.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0053.png done
+[21:48:34] [GPU] G:\_vtf_scratch\_batch_TALL/0054.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0054.png done
+[21:48:36] [GPU] G:\_vtf_scratch\_batch_TALL/0060.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0060.png done
+[21:48:36] [GPU] G:\_vtf_scratch\_batch_TALL/0056.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0056.png done
+[21:48:36] [GPU] G:\_vtf_scratch\_batch_TALL/0057.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0057.png done
+[21:48:36] [GPU] G:\_vtf_scratch\_batch_TALL/0059.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0059.png done
+[21:48:38] [GPU] G:\_vtf_scratch\_batch_TALL/0064.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0064.png done
+[21:48:39] [GPU] G:\_vtf_scratch\_batch_TALL/0061.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0061.png done
+[21:48:39] [GPU] G:\_vtf_scratch\_batch_TALL/0062.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0062.png done
+[21:48:39] [GPU] G:\_vtf_scratch\_batch_TALL/0063.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0063.png done
+[21:48:41] [GPU] G:\_vtf_scratch\_batch_TALL/0068.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0068.png done
+[21:48:41] [GPU] G:\_vtf_scratch\_batch_TALL/0066.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0066.png done
+[21:48:41] [GPU] G:\_vtf_scratch\_batch_TALL/0067.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0067.png done
+[21:48:41] [GPU] G:\_vtf_scratch\_batch_TALL/0065.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0065.png done
+[21:48:43] [GPU] G:\_vtf_scratch\_batch_TALL/0072.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0072.png done
+[21:48:44] [GPU] G:\_vtf_scratch\_batch_TALL/0071.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0071.png done
+[21:48:44] [GPU] G:\_vtf_scratch\_batch_TALL/0070.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0070.png done
+[21:48:44] [GPU] G:\_vtf_scratch\_batch_TALL/0069.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0069.png done
+[21:48:46] [GPU] G:\_vtf_scratch\_batch_TALL/0076.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0076.png done
+[21:48:46] [GPU] G:\_vtf_scratch\_batch_TALL/0074.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0074.png done
+[21:48:46] [GPU] G:\_vtf_scratch\_batch_TALL/0073.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0073.png done
+[21:48:47] [GPU] G:\_vtf_scratch\_batch_TALL/0075.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0075.png done
+[21:48:48] [GPU] G:\_vtf_scratch\_batch_TALL/0080.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0080.png done
+[21:48:49] [GPU] G:\_vtf_scratch\_batch_TALL/0078.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0078.png done
+[21:48:49] [GPU] G:\_vtf_scratch\_batch_TALL/0077.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0077.png done
+[21:48:49] [GPU] G:\_vtf_scratch\_batch_TALL/0079.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0079.png done
+[21:48:51] [GPU] G:\_vtf_scratch\_batch_TALL/0084.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0084.png done
+[21:48:51] [GPU] G:\_vtf_scratch\_batch_TALL/0082.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0082.png done
+[21:48:51] [GPU] G:\_vtf_scratch\_batch_TALL/0081.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0081.png done
+[21:48:51] [GPU] G:\_vtf_scratch\_batch_TALL/0083.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0083.png done
+[21:48:53] [GPU] G:\_vtf_scratch\_batch_TALL/0088.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0088.png done
+[21:48:54] [GPU] G:\_vtf_scratch\_batch_TALL/0086.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0086.png done
+[21:48:54] [GPU] G:\_vtf_scratch\_batch_TALL/0085.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0085.png done
+[21:48:54] [GPU] G:\_vtf_scratch\_batch_TALL/0087.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0087.png done
+[21:48:56] [GPU] G:\_vtf_scratch\_batch_TALL/0090.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0090.png done
+[21:48:56] [GPU] G:\_vtf_scratch\_batch_TALL/0089.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0089.png done
+[21:48:56] [GPU] G:\_vtf_scratch\_batch_TALL/0092.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0092.png done
+[21:48:57] [GPU] G:\_vtf_scratch\_batch_TALL/0091.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0091.png done
+[21:48:58] [GPU] G:\_vtf_scratch\_batch_TALL/0094.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0094.png done
+[21:48:59] [GPU] G:\_vtf_scratch\_batch_TALL/0093.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0093.png done
+[21:48:59] [GPU] G:\_vtf_scratch\_batch_TALL/0096.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0096.png done
+[21:48:59] [GPU] G:\_vtf_scratch\_batch_TALL/0095.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0095.png done
+[21:49:01] [GPU] G:\_vtf_scratch\_batch_TALL/0098.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0098.png done
+[21:49:01] [GPU] G:\_vtf_scratch\_batch_TALL/0100.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0100.png done
+[21:49:01] [GPU] G:\_vtf_scratch\_batch_TALL/0097.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0097.png done
+[21:49:02] [GPU] G:\_vtf_scratch\_batch_TALL/0099.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0099.png done
+[21:49:03] [GPU] G:\_vtf_scratch\_batch_TALL/0102.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0102.png done
+[21:49:04] [GPU] G:\_vtf_scratch\_batch_TALL/0103.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0103.png done
+[21:49:04] [GPU] G:\_vtf_scratch\_batch_TALL/0104.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0104.png done
+[21:49:04] [GPU] G:\_vtf_scratch\_batch_TALL/0101.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0101.png done
+[21:49:06] [GPU] G:\_vtf_scratch\_batch_TALL/0105.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0105.png done
+[21:49:06] [GPU] G:\_vtf_scratch\_batch_TALL/0106.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0106.png done
+[21:49:06] [GPU] G:\_vtf_scratch\_batch_TALL/0108.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0108.png done
+[21:49:07] [GPU] G:\_vtf_scratch\_batch_TALL/0107.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0107.png done
+[21:49:08] [GPU] G:\_vtf_scratch\_batch_TALL/0109.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0109.png done
+[21:49:08] [GPU] G:\_vtf_scratch\_batch_TALL/0112.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0112.png done
+[21:49:09] [GPU] G:\_vtf_scratch\_batch_TALL/0110.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0110.png done
+[21:49:09] [GPU] G:\_vtf_scratch\_batch_TALL/0111.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0111.png done
+[21:49:11] [GPU] G:\_vtf_scratch\_batch_TALL/0114.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0114.png done
+[21:49:11] [GPU] G:\_vtf_scratch\_batch_TALL/0113.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0113.png done
+[21:49:11] [GPU] G:\_vtf_scratch\_batch_TALL/0116.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0116.png done
+[21:49:11] [GPU] G:\_vtf_scratch\_batch_TALL/0115.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0115.png done
+[21:49:13] [GPU] G:\_vtf_scratch\_batch_TALL/0118.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0118.png done
+[21:49:14] [GPU] G:\_vtf_scratch\_batch_TALL/0117.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0117.png done
+[21:49:14] [GPU] G:\_vtf_scratch\_batch_TALL/0120.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0120.png done
+[21:49:14] [GPU] G:\_vtf_scratch\_batch_TALL/0119.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0119.png done
+[21:49:16] [GPU] G:\_vtf_scratch\_batch_TALL/0121.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0121.png done
+[21:49:16] [GPU] G:\_vtf_scratch\_batch_TALL/0123.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0123.png done
+[21:49:17] [GPU] G:\_vtf_scratch\_batch_TALL/0122.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0122.png done
+[21:49:17] [GPU] G:\_vtf_scratch\_batch_TALL/0124.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0124.png done
+[21:49:18] [GPU] G:\_vtf_scratch\_batch_TALL/0126.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0126.png done
+[21:49:19] [GPU] G:\_vtf_scratch\_batch_TALL/0128.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0128.png done
+[21:49:19] [GPU] G:\_vtf_scratch\_batch_TALL/0127.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0127.png done
+[21:49:19] [GPU] G:\_vtf_scratch\_batch_TALL/0125.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0125.png done
+[21:49:20] [GPU] G:\_vtf_scratch\_batch_TALL/0130.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0130.png done
+[21:49:21] [GPU] G:\_vtf_scratch\_batch_TALL/0129.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0129.png done
+[21:49:21] [GPU] G:\_vtf_scratch\_batch_TALL/0131.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0131.png done
+[21:49:27] ⚠ GPU batch 3: 54 corrupted outputs detected — re-processing with safe settings...
+[21:49:30] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[21:49:30] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[21:49:30] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[21:49:30] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[21:49:30] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[21:49:30] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[21:49:30] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[21:49:30] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[21:49:31] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0005.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0005.png done
+[21:49:31] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0014.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0014.png done
+[21:49:31] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0030.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0030.png done
+[21:49:32] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0025.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0025.png done
+[21:49:32] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0024.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0024.png done
+[21:49:32] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0035.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0035.png done
+[21:49:34] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0043.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0043.png done
+[21:49:34] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0042.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0042.png done
+[21:49:34] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0038.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0038.png done
+[21:49:34] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0039.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0039.png done
+[21:49:36] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0046.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0046.png done
+[21:49:36] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0051.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0051.png done
+[21:49:36] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0050.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0050.png done
+[21:49:36] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0047.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0047.png done
+[21:49:37] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0058.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0058.png done
+[21:49:38] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0054.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0054.png done
+[21:49:38] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0055.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0055.png done
+[21:49:38] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0059.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0059.png done
+[21:49:39] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0063.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0063.png done
+[21:49:39] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0060.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0060.png done
+[21:49:40] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0067.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0067.png done
+[21:49:40] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0064.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0064.png done
+[21:49:41] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0071.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0071.png done
+[21:49:42] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0068.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0068.png done
+[21:49:42] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0075.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0075.png done
+[21:49:42] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0072.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0072.png done
+[21:49:43] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0079.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0079.png done
+[21:49:43] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0076.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0076.png done
+[21:49:43] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0083.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0083.png done
+[21:49:44] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0080.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0080.png done
+[21:49:44] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0087.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0087.png done
+[21:49:45] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0090.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0090.png done
+[21:49:45] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0084.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0084.png done
+[21:49:45] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0088.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0088.png done
+[21:49:46] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0094.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0094.png done
+[21:49:47] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0091.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0091.png done
+[21:49:47] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0098.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0098.png done
+[21:49:47] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0095.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0095.png done
+[21:49:48] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0102.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0102.png done
+[21:49:49] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0109.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0109.png done
+[21:49:49] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0105.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0105.png done
+[21:49:49] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0099.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0099.png done
+[21:49:50] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0103.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0103.png done
+[21:49:51] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0114.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0114.png done
+[21:49:51] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0107.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0107.png done
+[21:49:51] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0118.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0118.png done
+[21:49:52] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0111.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0111.png done
+[21:49:53] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0121.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0121.png done
+[21:49:53] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0115.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0115.png done
+[21:49:53] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0126.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0126.png done
+[21:49:54] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0119.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0119.png done
+[21:49:54] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0130.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0130.png done
+[21:49:55] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0127.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0127.png done
+[21:49:55] [GPU] G:\_vtf_scratch\vtf_batch_3_1771364887\safe_input/0123.bmp -> G:\_vtf_scratch\vtf_batch_3_1771364887\output/0123.png done
+[21:50:03] ✓ GPU batch 3: 54 files re-processed with safe settings
+[21:50:06] ✓ chestplate.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:09] ✓ chestplate1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:09] ✓ evo_face.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:09] ✓ evo_face1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:09] ✓ eweb_backpack.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:09] ⚠ legs.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[21:50:09] ⚠ legs1.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:50:09] ✓ survivalbag.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:11] ✓ hair.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:11] ✓ coat.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:11] ✓ helmet.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:13] ✓ chagrian.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:13] ✓ mask.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:13] ✓ survivalbag.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:13] ⚠ wear_human_male_head_cloneseason4codyhelm_cody_c.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[21:50:16] ✓ k16_bryar.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ vibroblade.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ bacta.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ bacta.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ bacta.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[21:50:16] ✓ phase2armorsep.vtf: 512x1024 → 2048x4096 [AI] (5.3MB)
+[21:50:16] ⚠ commanderwolffe.vtf: 512x1024 → 2048x4096 [AI] (5.3MB) ⚠️ SUSPECT
+[21:50:16] ⚠ commanderwolffedc15.vtf: 512x1024 → 2048x4096 [AI] (5.3MB) ⚠️ SUSPECT
+[21:50:16] ✓ phase1trooperbackpack1.vtf: 512x1024 → 2048x4096 [AI] (5.3MB)
+[21:50:17] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:19] ✓ p15_helm.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:19] ✓ arc_enlisted_helmet.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:20] ✓ helmet2.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:20] ⚠ pauldron2.vtf: 512x512 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[21:50:22] ✓ phase2helmet2.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:22] ✓ innie_scarf.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:22] ✓ cape.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:22] ✓ helm.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[21:50:22] ✓ tex_0010_0.vtf: 1024x512 → 4096x2048 [AI] (10.7MB)
+[21:50:29] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:30] ✓ enlisted3.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:30] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:31] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:31] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:31] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:31] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:31] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:44] ✓ phase2armorsep.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:55] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:55] ✓ officer.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:57] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:57] ✓ clonehead.vtf: 1024x512 → 4096x2048 [AI] (10.7MB)
+[21:50:58] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:50:58] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:00] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:04] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:17] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:17] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:20] ✓ enlisted3.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:20] ✓ 2abhelm.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:20] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:20] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:23] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:29] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:29] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:32] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:36] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:36] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:36] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:36] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:38] ✓ enlisted3.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:43] ✓ enlisted5.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:45] ✓ enlisted6.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:47] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:51] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:51] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:51] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:57] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:51:57] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:00] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:03] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:06] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:06] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:06] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:14] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:17] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:17] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:17] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:22] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:22] ✓ enlisted3.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:22] ✓ enlisted4.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:24] ✓ enlisted5.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:26] ✓ enlisted6.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:26] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:29] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:30] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:30] ✓ enlisted3.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:33] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:33] ✓ robe.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:33] ✓ robe1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:33] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:37] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:37] ✓ skin.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:37] ✓ coat.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:37] ✓ cape.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:37] ⚠ robes.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:52:37] ⚠ robes1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:52:37] ⚠ robes2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB) ⚠️ SUSPECT
+[21:52:48] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:49] ✓ enlisted2.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:50] ✓ assasinbowcaster.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:50] ✓ firepuncher.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:51] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:51] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[21:52:51] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:52:51] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:52:53] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:52:57] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:01] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:01] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:01] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:01] ✓ enlisted3.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:01] ✓ phase2armorsep2.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:01] ⚠ robe.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB) ⚠️ SUSPECT
+[21:53:01] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (21.3MB)
+[21:53:02] ✅ Done in 8.1min (65.0/min) | ✓530 ⊖204 ✗2
+[21:53:02] ⚠️ CORRUPTION REPORT: 25 file(s) flagged for review:
+[21:53:02]   → thermalmask.vtf
+[21:53:02]   → 327th shoulder.vtf
+[21:53:02]   → boots2.vtf
+[21:53:02]   → chest2.vtf
+[21:53:02]   → v_awp_scope.vtf
+[21:53:02]   → legs.vtf
+[21:53:02]   → legs.vtf
+[21:53:02]   → legs2.vtf
+[21:53:02]   → pauldron.vtf
+[21:53:02]   → commanderwolffedc15_d.vtf
+[21:53:02]   → commanderwolffedc15_d2.vtf
+[21:53:02]   → helm12.vtf
+[21:53:02]   → pauldron.vtf
+[21:53:02]   → 327th shoulder.vtf
+[21:53:02]   → body2.vtf
+[21:53:02]   → legs.vtf
+[21:53:02]   → legs1.vtf
+[21:53:02]   → wear_human_male_head_cloneseason4codyhelm_cody_c.vtf
+[21:53:02]   → commanderwolffe.vtf
+[21:53:02]   → commanderwolffedc15.vtf
+[21:53:02]   → pauldron2.vtf
+[21:53:02]   → robes.vtf
+[21:53:02]   → robes1.vtf
+[21:53:02]   → robes2.vtf
+[21:53:02]   → robe.vtf
+
+=== Completed: 530 success, 204 skipped, 2 failed in 8.1min ===

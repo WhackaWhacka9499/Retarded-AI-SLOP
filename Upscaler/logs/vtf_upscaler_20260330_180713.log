@@ -1,0 +1,69 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 18:07:13 ===
+
+[18:07:13] ⚡ Using cached scan for 22 files (instant)...
+[18:07:13] ⊖ Skipped 8 files: 7x already 4096x4096, 1x normal map
+[18:07:13] 🔍 Scan done: 14 to upscale (2.5 MB), 8 skipped | batch size: 200
+[18:07:13] 📦 Batch 1/1 (14 files)...
+[18:07:15] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0001.png done
+[18:07:16] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0000.png done
+[18:07:16] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0002.png done
+[18:07:17] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0003.png done
+[18:07:17] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0004.png done
+[18:07:18] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0005.png done
+[18:07:18] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0006.png done
+[18:07:19] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0007.png done
+[18:07:19] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0009.png done
+[18:07:20] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0008.png done
+[18:07:20] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0010.png done
+[18:07:20] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0011.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0011.png done
+[18:07:21] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0012.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0012.png done
+[18:07:21] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input/0013.bmp -> G:\_vtf_scratch\vtf_out_1_1774890433\output/0013.png done
+[18:07:21] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[18:07:21] [GPU] [Split] Pass 2: 14 tall images (tile=512, height>=1024)
+[18:07:41] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0001.png done
+[18:07:42] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0000.png done
+[18:07:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0002.png done
+[18:07:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0003.png done
+[18:08:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0004.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0004.png done
+[18:08:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0005.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0005.png done
+[18:08:26] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0007.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0007.png done
+[18:08:27] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0006.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0006.png done
+[18:08:41] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0009.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0009.png done
+[18:08:41] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0008.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0008.png done
+[18:08:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0010.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0010.png done
+[18:08:56] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0011.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0011.png done
+[18:09:07] 🔬 Alpha health check: scanning 2 DXT5/DXT3 files...
+[18:09:07] ✓ Scan: 22 files (87.8 MB), 14 to upscale, 8 will skip
+[18:09:07] 🏷️ Classification: 14 AI, 0 LANCZOS, 8 skip
+[18:09:07] 📊 Distribution: 14x medium (256-1024)
+[18:09:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0013.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0013.png done
+[18:09:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774890433\input_pass2/0012.png -> G:\_vtf_scratch\vtf_batch_1_1774890433\output_pass2/0012.png done
+[18:09:48] ✓ Carpet6.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:48] ✓ Floor_1_18.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:48] ✓ 512.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:48] ✓ black.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:48] ✓ White1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:48] ✓ carpetl5.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:57] ✓ Carpet_1_01.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:57] ✓ Grass_1_05.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:57] ✓ Wood_1_02.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:57] ✓ AmsterDam.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:57] ⚠ AntiqueSilver.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[18:09:57] ✓ Mink.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[18:09:57] ⚠ MysticBlack.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[18:09:57] ✓ glass.vtf: 512x512 → 4096x4096 [AI] (21.3MB)
+[18:09:57] ✅ Done in 2.7min (5.1/min) | ✓14 ⊖8 ✗0
+[18:09:57] ──────────────────────────────────────────────────
+[18:09:57] 📊 BATCH STATS
+[18:09:57]   ⏱ Total Time:      2.7 min (164s)
+[18:09:57]   📁 Files:           14 upscaled, 8 skipped, 0 failed
+[18:09:57]   📥 Input Size:      2.5 MB
+[18:09:57]   📤 Output Size:     160.0 MB (65.0x)
+[18:09:57]   ⚡ Avg Per File:    11.7s
+[18:09:57]   🚀 Processing Rate: 5.1/min
+[18:09:57] ──────────────────────────────────────────────────
+[18:09:57] ⚠️ CORRUPTION REPORT: 2 file(s) flagged for review:
+[18:09:57]   → AntiqueSilver.vtf
+[18:09:57]   → MysticBlack.vtf
+
+=== Completed: 14 success, 8 skipped, 0 failed in 2.7min ===

@@ -1,0 +1,62 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-30 16:26:09 ===
+
+[16:26:09] ⚡ Using cached scan for 14 files (instant)...
+[16:26:09] 🔍 Scan done: 14 to upscale (0.1 MB), 0 skipped | batch size: 200
+[16:26:09] 📦 Batch 1/1 (14 files)...
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0000.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0001.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0002.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0003.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0004.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0005.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0006.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0007.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0008.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0009.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0010.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0011.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0011.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0012.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0012.png done
+[16:26:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input/0013.bmp -> G:\_vtf_scratch\vtf_out_1_1774884369\output/0013.png done
+[16:26:10] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0000.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0001.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0002.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0003.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0003.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0004.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0004.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0005.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0005.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0006.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0006.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0007.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0007.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0008.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0008.png done
+[16:26:11] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0009.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0009.png done
+[16:26:12] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0010.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0010.png done
+[16:26:12] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0011.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0011.png done
+[16:26:12] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0012.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0012.png done
+[16:26:12] [GPU] G:\_vtf_scratch\vtf_batch_1_1774884369\input_pass2/0013.png -> G:\_vtf_scratch\vtf_batch_1_1774884369\output_pass2/0013.png done
+[16:26:13] ⚠ toolsblack.vtf: 64x64 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[16:26:14] ✓ toolsnodraw.vtf: 64x64 → 4096x4096 [AI] (10.7MB)
+[16:26:14] ✓ toolsclip.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:14] ✓ toolshint.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:14] ✓ toolsinvisible.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:14] ✓ toolsskip.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:14] ✓ toolstrigger.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:14] ✓ toolsclip-dx10.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:14] ✓ toolshint-dx10.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:15] ✓ toolsinvisible-dx10.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:15] ✓ toolsskip-dx10.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:15] ✓ toolstrigger-dx10.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:26:15] ✓ toolsskybox.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[16:26:15] ✓ toolsskybox2d.vtf: 128x128 → 4096x4096 [AI] (10.7MB)
+[16:26:15] ✅ Done in 0.1min (2.5/sec) | ✓14 ⊖0 ✗0
+[16:26:15] ──────────────────────────────────────────────────
+[16:26:15] 📊 BATCH STATS
+[16:26:15]   ⏱ Total Time:      0.1 min (6s)
+[16:26:15]   📁 Files:           14 upscaled, 0 skipped, 0 failed
+[16:26:15]   📥 Input Size:      0.1 MB
+[16:26:15]   📤 Output Size:     256.0 MB (3151.9x)
+[16:26:15]   ⚡ Avg Per File:    0.4s
+[16:26:15]   🚀 Processing Rate: 2.5/sec
+[16:26:15] ──────────────────────────────────────────────────
+[16:26:15] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[16:26:15]   → toolsblack.vtf
+
+=== Completed: 14 success, 0 skipped, 0 failed in 0.1min ===

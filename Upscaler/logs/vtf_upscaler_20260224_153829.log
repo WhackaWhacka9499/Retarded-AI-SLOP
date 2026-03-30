@@ -1,0 +1,36 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-24 15:38:29 ===
+
+[15:38:29] ⚡ Using cached scan for 7 files (instant)...
+[15:38:29] 🔍 Scan done: 7 to upscale (0.1 MB), 0 skipped | batch size: 200
+[15:38:29] 📦 Batch 1/1 (7 files)...
+[15:38:29] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[15:38:29] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[15:38:29] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[15:38:29] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[15:38:29] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[15:38:29] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[15:38:29] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[15:38:29] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0000.png done
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0001.png done
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0002.png done
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0003.png done
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0004.png done
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0005.png done
+[15:38:29] [GPU] G:\_vtf_scratch\vtf_batch_1_1771947509\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1771947509\output/0006.png done
+[15:38:32] ✓ lightsaber_killicon.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[15:38:32] ✓ hard_light.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[15:38:32] ⚠ hard_light_inner.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:38:32] ⚠ hard_light_trail.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:38:32] ⚠ hard_light_trail_end.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:38:32] ⚠ hard_light_trail_end_inner.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:38:32] ⚠ hard_light_trail_inner.vtf: 32x256 → 512x4096 [AI] (2.7MB) ⚠️ FLAT
+[15:38:32] ✅ Done in 0.1min (2.1/sec) | ✓7 ⊖0 ✗0
+[15:38:32] ⚠️ CORRUPTION REPORT: 5 file(s) flagged for review:
+[15:38:32]   → hard_light_inner.vtf
+[15:38:32]   → hard_light_trail.vtf
+[15:38:32]   → hard_light_trail_end.vtf
+[15:38:32]   → hard_light_trail_end_inner.vtf
+[15:38:32]   → hard_light_trail_inner.vtf
+
+=== Completed: 7 success, 0 skipped, 0 failed in 0.1min ===

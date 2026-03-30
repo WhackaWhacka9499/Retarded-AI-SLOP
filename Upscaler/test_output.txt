@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+    print('  \u2500\u2500\u2500 Custom Models \u2500\u2500\u2500')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-4: character maps to <undefined>
+Custom models found: 32
+Metadata entries: 32
+
+  realesrgan-x4plus (Default - Best Quality)
+  realesrgan-x4plus-anime (Anime/Toon)
+  realesr-animevideov3 (Fast)
+  realesrnet-x4plus (Fastest)

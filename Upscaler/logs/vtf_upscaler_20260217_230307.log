@@ -1,0 +1,34 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 23:03:07 ===
+
+[23:03:07] 🔍 Pre-flight scanning 8 files...
+[23:03:07] 🔍 Scan done: 8 to upscale (3.1 MB), 0 skipped | batch size: 200
+[23:03:07] 📦 Batch 1/1 (8 files)...
+[23:03:07] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:03:07] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:03:07] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:03:07] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:03:07] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:03:07] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:03:07] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:03:07] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:03:08] [GPU] R:\vtf_batch_1_1771369387\input/0000.bmp -> R:\vtf_batch_1_1771369387\output/0000.png done
+[23:03:08] [GPU] R:\vtf_batch_1_1771369387\input/0001.bmp -> R:\vtf_batch_1_1771369387\output/0001.png done
+[23:03:08] [GPU] R:\vtf_batch_1_1771369387\input/0002.bmp -> R:\vtf_batch_1_1771369387\output/0002.png done
+[23:03:08] [GPU] R:\vtf_batch_1_1771369387\input/0003.bmp -> R:\vtf_batch_1_1771369387\output/0003.png done
+[23:03:09] [GPU] R:\vtf_batch_1_1771369387\input/0004.bmp -> R:\vtf_batch_1_1771369387\output/0004.png done
+[23:03:09] [GPU] R:\vtf_batch_1_1771369387\input/0005.bmp -> R:\vtf_batch_1_1771369387\output/0005.png done
+[23:03:09] [GPU] R:\vtf_batch_1_1771369387\input/0007.bmp -> R:\vtf_batch_1_1771369387\output/0007.png done
+[23:03:09] [GPU] R:\vtf_batch_1_1771369387\input/0006.bmp -> R:\vtf_batch_1_1771369387\output/0006.png done
+[23:03:09] ✓ dev_interiorlight02b.vtf: 128x32 → 4096x1024 [AI] (21.3MB)
+[23:03:10] ✓ dev_measuregeneric01.vtf: 128x128 → 4096x4096 [AI] (85.3MB)
+[23:03:10] ✓ dev_measuregeneric01b.vtf: 128x128 → 4096x4096 [AI] (85.3MB)
+[23:03:10] ⚠ dev_measurewall01d.vtf: 512x512 → 4096x4096 [AI] (85.3MB) ⚠️ FLAT
+[23:03:10] ✓ graygrid.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:03:10] ✓ valuesand50.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:03:10] ✓ valuesand60.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:03:10] ✓ water.vtf: 256x256 → 4096x4096 [AI] (85.3MB)
+[23:03:10] ✅ Done in 0.0min (2.9/sec) | ✓8 ⊖0 ✗0
+[23:03:10] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[23:03:10]   → dev_measurewall01d.vtf
+
+=== Completed: 8 success, 0 skipped, 0 failed in 0.0min ===

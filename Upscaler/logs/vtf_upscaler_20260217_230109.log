@@ -1,0 +1,34 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-17 23:01:09 ===
+
+[23:01:09] ⚡ Using cached scan for 10 files (instant)...
+[23:01:09] ⊖ Skipped 1 files: 1x normal map
+[23:01:09] 🔍 Scan done: 9 to upscale (0.9 MB), 1 skipped | batch size: 200
+[23:01:09] 📦 Batch 1/1 (9 files)...
+[23:01:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[23:01:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[23:01:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[23:01:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[23:01:09] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[23:01:09] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[23:01:09] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[23:01:09] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[23:01:10] [GPU] R:\vtf_batch_1_1771369269\input/0000.bmp -> R:\vtf_batch_1_1771369269\output/0000.png done
+[23:01:10] [GPU] R:\vtf_batch_1_1771369269\input/0002.bmp -> R:\vtf_batch_1_1771369269\output/0002.png done
+[23:01:10] [GPU] R:\vtf_batch_1_1771369269\input/0001.bmp -> R:\vtf_batch_1_1771369269\output/0001.png done
+[23:01:10] [GPU] R:\vtf_batch_1_1771369269\input/0003.bmp -> R:\vtf_batch_1_1771369269\output/0003.png done
+[23:01:10] [GPU] R:\vtf_batch_1_1771369269\input/0004.bmp -> R:\vtf_batch_1_1771369269\output/0004.png done
+[23:01:10] [GPU] R:\vtf_batch_1_1771369269\input/0005.bmp -> R:\vtf_batch_1_1771369269\output/0005.png done
+[23:01:11] [GPU] R:\vtf_batch_1_1771369269\input/0006.bmp -> R:\vtf_batch_1_1771369269\output/0006.png done
+[23:01:11] [GPU] R:\vtf_batch_1_1771369269\input/0007.bmp -> R:\vtf_batch_1_1771369269\output/0007.png done
+[23:01:11] [GPU] R:\vtf_batch_1_1771369269\input/0008.bmp -> R:\vtf_batch_1_1771369269\output/0008.png done
+[23:01:11] ✓ metaltrack001a.vtf: 512x32 → 4096x256 [AI] (5.3MB)
+[23:01:11] ✓ metaltruss017c.vtf: 64x512 → 512x4096 [AI] (10.7MB)
+[23:01:11] ✓ metalwall061f.vtf: 512x64 → 4096x512 [AI] (10.7MB)
+[23:01:11] ✓ metalbar001c.vtf: 128x256 → 2048x4096 [AI] (42.7MB)
+[23:01:12] ✓ metaldoor061a.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:01:12] ✓ metalwall005b.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:01:12] ✓ metalwall030a.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:01:12] ✓ metalwall060a.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+[23:01:12] ✓ metalhull003a.vtf: 512x512 → 4096x4096 [AI] (85.3MB)
+
+=== Completed: 9 success, 1 skipped, 0 failed in 0.0min ===

@@ -1,0 +1,52 @@
+=== VTF Upscaler 7.0.0 Log — 2026-03-26 12:12:19 ===
+
+[12:12:19] ⚡ Using cached scan for 6 files (instant)...
+[12:12:19] 🔍 Scan done: 6 to upscale (1.2 MB), 0 skipped | batch size: 34
+[12:12:19] 📦 Batch 1/1 (6 files)...
+[12:12:19] [GPU] [Split] Pass 1: 4 normal images (tile=1024)
+[12:12:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[12:12:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[12:12:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[12:12:19] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[12:12:19] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[12:12:19] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[12:12:19] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[12:12:19] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[12:12:21] [GPU] G:\_vtf_scratch\_batch_NORMAL/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1774527139\output/0001.png done
+[12:12:21] [GPU] G:\_vtf_scratch\_batch_NORMAL/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1774527139\output/0000.png done
+[12:12:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1774527139\output/0002.png done
+[12:12:46] [GPU] G:\_vtf_scratch\_batch_NORMAL/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1774527139\output/0003.png done
+[12:12:52] [GPU] [Split] Pass 2: 2 tall images (tile=512, height>=1024)
+[12:12:52] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[12:12:52] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[12:12:52] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[12:12:52] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[12:12:52] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[12:12:52] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[12:12:52] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[12:12:52] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[12:12:59] ⚡ 8x skip: 3 already at target, 3 need pass 2
+[12:12:59] 🔄 GPU batch 1 pass 2/2 (8x multi-pass)...
+[12:12:59] [GPU] [Split] Pass 2: 3 tall images (tile=512, height>=1024)
+[12:12:59] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[12:12:59] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[12:12:59] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[12:12:59] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[12:12:59] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[4]  queueT=2[1]
+[12:12:59] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[12:12:59] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/1/1
+[12:12:59] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=16x16x16  int8-cm=16x16x16  bf16-cm=0  fp8-cm=0
+[12:13:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774527139\input_pass2/0001.png -> G:\_vtf_scratch\vtf_batch_1_1774527139\output_pass2/0001.png done
+[12:13:10] [GPU] G:\_vtf_scratch\vtf_batch_1_1774527139\input_pass2/0000.png -> G:\_vtf_scratch\vtf_batch_1_1774527139\output_pass2/0000.png done
+[12:13:20] [GPU] G:\_vtf_scratch\vtf_batch_1_1774527139\input_pass2/0002.png -> G:\_vtf_scratch\vtf_batch_1_1774527139\output_pass2/0002.png done
+[12:13:23] ✓ p1helm.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[12:13:23] ⚠ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[12:13:23] ✓ p1face.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[12:13:23] ✓ helmet_pilot.vtf: 1024x512 → 4096x2048 [AI] (5.3MB)
+[12:13:23] ✗ arc_enlisted_gear.vtf: Failed to decode upscaled image
+[12:13:23] ✗ enlisted.vtf: Failed to decode upscaled image
+[12:13:23] ✅ Done in 1.1min (3.8/min) | ✓4 ⊖0 ✗2
+[12:13:23] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[12:13:23]   → pauldron.vtf
+
+=== Completed: 4 success, 0 skipped, 2 failed in 1.1min ===

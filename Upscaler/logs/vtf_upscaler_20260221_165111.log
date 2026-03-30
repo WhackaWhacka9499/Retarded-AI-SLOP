@@ -1,0 +1,1014 @@
+=== VTF Upscaler 7.0.0 Log — 2026-02-21 16:51:11 ===
+
+[16:51:11] ⚡ Using cached scan for 11164 files (instant)...
+[16:51:11] ⊖ Skipped 9612 files: 4581x already 4096x4096, 1008x normal map, 380x 4096x2048, 296x 2048x4096, 70x bump map, 52x specular, 39x 512x4096, 32x special texture, 30x detail texture, 28x 4096x256, 26x 4096x1024, 25x mask texture, 18x 1024x4096, 8x 4096x512, 5x gloss map, 3x environment map, 3x 256x4096, 1x 128x4096
+[16:51:11] 🔍 Scan done: 1552 to upscale (699.7 MB), 9612 skipped | batch size: 100
+[16:51:11] 📦 Batch 1/16 (100 files)...
+[16:51:14] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[16:51:14] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[16:51:14] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[16:51:14] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[16:51:14] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[16:51:14] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[16:51:14] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[16:51:14] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0001.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0001.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0000.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0000.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0002.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0002.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0003.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0003.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0005.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0005.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0004.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0004.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0007.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0007.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0006.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0006.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0009.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0009.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0008.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0008.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0011.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0011.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0010.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0010.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0013.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0013.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0012.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0012.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0015.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0015.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0014.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0014.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0017.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0017.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0016.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0016.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0019.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0019.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0018.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0018.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0021.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0021.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0020.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0020.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0023.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0023.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0022.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0022.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0025.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0025.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0024.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0024.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0026.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0026.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0027.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0027.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0029.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0029.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0028.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0028.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0031.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0031.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0030.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0030.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0032.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0032.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0033.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0033.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0034.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0034.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0035.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0035.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0036.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0036.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0037.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0037.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0039.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0039.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0038.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0038.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0040.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0040.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0041.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0041.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0042.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0042.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0043.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0043.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0044.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0044.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0045.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0045.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0046.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0046.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0047.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0047.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0048.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0048.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0049.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0049.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0050.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0050.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0051.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0051.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0052.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0052.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0053.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0053.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0054.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0054.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0055.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0055.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0056.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0056.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0057.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0057.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0058.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0058.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0059.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0059.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0060.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0060.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0061.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0061.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0062.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0062.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0063.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0063.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0064.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0064.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0065.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0065.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0066.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0066.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0067.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0067.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0068.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0068.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0069.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0069.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0070.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0070.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0071.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0071.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0072.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0072.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0073.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0073.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0074.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0074.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0075.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0075.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0076.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0076.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0077.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0077.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0078.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0078.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0079.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0079.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0080.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0080.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0081.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0081.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0082.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0082.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0083.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0083.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0084.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0084.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0085.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0085.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0086.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0086.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0087.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0087.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0088.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0088.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0089.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0089.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0090.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0090.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0091.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0091.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0092.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0092.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0093.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0093.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0094.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0094.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0095.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0095.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0096.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0096.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0097.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0097.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0098.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0098.png done
+[16:51:14] [GPU] G:\_vtf_scratch\vtf_batch_1_1771692672\input/0099.bmp -> G:\_vtf_scratch\vtf_out_1_1771692672\output/0099.png done
+[16:51:14] ✗ phongexp255.vtf: Upscaled output not found
+[16:51:15] ✗ phongexp255.vtf: Upscaled output not found
+[16:51:15] ✗ square.vtf: Upscaled output not found
+[16:51:15] ✗ white.vtf: Upscaled output not found
+[16:51:15] ✗ visor_black.vtf: Upscaled output not found
+[16:51:15] ✗ visor_r.vtf: Upscaled output not found
+[16:51:15] ✗ ammo_counter_screen_bg.vtf: Upscaled output not found
+[16:51:15] ✗ green.vtf: Upscaled output not found
+[16:51:15] ✗ green.vtf: Upscaled output not found
+[16:51:15] ✗ green.vtf: Upscaled output not found
+[16:51:15] ✗ green.vtf: Upscaled output not found
+[16:51:15] ✗ sky_dustbowl_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_granary_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_gravel_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_hydro_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_tf2_04dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_well_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ atx_backpack_pioneersquirrel_decal2_r.vtf: Upscaled output not found
+[16:51:15] ✗ atx_backpack_safari_gorilla_r.vtf: Upscaled output not found
+[16:51:15] ✗ atx_backpack_thanksgivingcornucopia_r.vtf: Upscaled output not found
+[16:51:15] ✗ backpack_raider_01_r.vtf: Upscaled output not found
+[16:51:15] ✗ backpack_safari_crocodile_r.vtf: Upscaled output not found
+[16:51:15] ✗ sky_dustbowl_01_hdrdn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_granary_01_hdrdn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_gravel_01_hdrdn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_hydro_01_hdrdn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_tf2_04_hdrdn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_upward_hdrdn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_well_01_hdrdn.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal.vtf: AI output missing or corrupted
+[16:51:15] ✗ artichoke.vtf: AI output missing or corrupted
+[16:51:15] ✗ celery.vtf: AI output missing or corrupted
+[16:51:15] ✗ garlic.vtf: Upscaled output not found
+[16:51:15] ✗ green_bean.vtf: AI output missing or corrupted
+[16:51:15] ✗ wheat2.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_island_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ lightfix.vtf: Upscaled output not found
+[16:51:15] ✗ glint.vtf: Upscaled output not found
+[16:51:15] ✗ glint.vtf: Upscaled output not found
+[16:51:15] ✗ sky_stormfront_01dn.vtf: AI output missing or corrupted
+[16:51:15] ✗ glassmirror001a.vtf: AI output missing or corrupted
+[16:51:15] ✗ white.vtf: AI output missing or corrupted
+[16:51:15] ✗ black.vtf: Upscaled output not found
+[16:51:15] ✗ green.vtf: AI output missing or corrupted
+[16:51:15] ✗ red.vtf: Upscaled output not found
+[16:51:15] ✗ lens_invun.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ white.vtf: AI output missing or corrupted
+[16:51:15] ✗ glint.vtf: Upscaled output not found
+[16:51:15] ✗ black.vtf: AI output missing or corrupted
+[16:51:15] ✗ green.vtf: AI output missing or corrupted
+[16:51:15] ✗ red.vtf: Upscaled output not found
+[16:51:15] ✗ sky_goldrush_01dn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_harvest_night_01dn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_morningsnow_01dn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_nightfall_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_night_01dn.vtf: Upscaled output not found
+[16:51:15] ✗ sky_trainyard_01dn.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_upwarddn.vtf: AI output missing or corrupted
+[16:51:15] ✗ null_exp.vtf: AI output missing or corrupted
+[16:51:15] ✗ bumpmap.vtf: AI output missing or corrupted
+[16:51:15] ✗ led1.vtf: Upscaled output not found
+[16:51:15] ✗ led2.vtf: AI output missing or corrupted
+[16:51:15] ✗ headshadow.vtf: Upscaled output not found
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ black_glasslens.vtf: Upscaled output not found
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ glint.vtf: Upscaled output not found
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ normal_8x8.vtf: AI output missing or corrupted
+[16:51:15] ✗ black.vtf: Upscaled output not found
+[16:51:15] ✗ black.vtf: Upscaled output not found
+[16:51:15] ✗ bump.vtf: AI output missing or corrupted
+[16:51:15] ✗ arc_seam.vtf: AI output missing or corrupted
+[16:51:15] ✗ decal.vtf: AI output missing or corrupted
+[16:51:15] ✗ red.vtf: AI output missing or corrupted
+[16:51:15] ✗ white.vtf: AI output missing or corrupted
+[16:51:15] ✗ c0_0_0.hdr.vtf: Upscaled output not found
+[16:51:15] ✗ c0_0_0.vtf: Upscaled output not found
+[16:51:15] ✗ cubemapdefault.hdr.vtf: Upscaled output not found
+[16:51:15] ✗ cubemapdefault.vtf: Upscaled output not found
+[16:51:15] ✗ cubemapdefault.hdr.vtf: Upscaled output not found
+[16:51:15] ✗ cubemapdefault.vtf: Upscaled output not found
+[16:51:15] ✗ green.vtf: AI output missing or corrupted
+[16:51:15] ✗ sky_halloween_night2014_01dn.vtf: Upscaled output not found
+[16:51:15] 📦 Batch 2/16 (100 files)...
+[16:51:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[16:51:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[16:51:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[16:51:15] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[16:51:15] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[16:51:15] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[16:51:15] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[16:51:15] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0000.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0000.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0001.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0001.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0003.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0003.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0002.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0002.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0005.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0005.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0004.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0004.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0007.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0007.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0006.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0006.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0009.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0009.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0008.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0008.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0011.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0011.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0010.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0010.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0013.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0013.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0012.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0012.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0015.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0015.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0014.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0014.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0017.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0017.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0016.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0016.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0019.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0019.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0018.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0018.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0021.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0021.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0020.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0020.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0023.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0023.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0022.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0022.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0025.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0025.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0024.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0024.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0027.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0027.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0026.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0026.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0029.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0029.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0028.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0028.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0031.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0031.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0030.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0030.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0032.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0032.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0033.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0033.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0034.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0034.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0035.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0035.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0036.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0036.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0037.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0037.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0038.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0038.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0039.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0039.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0040.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0040.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0041.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0041.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0042.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0042.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0043.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0043.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0044.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0044.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0045.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0045.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0046.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0046.png done
+[16:51:16] [GPU] G:\_vtf_scratch\vtf_batch_2_1771692673\input/0047.bmp -> G:\_vtf_scratch\vtf_out_2_1771692675\output/0047.png done
+[16:51:16] ✗ sky_halloween_night_01dn.vtf: Upscaled output not found
+[16:51:16] ✗ gunship_glass_diff.vtf: Upscaled output not found
+[16:51:16] ✗ window.vtf: Upscaled output not found
+[16:51:16] ✗ glass.vtf: Upscaled output not found
+[16:51:16] ✗ blank.vtf: AI output missing or corrupted
+[16:51:16] ✗ popcorntextur2.vtf: Upscaled output not found
+[16:51:16] ✗ glass.vtf: Upscaled output not found
+[16:51:16] ✗ glass.vtf: Upscaled output not found
+[16:51:16] ✗ leh_hyper02.vtf: Upscaled output not found
+[16:51:16] ✗ slave1decal.vtf: AI output missing or corrupted
+[16:51:16] ✗ slave1glass.vtf: AI output missing or corrupted
+[16:51:16] ✗ slave1glass2.vtf: AI output missing or corrupted
+[16:51:16] ✗ windows.vtf: AI output missing or corrupted
+[16:51:16] ✗ glass.vtf: AI output missing or corrupted
+[16:51:16] ✗ sky_halloween_night2014_01_hdrdn.vtf: Upscaled output not found
+[16:51:17] ✓ sum20_birds_eye_viewer_style2_color.vtf: 32x32 → 4096x4096 [AI] (21.3MB)
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:17] ✗ brassb.vtf: AI output missing or corrupted
+[16:51:17] ✗ shell.vtf: AI output missing or corrupted
+[16:51:17] ✗ spark.vtf: AI output missing or corrupted
+[16:51:17] ✗ toolsblack.vtf: AI output missing or corrupted
+[16:51:17] ✗ siyah.vtf: AI output missing or corrupted
+[16:51:17] 📦 Batch 3/16 (100 files)...
+[16:51:17] ✗ c-637_-12_-424.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-6593_-2_-169.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-6628_-807_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-6656_785_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-68_1781_-527.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-696_-436_144.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-6974_4_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-6977_0_144.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-7039_255_-148.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-7040_-323_-139.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-736_-1355_-423.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-740_208_144.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-7582_-644_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-7586_643_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-777_1345_-423.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-7910_-24_144.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-7937_9049_-15119.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-8717_-8_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-8769_-31_144.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-888_660_-359.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-970_256_-359.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c10106_9188_-15119.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c12288_12800_-9105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c12800_-11776_-9105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c132_-68_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c13312_512_-9105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c13824_-10240_1134.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c13824_11264_1134.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c13824_12800_11374.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c13824_512_11374.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c15831_-166_190.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c1633_-1413_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c1643_-8362_-14482.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c1846_1437_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c1944_-1373_105.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c1980_-1347_-545.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c2218_1362_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c2315_-114_77.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c2417_1341_-581.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c253_1320_-423.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c2706_1782_1107.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c272_-1343_-423.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c2836_-1965_1068.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c2900_-1354_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c291_-2132_-462.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c3584_-9_176.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c3593_1342_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c3604_-1350_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c3714_1_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4030_433_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4036_-435_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4203_-3_54.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4252_-3_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4450_-317_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4471_293_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4515_1580_-119.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4526_9_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4581_-1332_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4588_1361_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4655_197_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4669_-204_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4707_905_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4719_-1383_-119.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4760_-856_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4796_-4_-23.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c4906_0_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5090_-324_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5111_330_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c512_-10752_1134.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5191_-4_-84.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5309_362_-156.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5337_-335_-162.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5430_-1412_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5508_1407_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5730_-324_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5737_-8_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5744_569_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5751_330_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5753_1087_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5754_-999_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5757_-1410_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5757_-581_-165.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5758_976_-167.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5762_1425_-679.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5766_-575_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5948_438_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c5967_-395_633.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c6026_-385_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c6027_387_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c6144_-1240_-141.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c6144_-1957_-141.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c65_-1219_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c6856_-199_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7155_-2194_-875.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7231_-1626_308.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c72_417_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7321_-198_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7321_387_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c753_1374_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7657_2427_-844.vtf: Side must be provided for cubemaps!
+[16:51:17] 📦 Batch 4/16 (100 files)...
+[16:51:17] ✗ c7673_1631_-231.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7947_384_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c7958_-195_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c8319_-196_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c8382_373_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c8410_-3170_1091.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c8445_-327_4279.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c8583_0_4257.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c8857_2121_1389.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c89_1202_168.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ cubemapdefault.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-1024_12288_-9024.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-11264_-11264_1134.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-11264_-512_11374.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-11264_10240_1134.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-11264_11776_11374.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-11297_2_248.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] ✗ c-1130_1751_97.hdr.vtf: Side must be provided for cubemaps!
+[16:51:17] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[16:51:17] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[16:51:17] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[16:51:17] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[16:51:17] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[16:51:17] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[16:51:17] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[16:51:17] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0011.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0011.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0012.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0012.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0013.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0013.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0014.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0014.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0016.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0016.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0015.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0015.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0018.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0018.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0017.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0017.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0020.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0020.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0019.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0019.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0022.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0022.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0021.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0021.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0024.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0024.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0023.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0023.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0026.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0026.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0025.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0025.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0028.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0028.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0027.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0027.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0030.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0030.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0029.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0029.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0032.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0032.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0031.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0031.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0033.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0033.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0034.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0034.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0036.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0036.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0035.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0035.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0038.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0038.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0037.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0037.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0040.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0040.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0039.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0039.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0042.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0042.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0041.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0041.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0043.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0043.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0044.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0044.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0046.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0046.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0045.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0045.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0048.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0048.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0047.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0047.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0050.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0050.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0049.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0049.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0052.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0052.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0051.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0051.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0054.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0054.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0053.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0053.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0056.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0056.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0055.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0055.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0058.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0058.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0057.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0057.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0060.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0060.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0059.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0059.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0061.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0061.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0062.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0062.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0064.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0064.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0063.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0063.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0066.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0066.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0065.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0065.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0068.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0068.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0067.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0067.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0069.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0069.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0070.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0070.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0072.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0072.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0071.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0071.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0074.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0074.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0073.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0073.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0076.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0076.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0075.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0075.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0078.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0078.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0077.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0077.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0080.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0080.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0082.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0082.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0079.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0079.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0084.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0084.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0081.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0081.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0083.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0083.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0085.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0085.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0086.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0086.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0087.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0087.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0088.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0088.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0090.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0090.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0089.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0089.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0092.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0092.png done
+[16:51:18] [GPU] G:\_vtf_scratch\vtf_batch_4_1771692677\input/0091.bmp -> G:\_vtf_scratch\vtf_out_4_1771692677\output/0091.png done
+[16:51:19] ✗ sentinellandingcraftwindow.vtf: AI output missing or corrupted
+[16:51:20] ✓ metal_generic_001.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:20] ✗ no_material.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ fexp.vtf: AI output missing or corrupted
+[16:51:20] ✗ glass.vtf: AI output missing or corrupted
+[16:51:21] ✓ eye-ambient.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✓ pupil_l.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✓ pupil_r.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✓ pupil_l.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✓ pupil_r.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✓ pupil_l.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✓ pupil_r.vtf: 64x64 → 4096x4096 [AI] (21.3MB)
+[16:51:21] ✗ lightwarp_eye.vtf: AI output missing or corrupted
+[16:51:21] ✗ darkmask.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ jarate_lightwarp.vtf: AI output missing or corrupted
+[16:51:21] ✗ nailgrenadejet.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ eyes.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:21] ✗ visor.vtf: AI output missing or corrupted
+[16:51:22] ✓ prop_casino_roulette_01_numbers.vtf: 256x64 → 4096x1024 [AI] (5.3MB)
+[16:51:22] ✗ rb655_scorch.vtf: AI output missing or corrupted
+[16:51:22] ✗ gradient_bk_transparent01.vtf: AI output missing or corrupted
+[16:51:22] ✗ eyelashes.vtf: AI output missing or corrupted
+[16:51:22] ✗ singularity_c.vtf: AI output missing or corrupted
+[16:51:22] ✓ ncrriotgear01_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✓ ncrtrooperextras01_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✓ pouchesncr01_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✓ rangerbelts01_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✓ rangerelite01_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✓ rangerglove01_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✓ rangerriotduster_e.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:22] ✗ sight_lens.vtf: AI output missing or corrupted
+[16:51:26] ✓ glasses01_a.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ glasses01_aglass.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ glasses01_bglass.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ glasses01_c.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ glasses01_cglass.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ glasses01_d.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ glasses01_dglass.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:26] ✓ kettle_thermos01_diff.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ alarm_sensor_01_diff.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ ammo_case_diff1.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ ammo_case_diff2.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ ammo_case_diff3.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ ammo_case_diff4.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ ammo_case_diff5.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ ammo_case_diff6.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ lab_equipment_01_diff.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:32] ✓ mine01_diff1.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:33] ✓ mine01_diff2.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:33] ✓ bio_emrlgt_02_diff.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:37] ✓ hwn_ghost_pj.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:37] ✗ x_wing_c_t.vtf: AI output missing or corrupted
+[16:51:37] ✓ invasion_space_hamster_hammy_1_color.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:37] ✓ pouch_pal.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:37] ✓ burny_the_snowman.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[16:51:37] ✓ bio_cpu_01_data_diff.vtf: 128x256 → 2048x4096 [AI] (10.7MB)
+[16:51:37] ✓ h_texts.vtf: 128x256 → 2048x4096 [AI] (10.7MB)
+[16:51:37] ✓ liq_ceiling_light01_diff.vtf: 128x256 → 2048x4096 [AI] (10.7MB)
+[16:51:37] ✓ prop_vw_brand_ono.vtf: 256x128 → 4096x2048 [AI] (10.7MB)
+[16:51:37] ✓ hwn2021_gruesome_gourd_1_color.vtf: 256x128 → 4096x2048 [AI] (10.7MB)
+[16:51:37] ✓ saucer_pulse_light.vtf: 512x64 → 4096x512 [AI] (2.7MB)
+[16:51:37] ✓ env_sakura1.vtf: 256x128 → 4096x2048 [AI] (10.7MB)
+[16:51:37] 📦 Batch 5/16 (100 files)...
+[16:51:37] ✗ c-1136_-919_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-11776_-512_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-12288_-12800_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-1254_947_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-12800_11776_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-1309_342_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-1346_-471_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-1349_1641_82.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-1559_1880_64.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-175_632_-423.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-1935_41_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2091_1881_64.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2382_1925_64.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2386_-1343_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2386_1345_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-243_-839_-423.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2491_-1008_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2502_949_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2739_-21_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2882_728_41.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-2950_-1007_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3033_0_-215.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3494_-869_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3522_926_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3704_-13_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3711_-1318_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3712_1322_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-3779_27_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-4073_-749_41.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-4113_993_41.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-4550_17_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-4586_876_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-4733_-2514_-13674.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-4747_0_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-5079_-2_-203.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-512_-12288_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-5504_-776_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-5517_766_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-5684_-1319_-206.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6036_1013_-259.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6062_-22_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-611_-844_-359.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6134_-839_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6163_740_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-624_677_-359.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-637_-12_-424.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6593_-2_-169.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6628_-807_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6656_785_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-68_1781_-527.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-696_-436_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6974_4_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-6977_0_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-7039_255_-148.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-7040_-323_-139.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-736_-1355_-423.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-740_208_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-7582_-644_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-7586_643_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-777_1345_-423.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-7910_-24_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-7937_9049_-15119.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-8717_-8_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-8769_-31_144.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-888_660_-359.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c-970_256_-359.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c10106_9188_-15119.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c12288_12800_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c12800_-11776_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c132_-68_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c13312_512_-9105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c13824_-10240_1134.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c13824_11264_1134.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c13824_12800_11374.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c13824_512_11374.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c15831_-166_190.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c1633_-1413_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c1643_-8362_-14482.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c1846_1437_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c1944_-1373_105.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c1980_-1347_-545.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c2218_1362_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c2315_-114_77.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c2417_1341_-581.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c253_1320_-423.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c2706_1782_1107.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c272_-1343_-423.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c2836_-1965_1068.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c2900_-1354_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c291_-2132_-462.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c3584_-9_176.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c3593_1342_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c3604_-1350_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c3714_1_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4030_433_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4036_-435_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4203_-3_54.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4252_-3_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4450_-317_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4471_293_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] 📦 Batch 6/16 (100 files)...
+[16:51:37] ✗ c4515_1580_-119.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4526_9_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4581_-1332_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4588_1361_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4655_197_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4669_-204_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4707_905_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4719_-1383_-119.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4760_-856_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4796_-4_-23.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c4906_0_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5090_-324_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5111_330_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c512_-10752_1134.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5191_-4_-84.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5309_362_-156.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5337_-335_-162.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5430_-1412_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5508_1407_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5730_-324_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5737_-8_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5744_569_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5751_330_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5753_1087_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5754_-999_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5757_-1410_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5757_-581_-165.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5758_976_-167.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5762_1425_-679.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5766_-575_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5948_438_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c5967_-395_633.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c6026_-385_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c6027_387_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c6144_-1240_-141.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c6144_-1957_-141.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c65_-1219_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c6856_-199_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7155_-2194_-875.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7231_-1626_308.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c72_417_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7321_-198_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7321_387_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c753_1374_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7657_2427_-844.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7673_1631_-231.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7947_384_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c7958_-195_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c8319_-196_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c8382_373_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c8410_-3170_1091.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c8445_-327_4279.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c8583_0_4257.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c8857_2121_1389.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ c89_1202_168.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ cubemapdefault.hdr.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ cubemap_sheen001.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ eye-reflection-cubemap-.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ cubemap_gold001.vtf: Side must be provided for cubemaps!
+[16:51:37] ✗ saxxy_gold.vtf: Side must be provided for cubemaps!
+[16:51:37] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[16:51:37] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[16:51:37] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[16:51:37] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[16:51:37] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[16:51:37] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[16:51:37] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[16:51:37] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0057.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0057.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0056.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0056.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0062.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0062.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0063.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0063.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0065.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0065.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0064.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0064.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0067.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0067.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0066.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0066.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0068.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0068.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0069.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0069.png done
+[16:51:38] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0070.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0070.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0071.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0071.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0072.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0072.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0073.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0073.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0074.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0074.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0075.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0075.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0076.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0076.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0077.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0077.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0078.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0078.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0079.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0079.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0081.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0081.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0080.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0080.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0083.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0083.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0082.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0082.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0084.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0084.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0085.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0085.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0086.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0086.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0088.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0088.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0087.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0087.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0089.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0089.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0091.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0091.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0090.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0090.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0092.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0092.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0093.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0093.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0094.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0094.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0095.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0095.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0096.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0096.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0097.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0097.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0099.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0099.png done
+[16:51:39] [GPU] G:\_vtf_scratch\vtf_batch_6_1771692697\input/0098.bmp -> G:\_vtf_scratch\vtf_out_6_1771692697\output/0098.png done
+[16:51:43] ✓ gloves.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:43] ✓ aix_spitfire_v_propblur_c.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:43] ✓ bracer_short_heavy_jk_a09c01_u_v01_d_black.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ waist_belt_heavy_jk_a09c01_u_d_black.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ commandos_cut_remastered_color.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ grip_diffuse.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ scout_beard_color.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ unk.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ bunker_trims01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:47] ✓ bio_cpu_01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:49] ✓ datapad01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:49] ✓ datapad01_screen.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:49] ✓ datapad01_screenhighend.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:49] ✓ datapad01_screenlocked.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:50] ✓ datapadbroken_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:52] ✓ datapadhighend_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:52] ✓ watercooler_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:53] ✓ ammocase02_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:57] ✓ ammocase02_diffeezo.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:57] ✓ ammocase02_diffirid.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:57] ✓ ammocase02_diffpall.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:57] ✓ ammocase02_diffplat.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:57] ✓ coffeemaker01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:51:58] ✓ containment_cells_01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:01] ✓ containment_cells_02_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:02] ✓ containment_cells_03_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:03] ✓ crate_med_01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:03] ✓ crate_med_01_diffb.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:03] ⚠ glass01_msk.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[16:52:03] ✓ liq_grate01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:03] ✓ liq_trim02_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:03] ⚠ glass01_msk.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[16:52:03] ✓ liq_grate01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:03] ✓ liq_trim01_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:06] ✓ liq_trim02_diff.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:07] ✓ prop_casino_blckjack_02c.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:08] ✓ prop_casino_blckjack_02d.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:09] ✓ prop_casino_blckjack_02e.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:09] ✓ hwn_pet_ghost.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:09] ✓ xms_sniper_commandobackpack_jar.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:09] 📦 Batch 7/16 (100 files)...
+[16:52:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  queueC=2[8]  queueT=1[2]
+[16:52:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/1
+[16:52:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  subgroup=32(32~32)  ops=1/1/1/1/1/1/1/1/1/1
+[16:52:09] [GPU] [0 NVIDIA GeForce RTX 4080 SUPER]  fp16-cm=16x16x16/16x8x16/16x8x8  int8-cm=16x16x32/16x8x32  bf16-cm=16x16x16  fp8-cm=16x16x32
+[16:52:09] [GPU] [1 AMD Radeon(TM) Graphics]  queueC=1[2]  queueT=2[1]
+[16:52:09] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-p/s/u/a=1/1/1/1  int8-p/s/u/a=1/1/1/1  bf16-p/s=1/0
+[16:52:09] [GPU] [1 AMD Radeon(TM) Graphics]  subgroup=64(32~64)  ops=1/1/1/1/1/1/1/1/0/0
+[16:52:09] [GPU] [1 AMD Radeon(TM) Graphics]  fp16-cm=0  int8-cm=0  bf16-cm=0  fp8-cm=0
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0001.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0001.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0000.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0000.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0003.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0003.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0005.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0005.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0002.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0002.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0007.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0007.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0004.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0004.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0006.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0006.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0009.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0009.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0008.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0008.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0011.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0011.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0013.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0013.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0010.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0010.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0012.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0012.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0014.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0014.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0015.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0015.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0016.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0016.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0017.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0017.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0018.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0018.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0019.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0019.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0020.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0020.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0021.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0021.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0023.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0023.png done
+[16:52:10] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0022.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0022.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0024.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0024.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0025.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0025.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0026.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0026.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0028.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0028.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0027.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0027.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0029.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0029.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0030.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0030.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0031.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0031.png done
+[16:52:11] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0032.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0032.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0033.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0033.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0034.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0034.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0035.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0035.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0036.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0036.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0037.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0037.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0038.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0038.png done
+[16:52:12] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0039.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0039.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0040.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0040.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0041.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0041.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0042.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0042.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0043.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0043.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0045.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0045.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0044.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0044.png done
+[16:52:13] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0046.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0046.png done
+[16:52:14] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0047.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0047.png done
+[16:52:14] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0048.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0048.png done
+[16:52:14] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0049.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0049.png done
+[16:52:14] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0050.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0050.png done
+[16:52:14] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0051.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0051.png done
+[16:52:14] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0052.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0052.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0053.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0053.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0054.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0054.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0055.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0055.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0056.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0056.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0057.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0057.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0058.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0058.png done
+[16:52:15] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0059.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0059.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0060.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0060.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0061.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0061.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0062.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0062.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0063.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0063.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0064.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0064.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0065.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0065.png done
+[16:52:16] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0066.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0066.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0067.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0067.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0069.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0069.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0070.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0070.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0071.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0071.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0068.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0068.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0072.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0072.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0073.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0073.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0074.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0074.png done
+[16:52:17] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0075.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0075.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0076.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0076.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0077.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0077.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0078.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0078.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0079.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0079.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0080.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0080.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0082.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0082.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0081.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0081.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0084.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0084.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0085.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0085.png done
+[16:52:18] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0083.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0083.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0086.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0086.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0087.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0087.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0088.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0088.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0089.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0089.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0090.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0090.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0091.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0091.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0092.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0092.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0093.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0093.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0094.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0094.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0095.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0095.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0096.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0096.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0098.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0098.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0097.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0097.png done
+[16:52:19] [GPU] G:\_vtf_scratch\vtf_batch_7_1771692697\input/0099.bmp -> G:\_vtf_scratch\vtf_out_7_1771692729\output/0099.png done
+[16:52:24] ✓ sprites.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:26] ✓ hand_gauntlet_med_sm_a08c01_u_d.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:28] ✓ waist_belt_light_ge_mtx46ordo01_u_d.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:28] ✓ hw2013_the_enlightening_lantern_1_color.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:28] ✓ hw2013_the_enlightening_lantern_color.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:28] ✓ sf14_hooded_haunter_classes_1_illum.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:28] ⚠ hw2013_quacks_cureall_illum.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[16:52:28] ⚠ dec23_wanderers_wool_1_illum.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[16:52:28] ✓ xms_gift_hat.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:28] ✓ xms_gift_hat_blue.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ✓ concertinawire.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ✓ health_shot_clear.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ✓ dec24_necroprancer_style1_phongexponent.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ⚠ sum24_botler_2000_style1_1_phongexponent.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[16:52:36] ⚠ sum21_fast_food_phongexponent.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ DARK
+[16:52:36] ✓ dec24_laire_filteure_phongexponent.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ⚠ particle_noisesphere.vtf: 256x256 → 4096x4096 [AI] (21.3MB) ⚠️ FLAT
+[16:52:36] ✓ rainbow.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ⚠ confetti.vtf: 1024x64 → 4096x256 [AI] (1.3MB) ⚠️ DARK
+[16:52:36] ⚠ ins_burstspark_trail.vtf: 512x256 → 4096x2048 [AI] (5.3MB) ⚠️ DARK
+[16:52:36] ✓ popcorn.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ✓ physwave.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ✓ physwave_nocolor.vtf: 256x256 → 4096x4096 [AI] (21.3MB)
+[16:52:36] ✓ saw_tooth.vtf: 32x256 → 512x4096 [AI] (2.7MB)
+[16:52:36] ✓ arc_enlisted_helmet_glow.vtf: 512x256 → 4096x2048 [AI] (10.7MB)
+[16:52:36] ✓ control_station_panel4n.vtf: 256x512 → 2048x4096 [AI] (10.7MB)
+[16:52:36] ✓ controlpanel4n.vtf: 256x512 → 2048x4096 [AI] (10.7MB)
+[16:52:36] ✓ controlpanel5n.vtf: 256x512 → 2048x4096 [AI] (10.7MB)
+[16:52:36] ✓ dg1n.vtf: 512x256 → 4096x2048 [AI] (10.7MB)
+[16:52:36] ✓ dg2n.vtf: 512x256 → 4096x2048 [AI] (10.7MB)
+[16:52:37] ✓ plastic.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:37] ⚠ silver.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[16:52:37] ✓ cupn.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:39] ✓ speakersn.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:39] ✓ miscback1n.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:39] ✓ drilln.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:39] ✓ swequipmentlockern.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:45] ✓ doubleredsaber.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:45] ✓ jedicrossguardn.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:45] ⚠ visorglow.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ DARK
+[16:52:56] ✓ mandoarmor2norm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:56] ✓ mandoarmornorm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:56] ✓ mandohelmetnorm.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[16:52:56] ✓ barrettsaber.vtf: 512x512 → 4096x4096 [AI] (10.7MB)

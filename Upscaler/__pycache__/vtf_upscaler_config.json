@@ -1,0 +1,21 @@
+{
+  "target_resolution": 4096,
+  "upscale_method": "ai",
+  "output_format": "Auto (Match Source)",
+  "sharpen_strength": 0.0,
+  "generate_mipmaps": true,
+  "backup_originals": true,
+  "recursive_search": true,
+  "ai_scale": 4,
+  "ai_model": "realesrgan-x4plus",
+  "parallel_workers": 4,
+  "tile_size": 0,
+  "gpu_id": 0,
+  "tta_mode": false,
+  "skip_small": 64,
+  "denoise_strength": 0,
+  "last_folder": "",
+  "output_to_addon": false,
+  "batch_size": 100,
+  "cpu_workers": 8
+}

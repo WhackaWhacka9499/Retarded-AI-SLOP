@@ -1,0 +1,30 @@
+=== VTF Upscaler 7.0 Log — 2026-02-11 17:54:02 ===
+
+[17:54:02] � Using pre-scan cache (instant start)...
+[17:54:02] ⊖ Skipped 2 files: 1x already 4096x4096, 1x 4096x2048
+[17:54:02] 🔍 Scan done: 11 to upscale (2.0 MB), 2 skipped | batch size: 200
+[17:54:02] 📦 Batch 1/1 (11 files)...
+[17:54:02]    ↳ Quarantined 11 alpha channel file(s) from GPU input
+[17:54:02]    Pass 1/2: 4x AI upscale (11 files)...
+[17:54:02]    [DEBUG] in_dir BMPs: {'0000.bmp': '768KB', '0001.bmp': '192KB', '0002.bmp': '192KB', '0003.bmp': '3072KB', '0004.bmp': '3072KB'} ...
+[17:54:16]    [DEBUG] pass1_dir outputs: {'0000.webp': '2737KB', '0001.webp': '654KB', '0002.webp': '642KB', '0003.webp': '11810KB', '0004.webp': '11088KB'} ...
+[17:54:16]    ⚡ Pass 1 done: 2 already at target, 9 need pass 2
+[17:54:16]    Pass 2/2: 4x AI upscale (9 files)...
+[17:54:39]    [DEBUG] out_dir has 11 files: {'0000.webp': '9985KB', '0001.webp': '9078KB', '0002.webp': '9024KB', '0003.webp': '11810KB', '0004.webp': '11088KB', '0005.webp': '3570KB', '0006.webp': '8365KB', '0007.webp': '6910KB', '0008.webp': '5447KB', '0009.webp': '5416KB'}
+[17:54:39]    [DEBUG] file_meta keys: ['0000.bmp', '0001.bmp', '0002.bmp', '0003.bmp', '0004.bmp', '0005.bmp', '0006.bmp', '0007.bmp', '0008.bmp', '0009.bmp']
+[17:54:52] ✓ arc_enlisted_gear1.vtf: 512x512 → 4096x4096 [AI] (10.7MB)
+[17:54:52] ✓ cody_visor.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[17:54:52] ✓ cody_visor1.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[17:54:58] ✓ enlisted.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:54:58] ✓ enlisted1.vtf: 1024x1024 → 4096x4096 [AI] (10.7MB)
+[17:54:58] ✓ feather.vtf: 128x128 → 4096x4096 [AI] (21.3MB)
+[17:54:58] ✓ hair.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[17:54:58] ✓ pauldron.vtf: 256x256 → 4096x4096 [AI] (10.7MB)
+[17:54:58] ✓ phase2helmet.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[17:54:58] ⚠ skirt.vtf: 512x512 → 4096x4096 [AI] (10.7MB) ⚠️ FLAT
+[17:54:58] ✓ tex_0010_0.vtf: 512x256 → 4096x2048 [AI] (5.3MB)
+[17:54:58] ✅ Done in 0.9min (0.2/sec) | ✓11 ⊖2 ✗0
+[17:54:58] ⚠️ CORRUPTION REPORT: 1 file(s) flagged for review:
+[17:54:58]   → skirt.vtf
+
+=== Completed: 11 success, 2 skipped, 0 failed in 0.9min ===

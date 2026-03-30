@@ -1,0 +1,2 @@
+# Retarded-AI-SLOP
+SLOP
